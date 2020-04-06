@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LO on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/lo/</link>
+    <description>Recent content in LO on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Thu, 09 Apr 2020 00:13:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/lo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ramsey properties on infinite structures</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/siudobrinen/</link>
+      <pubDate>Thu, 09 Apr 2020 00:13:00 -0500</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/siudobrinen/</guid>
+      <description>Just how far can Ramsey&amp;rsquo;s Theorem on the natural numbers be pushed when, instead of coloring all k-sized subsets of the natural numbers, one is coloring copies of a finite structure inside some infinite structure? There is a host of results extending the finite Ramsey theorem to classes of finite structures, but much less so for the infinite Ramsey Theorem.</description>
+    </item>
+    
+  </channel>
+</rss>

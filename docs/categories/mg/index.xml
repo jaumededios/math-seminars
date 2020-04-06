@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MG on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/mg/</link>
+    <description>Recent content in MG on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Thu, 16 Apr 2020 14:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/mg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Circumcenter extension maps for Hadamard manifolds</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/osuincerti/</link>
+      <pubDate>Thu, 16 Apr 2020 14:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/osuincerti/</guid>
+      <description>Given a CAT(-1) space, we can associate to it a boundary at infinity and a cross ratio on said boundary. There is a series of results that tell us that, for sufficiently nice CAT(-1) spaces, the boundary together with the cross ratio uniquely determines the interior space.</description>
+    </item>
+    
+  </channel>
+</rss>

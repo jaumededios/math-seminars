@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 14:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 14:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/gt/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Random walks on punctured convex real projective surfaces</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/columbiabray/</link>
-      <pubDate>Fri, 10 Apr 2020 14:00:00 -0500</pubDate>
+      <pubDate>Fri, 10 Apr 2020 14:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/columbiabray/</guid>
       <description>I&amp;rsquo;ll discuss the following result, joint with Giulio Tiozzo: Letting $\Gamma$ be the representation of a punctured hyperbolic surface group in $PSL(3,R)$ acting discretely, properly discontinuously, and with finite co-volume on a properly convex set in the projective plane, we have that hitting measure for a random walk on any $\Gamma$-orbit with certain moment conditions is singular with respect to the classical Patterson-Sullivan measure.</description>

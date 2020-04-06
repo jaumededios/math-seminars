@@ -7,42 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 14:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 13:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>DG</title>
-      <link>https://jaume.dedios.cat/math-seminars/categories/dg/</link>
-      <pubDate>Fri, 10 Apr 2020 14:00:00 -0500</pubDate>
+      <title>AG</title>
+      <link>https://jaume.dedios.cat/math-seminars/categories/ag/</link>
+      <pubDate>Tue, 19 May 2020 13:00:00 -0400</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/categories/dg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GT</title>
-      <link>https://jaume.dedios.cat/math-seminars/categories/gt/</link>
-      <pubDate>Fri, 10 Apr 2020 14:00:00 -0500</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/categories/gt/</guid>
+      <guid>https://jaume.dedios.cat/math-seminars/categories/ag/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NT</title>
       <link>https://jaume.dedios.cat/math-seminars/categories/nt/</link>
-      <pubDate>Fri, 10 Apr 2020 10:30:00 -0500</pubDate>
+      <pubDate>Tue, 19 May 2020 13:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/categories/nt/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>DG</title>
+      <link>https://jaume.dedios.cat/math-seminars/categories/dg/</link>
+      <pubDate>Thu, 16 Apr 2020 14:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/categories/dg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MG</title>
+      <link>https://jaume.dedios.cat/math-seminars/categories/mg/</link>
+      <pubDate>Thu, 16 Apr 2020 14:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/categories/mg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GT</title>
+      <link>https://jaume.dedios.cat/math-seminars/categories/gt/</link>
+      <pubDate>Fri, 10 Apr 2020 14:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/categories/gt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AP</title>
       <link>https://jaume.dedios.cat/math-seminars/categories/ap/</link>
-      <pubDate>Thu, 09 Apr 2020 16:30:00 -0500</pubDate>
+      <pubDate>Thu, 09 Apr 2020 16:30:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/categories/ap/</guid>
       <description></description>
@@ -58,11 +76,11 @@
     </item>
     
     <item>
-      <title>AG</title>
-      <link>https://jaume.dedios.cat/math-seminars/categories/ag/</link>
-      <pubDate>Mon, 06 Apr 2020 16:00:00 -0700</pubDate>
+      <title>LO</title>
+      <link>https://jaume.dedios.cat/math-seminars/categories/lo/</link>
+      <pubDate>Thu, 09 Apr 2020 00:13:00 -0500</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/categories/ag/</guid>
+      <guid>https://jaume.dedios.cat/math-seminars/categories/lo/</guid>
       <description></description>
     </item>
     

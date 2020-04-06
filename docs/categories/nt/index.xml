@@ -7,15 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 10:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 13:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/nt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Effective Sato-Tate and applications</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/vantagebucur/</link>
+      <pubDate>Tue, 19 May 2020 13:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/vantagebucur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing Sato-Tate and monodromy groups</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/vantagezywina/</link>
+      <pubDate>Tue, 05 May 2020 13:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/vantagezywina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arithmetic L-functions and their Sato-Tate distributions</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/vantagesutherland/</link>
+      <pubDate>Tue, 21 Apr 2020 13:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/vantagesutherland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Currents on Lubin-Tate space</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/columbiamihatsch/</link>
-      <pubDate>Fri, 10 Apr 2020 10:30:00 -0500</pubDate>
+      <pubDate>Fri, 10 Apr 2020 10:30:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/columbiamihatsch/</guid>
       <description>We will first give an introduction to the formalism of (p,q)-forms and currents on non-archimedean spaces, as defined by Chambert-Loir&amp;ndash;Ducros and Gubler&amp;ndash;Kannemann. We explain how a notion of Greens current can be used to reinterpret intersection numbers on p-adic formal schemes in their generic fiber; at least in some cases.</description>
@@ -24,7 +51,7 @@
     <item>
       <title>On the Kudla-Rapoport conjecture</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/princetonli/</link>
-      <pubDate>Thu, 09 Apr 2020 16:30:00 -0500</pubDate>
+      <pubDate>Thu, 09 Apr 2020 16:30:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/princetonli/</guid>
       <description>The Kudla-Rapoport conjecture predicts a precise identity between the arithmetic intersection number of special cycles on unitary Rapoport-Zink spaces and the derivative of local representation densities of hermitian forms. It is a key local ingredient to establish the arithmetic Siegel-Weil formula and the arithmetic Rallis inner product formula, relating the height of special cycles on Shimura varieties to the derivative of Siegel Eisenstein series and L-functions.</description>
@@ -37,6 +64,15 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/caltechtao/</guid>
       <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
+    </item>
+    
+    <item>
+      <title>Sato-Tate groups of abelian varieties of dimension up to 3</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/vantagefite/</link>
+      <pubDate>Tue, 07 Apr 2020 13:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/vantagefite/</guid>
+      <description></description>
     </item>
     
     <item>

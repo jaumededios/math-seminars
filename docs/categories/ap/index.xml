@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Thu, 09 Apr 2020 16:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2020 16:30:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/ap/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Mathematics of Active Gels: Bifurcations &amp; Stability</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/princetonberyland/</link>
-      <pubDate>Thu, 09 Apr 2020 16:30:00 -0500</pubDate>
+      <pubDate>Thu, 09 Apr 2020 16:30:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/princetonberyland/</guid>
       <description>In this talk we present analytical studies of active gels and cell motility. We start from a brief overview of out-of-equilibrium active matter systems (e.g., active gels, bacterial suspensions, etc.) and mathematical challenges in their modeling and analysis.

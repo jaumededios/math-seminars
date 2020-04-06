@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 14:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 14:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/dg/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Circumcenter extension maps for Hadamard manifolds</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/osuincerti/</link>
+      <pubDate>Thu, 16 Apr 2020 14:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/osuincerti/</guid>
+      <description>Given a CAT(-1) space, we can associate to it a boundary at infinity and a cross ratio on said boundary. There is a series of results that tell us that, for sufficiently nice CAT(-1) spaces, the boundary together with the cross ratio uniquely determines the interior space.</description>
+    </item>
+    
+    <item>
       <title>Random walks on punctured convex real projective surfaces</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/columbiabray/</link>
-      <pubDate>Fri, 10 Apr 2020 14:00:00 -0500</pubDate>
+      <pubDate>Fri, 10 Apr 2020 14:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/columbiabray/</guid>
       <description>I&amp;rsquo;ll discuss the following result, joint with Giulio Tiozzo: Letting $\Gamma$ be the representation of a punctured hyperbolic surface group in $PSL(3,R)$ acting discretely, properly discontinuously, and with finite co-volume on a properly convex set in the projective plane, we have that hitting measure for a random walk on any $\Gamma$-orbit with certain moment conditions is singular with respect to the classical Patterson-Sullivan measure.</description>
