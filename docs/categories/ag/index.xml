@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AG on Open Mathematics Seminars</title>
+    <title>AG on Mathematics Seminars List</title>
     <link>https://jaume.dedios.cat/math-seminars/categories/ag/</link>
-    <description>Recent content in AG on Open Mathematics Seminars</description>
+    <description>Recent content in AG on Mathematics Seminars List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
@@ -14,10 +14,10 @@
     
     <item>
       <title>A p-adic monodromy theorem for de Rham local systems</title>
-      <link>https://jaume.dedios.cat/math-seminars/post/uclashimizu/</link>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uclashimizu/</link>
       <pubDate>Mon, 06 Apr 2020 16:00:00 -0700</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/post/uclashimizu/</guid>
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uclashimizu/</guid>
       <description>Every smooth proper algebraic variety over a p-adic field is expected to have semistable model after passing to a finite extension. This conjecture is open in general, but its analogue for p-adic Galois representations, the p-adic monodromy theorem, is known. In this talk, we will explain a generalization of this theorem to etale local systems on a smooth rigid analytic variety.</description>
     </item>
     

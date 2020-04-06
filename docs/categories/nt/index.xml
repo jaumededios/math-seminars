@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NT on Open Mathematics Seminars</title>
+    <title>NT on Mathematics Seminars List</title>
     <link>https://jaume.dedios.cat/math-seminars/categories/nt/</link>
-    <description>Recent content in NT on Open Mathematics Seminars</description>
+    <description>Recent content in NT on Mathematics Seminars List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Tue, 07 Apr 2020 17:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 10:30:00 -0500</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/nt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Currents on Lubin-Tate space</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/columbiamihatsch/</link>
+      <pubDate>Fri, 10 Apr 2020 10:30:00 -0500</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/columbiamihatsch/</guid>
+      <description>We will first give an introduction to the formalism of (p,q)-forms and currents on non-archimedean spaces, as defined by Chambert-Loir&amp;ndash;Ducros and Gubler&amp;ndash;Kannemann. We explain how a notion of Greens current can be used to reinterpret intersection numbers on p-adic formal schemes in their generic fiber; at least in some cases.</description>
+    </item>
+    
+    <item>
+      <title>On the Kudla-Rapoport conjecture</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/princetonli/</link>
+      <pubDate>Thu, 09 Apr 2020 16:30:00 -0500</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/princetonli/</guid>
+      <description>The Kudla-Rapoport conjecture predicts a precise identity between the arithmetic intersection number of special cycles on unitary Rapoport-Zink spaces and the derivative of local representation densities of hermitian forms. It is a key local ingredient to establish the arithmetic Siegel-Weil formula and the arithmetic Rallis inner product formula, relating the height of special cycles on Shimura varieties to the derivative of Siegel Eisenstein series and L-functions.</description>
+    </item>
+    
+    <item>
       <title>Almost all Collatz orbits attain almost bounded values</title>
-      <link>https://jaume.dedios.cat/math-seminars/post/caltechtao/</link>
+      <link>https://jaume.dedios.cat/math-seminars/talk/caltechtao/</link>
       <pubDate>Tue, 07 Apr 2020 17:00:00 -0700</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/post/caltechtao/</guid>
+      <guid>https://jaume.dedios.cat/math-seminars/talk/caltechtao/</guid>
       <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
     </item>
     
     <item>
       <title>A p-adic monodromy theorem for de Rham local systems</title>
-      <link>https://jaume.dedios.cat/math-seminars/post/uclashimizu/</link>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uclashimizu/</link>
       <pubDate>Mon, 06 Apr 2020 16:00:00 -0700</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/post/uclashimizu/</guid>
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uclashimizu/</guid>
       <description>Every smooth proper algebraic variety over a p-adic field is expected to have semistable model after passing to a finite extension. This conjecture is open in general, but its analogue for p-adic Galois representations, the p-adic monodromy theorem, is known. In this talk, we will explain a generalization of this theorem to etale local systems on a smooth rigid analytic variety.</description>
     </item>
     

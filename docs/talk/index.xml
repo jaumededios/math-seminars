@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mathematics Seminars List</title>
-    <link>https://jaume.dedios.cat/math-seminars/</link>
-    <description>Recent content on Mathematics Seminars List</description>
+    <title>Posts on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/talk/</link>
+    <description>Recent content in Posts on Mathematics Seminars List</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Sat, 01 Jan 2000 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 14:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://jaume.dedios.cat/math-seminars/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jaume.dedios.cat/math-seminars/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -101,16 +101,6 @@ Next we present three minimal models of active gels: a phase-field model and two
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/berkeleypawloski/</guid>
       <description>Huang, McKinnon, and Satriano conjectured that if a real vector $(v_1,&amp;hellip;,v_n)$ has distinct coordinates and $n\ge3$, then a hyperplane through the origin other than $x_1+&amp;hellip;+x_n=0$ contains at most $2(n−2)!\lfloor n/2\rfloor$ of the vectors obtained by permuting the coordinates of $v$. I will discuss a proof of this conjecture.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://jaume.dedios.cat/math-seminars/about/</link>
-      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/about/</guid>
-      <description>About this site2 When the Covid-19 epidemic started, I realized a lot of universities started hosting their seminars online, which meant we could attend each others&amp;rsquo; seminars.
-This site attempts to gather as many online math seminars from around the world as possible that use zoom/similar and have a publicly available means to access the talk.</description>
     </item>
     
   </channel>

@@ -1,5 +1,5 @@
 +++
-  host= "Stanford"
+  host= "Stanford University"
   date = "2020-04-09T10:30:00-07:00"
   expiryDate = "2020-04-09T11:30:00-07:00"
   title = "Pure Pairs"
