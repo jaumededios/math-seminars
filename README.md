@@ -15,7 +15,7 @@ The talks are stored in the folder `hugo_site/content/talk`, and have the follow
   title = "This is the title of the talk"
   speaker = "mathematician"
   speaker_institution = "the_university"
-  URL = "url at the_host that holds"
+  URL = "url at the_host that has the talk info"
   categories = ["AP", "CO", "NT", "anything that goes after math. in arXiv"]
   ________________________________________________=""
   hack = "The line below is a hack, working on it - do not touch it"
