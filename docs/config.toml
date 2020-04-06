@@ -1,0 +1,34 @@
+baseURL = "https://example.com"
+title = "Open Mathematics Seminars"
+author = "Jaume de Dios Pont"
+copyright = "Copyright © 2020–2030, Jaume de Dios"
+paginate = 10
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+summaryLength = 45
+theme = "tale-math-seminars"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 8
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+
+
+
+  [services.twitter]
+    disableInlineCSS = true
+
