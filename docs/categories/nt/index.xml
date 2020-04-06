@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NT on Open Mathematics Seminars</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/nt/</link>
+    <description>Recent content in NT on Open Mathematics Seminars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Tue, 07 Apr 2020 17:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/nt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Almost all Collatz orbits attain almost bounded values</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/caltechtao/</link>
+      <pubDate>Tue, 07 Apr 2020 17:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/caltechtao/</guid>
+      <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
+    </item>
+    
+    <item>
+      <title>A p-adic monodromy theorem for de Rham local systems</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/uclashimizu/</link>
+      <pubDate>Mon, 06 Apr 2020 16:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/uclashimizu/</guid>
+      <description>Every smooth proper algebraic variety over a p-adic field is expected to have semistable model after passing to a finite extension. This conjecture is open in general, but its analogue for p-adic Galois representations, the p-adic monodromy theorem, is known. In this talk, we will explain a generalization of this theorem to etale local systems on a smooth rigid analytic variety.</description>
+    </item>
+    
+  </channel>
+</rss>

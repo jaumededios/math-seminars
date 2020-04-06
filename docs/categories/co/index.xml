@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CO on Open Mathematics Seminars</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/co/</link>
+    <description>Recent content in CO on Open Mathematics Seminars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Thu, 09 Apr 2020 10:30:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/co/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pure Pairs</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/seymourstanford/</link>
+      <pubDate>Thu, 09 Apr 2020 10:30:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/seymourstanford/</guid>
+      <description>A &amp;ldquo;pure pair&amp;rdquo; in a graph $G$ is a pair $(X,Y)$ of disjoint subsets of $V(G)$ such that either every vertex in $X$ is adjacent to every vertex in $Y$, or there are no edges from $X$ to $Y$. Let $f(G)$ be the biggest $k$ such that $G$ has a pure pair $(X,Y)$ with $|X|,|Y|$ at least $k$.</description>
+    </item>
+    
+    <item>
+      <title>The fraction of an Sn-orbit on a hyperplane</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/berkeleypawloski/</link>
+      <pubDate>Mon, 06 Apr 2020 12:10:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/berkeleypawloski/</guid>
+      <description>Huang, McKinnon, and Satriano conjectured that if a real vector $(v_1,&amp;hellip;,v_n)$ has distinct coordinates and $n\ge3$, then a hyperplane through the origin other than $x_1+&amp;hellip;+x_n=0$ contains at most $2(n−2)!\lfloor n/2\rfloor$ of the vectors obtained by permuting the coordinates of $v$. I will discuss a proof of this conjecture.</description>
+    </item>
+    
+  </channel>
+</rss>

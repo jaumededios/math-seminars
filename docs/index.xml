@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Mathematics Seminars</title>
+    <link>https://jaume.dedios.cat/math-seminars/</link>
+    <description>Recent content on Open Mathematics Seminars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Sat, 01 Jan 2000 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pure Pairs</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/seymourstanford/</link>
+      <pubDate>Thu, 09 Apr 2020 10:30:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/seymourstanford/</guid>
+      <description>A &amp;ldquo;pure pair&amp;rdquo; in a graph $G$ is a pair $(X,Y)$ of disjoint subsets of $V(G)$ such that either every vertex in $X$ is adjacent to every vertex in $Y$, or there are no edges from $X$ to $Y$. Let $f(G)$ be the biggest $k$ such that $G$ has a pure pair $(X,Y)$ with $|X|,|Y|$ at least $k$.</description>
+    </item>
+    
+    <item>
+      <title>Solving inverse problems with deep learning</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/berkeleyying/</link>
+      <pubDate>Wed, 08 Apr 2020 16:10:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/berkeleyying/</guid>
+      <description>This talk is about some recent progress on solving inverse problems using deep learning. Compared to traditional machine learning problems, inverse problems are often limited by the size of the training data set. We show how to overcome this issue by incorporating mathematical analysis and physics into the design of neural network architectures.</description>
+    </item>
+    
+    <item>
+      <title>Almost all Collatz orbits attain almost bounded values</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/caltechtao/</link>
+      <pubDate>Tue, 07 Apr 2020 17:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/caltechtao/</guid>
+      <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
+    </item>
+    
+    <item>
+      <title>TBA</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/caltechghomi/</link>
+      <pubDate>Tue, 07 Apr 2020 16:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/caltechghomi/</guid>
+      <description>TBA</description>
+    </item>
+    
+    <item>
+      <title>A p-adic monodromy theorem for de Rham local systems</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/uclashimizu/</link>
+      <pubDate>Mon, 06 Apr 2020 16:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/uclashimizu/</guid>
+      <description>Every smooth proper algebraic variety over a p-adic field is expected to have semistable model after passing to a finite extension. This conjecture is open in general, but its analogue for p-adic Galois representations, the p-adic monodromy theorem, is known. In this talk, we will explain a generalization of this theorem to etale local systems on a smooth rigid analytic variety.</description>
+    </item>
+    
+    <item>
+      <title>The fraction of an Sn-orbit on a hyperplane</title>
+      <link>https://jaume.dedios.cat/math-seminars/post/berkeleypawloski/</link>
+      <pubDate>Mon, 06 Apr 2020 12:10:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/post/berkeleypawloski/</guid>
+      <description>Huang, McKinnon, and Satriano conjectured that if a real vector $(v_1,&amp;hellip;,v_n)$ has distinct coordinates and $n\ge3$, then a hyperplane through the origin other than $x_1+&amp;hellip;+x_n=0$ contains at most $2(n−2)!\lfloor n/2\rfloor$ of the vectors obtained by permuting the coordinates of $v$. I will discuss a proof of this conjecture.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://jaume.dedios.cat/math-seminars/about/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/about/</guid>
+      <description>About this site2 When the Covid-19 epidemic started, I realized a lot of universities started hosting their seminars online, which meant we could attend each others&amp;rsquo; seminars.
+This site attempts to gather as many online math seminars from around the world as possible that use zoom/similar and have a publicly available means to access the talk.</description>
+    </item>
+    
+  </channel>
+</rss>

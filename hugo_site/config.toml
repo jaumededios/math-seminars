@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://jaume.dedios.cat/math-seminars"
 title = "Open Mathematics Seminars"
 author = "Jaume de Dios Pont"
 copyright = "Copyright © 2020–2030, Jaume de Dios"
@@ -9,6 +9,7 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 summaryLength = 45
 theme = "tale-math-seminars"
+publishDir = "../docs"
 
 [menu]
 
