@@ -11,7 +11,11 @@ footnoteReturnLinkContents = "^"
 summaryLength = 45
 theme = "tale-math-seminars"
 
-
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
 
@@ -20,7 +24,11 @@ theme = "tale-math-seminars"
     name = "Categories"
     url = "/categories/"
     weight = 8
-
+  [[menu.main]]
+    identifier = "submit"
+    name = "Submit a talk"
+    url = "/submit/"
+    weight = 9
   [[menu.main]]
     identifier = "about"
     name = "About"

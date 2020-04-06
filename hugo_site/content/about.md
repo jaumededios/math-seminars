@@ -12,7 +12,7 @@
 
 ### About this site2
 
-When the Covid-19 epidemic started, I realized a lot of universities started hosting their seminars online, which meant we could attend each others' seminars.
+When the Covid-19 epidemic started, a lot of universities started hosting their seminars online, which meant we could attend each others' seminars.
 
 This site attempts to gather as many online math seminars from around the world as possible that use zoom/similar and have a publicly available means to access the talk. 
 
