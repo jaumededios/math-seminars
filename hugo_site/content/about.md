@@ -10,7 +10,7 @@
 +++
 
 
-### About this site2
+### About this site
 
 When the Covid-19 epidemic started, a lot of universities started hosting their seminars online, which meant we could attend each others' seminars.
 
