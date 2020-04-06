@@ -1,7 +1,7 @@
 +++
   host= "Princeton University"
-  date = "2020-04-09T16:30:00-05:00"
-  expiryDate = "2020-04-09T17:30:00-05:00"
+  date = "2020-04-09T16:30:00-04:00"
+  expiryDate = "2020-04-09T17:30:00-04:00"
   title = "Mathematics of Active Gels: Bifurcations & Stability"
   speaker = "Leonid V Berlyand"
   speaker_institution = "Penn State University"

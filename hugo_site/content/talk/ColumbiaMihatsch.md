@@ -1,7 +1,7 @@
 +++
   host= "Columbia University"
-  date = "2020-04-10T10:30:00-05:00"
-  expiryDate = "2020-04-10T12:00:00-05:00"
+  date = "2020-04-10T10:30:00-04:00"
+  expiryDate = "2020-04-10T12:00:00-04:00"
   title = "Currents on Lubin-Tate space"
   speaker = "Andreas Mihatsch"
   speaker_institution = "Bonn / MIT"

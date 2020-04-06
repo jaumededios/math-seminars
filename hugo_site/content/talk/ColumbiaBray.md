@@ -1,7 +1,7 @@
 +++
   host= "Columbia University"
-  date = "2020-04-10T14:00:00-05:00"
-  expiryDate = "2020-04-10T15:00:00-05:00"
+  date = "2020-04-10T14:00:00-04:00"
+  expiryDate = "2020-04-10T15:00:00-04:00"
   title = "Random walks on punctured convex real projective surfaces"
   speaker = "Harrison Bray"
   speaker_institution = "University of Michigan"

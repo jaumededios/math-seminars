@@ -1,7 +1,7 @@
 +++
   host= "Princeton/IAS"
-  date = "2020-04-09T16:30:00-05:00"
-  expiryDate = "2020-04-09T17:30:00-05:00"
+  date = "2020-04-09T16:30:00-04:00"
+  expiryDate = "2020-04-09T17:30:00-04:00"
   title = "On the Kudla-Rapoport conjecture"
   speaker = "Chao Li"
   speaker_institution = "Columbia University"
