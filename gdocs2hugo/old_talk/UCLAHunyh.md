@@ -5,7 +5,7 @@
   title = "Construction of the Hodge-Neumann heat kernel, and Onsager's conjecture in fluid dynamics"
   speaker = "Khang Hunyh"
   speaker_institution = "UCLA"
-  URL = "secure.math.ucla.edu/seminars/display.php?&id=834017"
+  talk_site = "secure.math.ucla.edu/seminars/display.php?&id=834017"
   categories = ["AP"]
   ________________________________________________=""
   hack = "The line below is a hack, working on it"

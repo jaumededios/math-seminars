@@ -5,10 +5,9 @@
   title = "Almost all Collatz orbits attain almost bounded values"
   speaker = "Terence Tao"
   speaker_institution = "UCLA"
-  talk_site = "https://secure.math.ucla.edu/seminars/display.php?&id=834017"
+  talk_site = "https://secure.math.ucla.edu/seminars/display.php?&id=834022"
   categories = ["NT"]
-  ________________________________________________=""
-  hack = "The line below is a hack, working on it"
+
   publishDate = "2000-02-07T16:00:00-07:00"
 +++
 
