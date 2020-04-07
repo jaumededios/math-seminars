@@ -21,14 +21,5 @@
       <description>A &amp;ldquo;pure pair&amp;rdquo; in a graph $G$ is a pair $(X,Y)$ of disjoint subsets of $V(G)$ such that either every vertex in $X$ is adjacent to every vertex in $Y$, or there are no edges from $X$ to $Y$. Let $f(G)$ be the biggest $k$ such that $G$ has a pure pair $(X,Y)$ with $|X|,|Y|$ at least $k$.</description>
     </item>
     
-    <item>
-      <title>Recent Progress on the Erdos-Hajnal Conjecture</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/northeast-combinatorics-network_maria_chudnovsky_07042020/</link>
-      <pubDate>Tue, 07 Apr 2020 14:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/northeast-combinatorics-network_maria_chudnovsky_07042020/</guid>
-      <description>What is the effect of excluding an induced subgraph on the global structure of a graph? While there do not seem to be general structural consequences, a conjecture of Erdos and Hajnal states that graphs with forbidden induced subgraphs behave very differently from general graphs; more precisely they contain much larger cliques or stable sets.</description>
-    </item>
-    
   </channel>
 </rss>

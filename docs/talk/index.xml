@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>TBA</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_joni_teravainen_28042020/</link>
+      <pubDate>Tue, 28 Apr 2020 14:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_joni_teravainen_28042020/</guid>
+      <description>TBA</description>
+    </item>
+    
+    <item>
       <title>Arithmetic L-functions and their Sato-Tate distributions</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/</link>
       <pubDate>Tue, 21 Apr 2020 13:00:00 -0400</pubDate>
@@ -109,15 +118,6 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/caltech_mohammad_ghomi_7042020/</guid>
       <description>The classical isoperimetric inequality states that in Euclidean space spheres provide enclosures of least perimeter for any given volume. According to the Cartan-Hadamard conjecture, this inequality may be generalized to spaces of nonpositive curvature. In this talk we discuss an approach to proving this conjecture via a comparison formula for the total curvature of level sets of functions on nonpositively curved manifolds.</description>
-    </item>
-    
-    <item>
-      <title>Recent Progress on the Erdos-Hajnal Conjecture</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/northeast-combinatorics-network_maria_chudnovsky_07042020/</link>
-      <pubDate>Tue, 07 Apr 2020 14:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/northeast-combinatorics-network_maria_chudnovsky_07042020/</guid>
-      <description>What is the effect of excluding an induced subgraph on the global structure of a graph? While there do not seem to be general structural consequences, a conjecture of Erdos and Hajnal states that graphs with forbidden induced subgraphs behave very differently from general graphs; more precisely they contain much larger cliques or stable sets.</description>
     </item>
     
   </channel>
