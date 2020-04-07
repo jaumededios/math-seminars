@@ -1,7 +1,7 @@
 +++
   host= "UCLA"
-  date = "2020-04-28T14:00:00-07:00"
-  expiryDate = "2020-04-28T14:50:00-07:00"
+  date = "2020-04-28T09:00:00-07:00"
+  expiryDate = "2020-04-28T09:50:00-07:00"
   title = "TBA"
   speaker = "Joni Teravainen"
   speaker_institution = "U. Oxford"
