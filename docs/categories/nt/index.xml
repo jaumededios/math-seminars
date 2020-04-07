@@ -66,14 +66,5 @@
       <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
     </item>
     
-    <item>
-      <title>Sato-Tate groups of abelian varieties of dimension up to 3</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/vantage_francesc_fit%C3%A9_07042020/</link>
-      <pubDate>Tue, 07 Apr 2020 13:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/vantage_francesc_fit%C3%A9_07042020/</guid>
-      <description>TBA</description>
-    </item>
-    
   </channel>
 </rss>
