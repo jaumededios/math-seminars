@@ -38,6 +38,70 @@ MathJax.Hub.Config({
 </script>
 
 
+<script type="text/javascript">
+
+
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var timezoneNames = {
+	'-07:00':' (Los Angeles, PDT)',
+	'-04:00':' (New York, EDT)',
+	'+02:00':' (Barcelona, Paris, CEST)'
+}
+
+
+function doublezero(i){
+	return (i<10)?'0'+parseInt(i):parseInt(i)
+}
+
+function offset(offset){
+	console.log(offset)
+	sgn = (offset>0)?'-':'+' 
+	offset = Math.abs(offset)
+	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
+	extra = timezoneNames[base]
+	extra = (extra == undefined)?'':extra
+	return 'UTC '+base+extra
+}
+
+function nicestring(d){
+	month = monthNames[d.getMonth()-1]
+	day = d.getDate()
+	year = d.getFullYear()
+	hour = d.getHours()
+	ampm = ['am','pm'][parseInt(hour/12)]
+	hour = hour%12
+	minute = d.getMinutes()
+	minute = (minute<10)?'0'+minute:minute;
+	offset_value = offset(d.getTimezoneOffset())
+	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+}
+
+var date;
+function start (){
+	var timedom, date
+	d = document.getElementsByClassName('time-USER')
+	for(var i = 0; i<d.length;i++){
+		
+			timedom = d[i].getElementsByTagName('time')[0]
+			date = parseISOString(timedom.dateTime.slice(0,-10))
+			timedom.innerHTML = nicestring(date)
+		try{}
+		catch(err){}
+	}
+	
+	console.log()
+}
+
+function parseISOString(s) {
+  var b = s.split(/\D+/).map(Number);
+  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
+}
+
+
+window.onload=start
+
+</script>
 		<nav class="nav">
 			<div class="nav-container">
 				<a href="/math-seminars/">
@@ -86,31 +150,15 @@ MathJax.Hub.Config({
         <div class="catalogue-line"></div>
 
     <div style="float:none">
-        <div  class = "catalogue-time time-UTC">
-        <time datetime = "2020-04-16 14:00:00 -0400 -0400">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-16 18:00:00 &#43;0000 UTC">
         April 16, 2020  6:00pm UTC
         </time>
         </div>
-        <div  class = "catalogue-time time-CEST">
-        <time datetime = "2020-04-16 14:00:00 -0400 -0400">
-        April 16, 2020  8:00pm CEST (Barcelona,  Paris)
-        </time>
-        </div>
-        <div class = "catalogue-time time-EDT">
-        <time datetime = "2020-04-16 14:00:00 -0400 -0400" >
-        April 16, 2020  2:00pm EDT (New York, Boston)
-        </time>
-        </div>
-        <div class = "catalogue-time time-PDT">
-        <time datetime = "2020-04-16 14:00:00 -0400 -0400">
-        April 16, 2020  11:00am PDT (Los Angeles)
-        </time>
-        </div>
-
         <div class = "catalogue-time time-local">
             <time datetime="2020-04-16 14:00:00 -0400 -0400" >
                 April 16, 2020  2:00pm UTC -04
-            </time>(Local Time)
+            </time>(Host local time)
         </div>
     </div>
         </a>

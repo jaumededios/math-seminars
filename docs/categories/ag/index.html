@@ -38,6 +38,70 @@ MathJax.Hub.Config({
 </script>
 
 
+<script type="text/javascript">
+
+
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var timezoneNames = {
+	'-07:00':' (Los Angeles, PDT)',
+	'-04:00':' (New York, EDT)',
+	'+02:00':' (Barcelona, Paris, CEST)'
+}
+
+
+function doublezero(i){
+	return (i<10)?'0'+parseInt(i):parseInt(i)
+}
+
+function offset(offset){
+	console.log(offset)
+	sgn = (offset>0)?'-':'+' 
+	offset = Math.abs(offset)
+	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
+	extra = timezoneNames[base]
+	extra = (extra == undefined)?'':extra
+	return 'UTC '+base+extra
+}
+
+function nicestring(d){
+	month = monthNames[d.getMonth()-1]
+	day = d.getDate()
+	year = d.getFullYear()
+	hour = d.getHours()
+	ampm = ['am','pm'][parseInt(hour/12)]
+	hour = hour%12
+	minute = d.getMinutes()
+	minute = (minute<10)?'0'+minute:minute;
+	offset_value = offset(d.getTimezoneOffset())
+	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+}
+
+var date;
+function start (){
+	var timedom, date
+	d = document.getElementsByClassName('time-USER')
+	for(var i = 0; i<d.length;i++){
+		
+			timedom = d[i].getElementsByTagName('time')[0]
+			date = parseISOString(timedom.dateTime.slice(0,-10))
+			timedom.innerHTML = nicestring(date)
+		try{}
+		catch(err){}
+	}
+	
+	console.log()
+}
+
+function parseISOString(s) {
+  var b = s.split(/\D+/).map(Number);
+  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
+}
+
+
+window.onload=start
+
+</script>
 		<nav class="nav">
 			<div class="nav-container">
 				<a href="/math-seminars/">
@@ -81,124 +145,20 @@ MathJax.Hub.Config({
 	<div class="catalogue">
 		
 			<div class="catalogue-div"> 
-    <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=833983" class="catalogue-item">
-        <h1 class="catalogue-title">A p-adic monodromy theorem for de Rham local systems</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-UTC">
-        <time datetime = "2020-04-06 16:00:00 -0700 -0700">
-        April 6, 2020  11:00pm UTC
-        </time>
-        </div>
-        <div  class = "catalogue-time time-CEST">
-        <time datetime = "2020-04-06 16:00:00 -0700 -0700">
-        April 7, 2020  1:00am CEST (Barcelona,  Paris)
-        </time>
-        </div>
-        <div class = "catalogue-time time-EDT">
-        <time datetime = "2020-04-06 16:00:00 -0700 -0700" >
-        April 6, 2020  7:00pm EDT (New York, Boston)
-        </time>
-        </div>
-        <div class = "catalogue-time time-PDT">
-        <time datetime = "2020-04-06 16:00:00 -0700 -0700">
-        April 6, 2020  4:00pm PDT (Los Angeles)
-        </time>
-        </div>
-
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-06 16:00:00 -0700 -0700" >
-                April 6, 2020  4:00pm UTC -07
-            </time>(Local Time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Koji Shimizu (IAS)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>UCLA
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ag">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AG&color=%2379090d" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/nt">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=NT&color=%235226d3" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=833983" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Every smooth proper algebraic variety over a p-adic field is expected to have semistable model after passing to a finite extension. This conjecture is open in general, but its analogue for p-adic Galois representations, the p-adic monodromy theorem, is known. In this talk, we will explain a generalization of this theorem to etale local systems on a smooth rigid analytic variety. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/ucla_koji_shimizu_06042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
     <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
         <h1 class="catalogue-title">Sato-Tate groups of abelian varieties of dimension up to 3</h1>
         <div class="catalogue-line"></div>
 
     <div style="float:none">
-        <div  class = "catalogue-time time-UTC">
-        <time datetime = "2020-04-07 13:00:00 -0400 -0400">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-07 17:00:00 &#43;0000 UTC">
         April 7, 2020  5:00pm UTC
         </time>
         </div>
-        <div  class = "catalogue-time time-CEST">
-        <time datetime = "2020-04-07 13:00:00 -0400 -0400">
-        April 7, 2020  7:00pm CEST (Barcelona,  Paris)
-        </time>
-        </div>
-        <div class = "catalogue-time time-EDT">
-        <time datetime = "2020-04-07 13:00:00 -0400 -0400" >
-        April 7, 2020  1:00pm EDT (New York, Boston)
-        </time>
-        </div>
-        <div class = "catalogue-time time-PDT">
-        <time datetime = "2020-04-07 13:00:00 -0400 -0400">
-        April 7, 2020  10:00am PDT (Los Angeles)
-        </time>
-        </div>
-
         <div class = "catalogue-time time-local">
             <time datetime="2020-04-07 13:00:00 -0400 -0400" >
                 April 7, 2020  1:00pm UTC -04
-            </time>(Local Time)
+            </time>(Host local time)
         </div>
     </div>
         </a>
@@ -243,7 +203,7 @@ MathJax.Hub.Config({
         </p>
         <p class = "catalogue-paragraph"> 
          
-                nan 
+                TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_francesc_fit%C3%A9_07042020/">(...) </a>
             
         </p>
@@ -262,31 +222,15 @@ MathJax.Hub.Config({
         <div class="catalogue-line"></div>
 
     <div style="float:none">
-        <div  class = "catalogue-time time-UTC">
-        <time datetime = "2020-04-21 13:00:00 -0400 -0400">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-21 17:00:00 &#43;0000 UTC">
         April 21, 2020  5:00pm UTC
         </time>
         </div>
-        <div  class = "catalogue-time time-CEST">
-        <time datetime = "2020-04-21 13:00:00 -0400 -0400">
-        April 21, 2020  7:00pm CEST (Barcelona,  Paris)
-        </time>
-        </div>
-        <div class = "catalogue-time time-EDT">
-        <time datetime = "2020-04-21 13:00:00 -0400 -0400" >
-        April 21, 2020  1:00pm EDT (New York, Boston)
-        </time>
-        </div>
-        <div class = "catalogue-time time-PDT">
-        <time datetime = "2020-04-21 13:00:00 -0400 -0400">
-        April 21, 2020  10:00am PDT (Los Angeles)
-        </time>
-        </div>
-
         <div class = "catalogue-time time-local">
             <time datetime="2020-04-21 13:00:00 -0400 -0400" >
                 April 21, 2020  1:00pm UTC -04
-            </time>(Local Time)
+            </time>(Host local time)
         </div>
     </div>
         </a>
@@ -331,7 +275,7 @@ MathJax.Hub.Config({
         </p>
         <p class = "catalogue-paragraph"> 
          
-                nan 
+                TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/">(...) </a>
             
         </p>
@@ -350,31 +294,15 @@ MathJax.Hub.Config({
         <div class="catalogue-line"></div>
 
     <div style="float:none">
-        <div  class = "catalogue-time time-UTC">
-        <time datetime = "2020-05-05 13:00:00 -0400 -0400">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-05 17:00:00 &#43;0000 UTC">
         May 5, 2020  5:00pm UTC
         </time>
         </div>
-        <div  class = "catalogue-time time-CEST">
-        <time datetime = "2020-05-05 13:00:00 -0400 -0400">
-        May 5, 2020  7:00pm CEST (Barcelona,  Paris)
-        </time>
-        </div>
-        <div class = "catalogue-time time-EDT">
-        <time datetime = "2020-05-05 13:00:00 -0400 -0400" >
-        May 5, 2020  1:00pm EDT (New York, Boston)
-        </time>
-        </div>
-        <div class = "catalogue-time time-PDT">
-        <time datetime = "2020-05-05 13:00:00 -0400 -0400">
-        May 5, 2020  10:00am PDT (Los Angeles)
-        </time>
-        </div>
-
         <div class = "catalogue-time time-local">
             <time datetime="2020-05-05 13:00:00 -0400 -0400" >
                 May 5, 2020  1:00pm UTC -04
-            </time>(Local Time)
+            </time>(Host local time)
         </div>
     </div>
         </a>
@@ -419,7 +347,7 @@ MathJax.Hub.Config({
         </p>
         <p class = "catalogue-paragraph"> 
          
-                nan 
+                TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_david_zywina_05052020/">(...) </a>
             
         </p>
@@ -438,31 +366,15 @@ MathJax.Hub.Config({
         <div class="catalogue-line"></div>
 
     <div style="float:none">
-        <div  class = "catalogue-time time-UTC">
-        <time datetime = "2020-05-19 13:00:00 -0400 -0400">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-19 17:00:00 &#43;0000 UTC">
         May 19, 2020  5:00pm UTC
         </time>
         </div>
-        <div  class = "catalogue-time time-CEST">
-        <time datetime = "2020-05-19 13:00:00 -0400 -0400">
-        May 19, 2020  7:00pm CEST (Barcelona,  Paris)
-        </time>
-        </div>
-        <div class = "catalogue-time time-EDT">
-        <time datetime = "2020-05-19 13:00:00 -0400 -0400" >
-        May 19, 2020  1:00pm EDT (New York, Boston)
-        </time>
-        </div>
-        <div class = "catalogue-time time-PDT">
-        <time datetime = "2020-05-19 13:00:00 -0400 -0400">
-        May 19, 2020  10:00am PDT (Los Angeles)
-        </time>
-        </div>
-
         <div class = "catalogue-time time-local">
             <time datetime="2020-05-19 13:00:00 -0400 -0400" >
                 May 19, 2020  1:00pm UTC -04
-            </time>(Local Time)
+            </time>(Host local time)
         </div>
     </div>
         </a>
@@ -507,7 +419,7 @@ MathJax.Hub.Config({
         </p>
         <p class = "catalogue-paragraph"> 
          
-                nan 
+                TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_alina_bucur._19052020/">(...) </a>
             
         </p>

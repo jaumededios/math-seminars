@@ -40,6 +40,70 @@ MathJax.Hub.Config({
 </script>
 
 
+<script type="text/javascript">
+
+
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var timezoneNames = {
+	'-07:00':' (Los Angeles, PDT)',
+	'-04:00':' (New York, EDT)',
+	'+02:00':' (Barcelona, Paris, CEST)'
+}
+
+
+function doublezero(i){
+	return (i<10)?'0'+parseInt(i):parseInt(i)
+}
+
+function offset(offset){
+	console.log(offset)
+	sgn = (offset>0)?'-':'+' 
+	offset = Math.abs(offset)
+	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
+	extra = timezoneNames[base]
+	extra = (extra == undefined)?'':extra
+	return 'UTC '+base+extra
+}
+
+function nicestring(d){
+	month = monthNames[d.getMonth()-1]
+	day = d.getDate()
+	year = d.getFullYear()
+	hour = d.getHours()
+	ampm = ['am','pm'][parseInt(hour/12)]
+	hour = hour%12
+	minute = d.getMinutes()
+	minute = (minute<10)?'0'+minute:minute;
+	offset_value = offset(d.getTimezoneOffset())
+	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+}
+
+var date;
+function start (){
+	var timedom, date
+	d = document.getElementsByClassName('time-USER')
+	for(var i = 0; i<d.length;i++){
+		
+			timedom = d[i].getElementsByTagName('time')[0]
+			date = parseISOString(timedom.dateTime.slice(0,-10))
+			timedom.innerHTML = nicestring(date)
+		try{}
+		catch(err){}
+	}
+	
+	console.log()
+}
+
+function parseISOString(s) {
+  var b = s.split(/\D+/).map(Number);
+  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
+}
+
+
+window.onload=start
+
+</script>
 		<nav class="nav">
 			<div class="nav-container">
 				<a href="/math-seminars/">
@@ -85,36 +149,92 @@ MathJax.Hub.Config({
 	<div class="catalogue">
 		
 			<div class="catalogue-div"> 
+    <a href="https://sites.google.com/view/topoandggt" class="catalogue-item">
+        <h1 class="catalogue-title">Circumcenter extension maps for Hadamard manifolds</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-16 18:00:00 &#43;0000 UTC">
+        April 16, 2020  6:00pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-16 14:00:00 -0400 -0400" >
+                April 16, 2020  2:00pm UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Merlin Incerti-Medici (University of Zurich)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>Ohio State University
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/mg">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=MG&color=%23398142" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        <a href = "categories/dg">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=DG&color=%23b70710" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://sites.google.com/view/topoandggt" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                Given a CAT(-1) space, we can associate to it a boundary at infinity and a cross ratio on said boundary. There is a series of results that tell us that, for sufficiently nice CAT(-1) spaces, the boundary together with the cross ratio uniquely determines the interior space. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/ohio-state-university_merlin_incerti-medici_16042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
     <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
         <h1 class="catalogue-title">Arithmetic L-functions and their Sato-Tate distributions</h1>
         <div class="catalogue-line"></div>
 
     <div style="float:none">
-        <div  class = "catalogue-time time-UTC">
-        <time datetime = "2020-04-21 13:00:00 -0400 -0400">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-21 17:00:00 &#43;0000 UTC">
         April 21, 2020  5:00pm UTC
         </time>
         </div>
-        <div  class = "catalogue-time time-CEST">
-        <time datetime = "2020-04-21 13:00:00 -0400 -0400">
-        April 21, 2020  7:00pm CEST (Barcelona,  Paris)
-        </time>
-        </div>
-        <div class = "catalogue-time time-EDT">
-        <time datetime = "2020-04-21 13:00:00 -0400 -0400" >
-        April 21, 2020  1:00pm EDT (New York, Boston)
-        </time>
-        </div>
-        <div class = "catalogue-time time-PDT">
-        <time datetime = "2020-04-21 13:00:00 -0400 -0400">
-        April 21, 2020  10:00am PDT (Los Angeles)
-        </time>
-        </div>
-
         <div class = "catalogue-time time-local">
             <time datetime="2020-04-21 13:00:00 -0400 -0400" >
                 April 21, 2020  1:00pm UTC -04
-            </time>(Local Time)
+            </time>(Host local time)
         </div>
     </div>
         </a>
@@ -159,7 +279,7 @@ MathJax.Hub.Config({
         </p>
         <p class = "catalogue-paragraph"> 
          
-                nan 
+                TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/">(...) </a>
             
         </p>
@@ -178,31 +298,15 @@ MathJax.Hub.Config({
         <div class="catalogue-line"></div>
 
     <div style="float:none">
-        <div  class = "catalogue-time time-UTC">
-        <time datetime = "2020-05-05 13:00:00 -0400 -0400">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-05 17:00:00 &#43;0000 UTC">
         May 5, 2020  5:00pm UTC
         </time>
         </div>
-        <div  class = "catalogue-time time-CEST">
-        <time datetime = "2020-05-05 13:00:00 -0400 -0400">
-        May 5, 2020  7:00pm CEST (Barcelona,  Paris)
-        </time>
-        </div>
-        <div class = "catalogue-time time-EDT">
-        <time datetime = "2020-05-05 13:00:00 -0400 -0400" >
-        May 5, 2020  1:00pm EDT (New York, Boston)
-        </time>
-        </div>
-        <div class = "catalogue-time time-PDT">
-        <time datetime = "2020-05-05 13:00:00 -0400 -0400">
-        May 5, 2020  10:00am PDT (Los Angeles)
-        </time>
-        </div>
-
         <div class = "catalogue-time time-local">
             <time datetime="2020-05-05 13:00:00 -0400 -0400" >
                 May 5, 2020  1:00pm UTC -04
-            </time>(Local Time)
+            </time>(Host local time)
         </div>
     </div>
         </a>
@@ -247,7 +351,7 @@ MathJax.Hub.Config({
         </p>
         <p class = "catalogue-paragraph"> 
          
-                nan 
+                TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_david_zywina_05052020/">(...) </a>
             
         </p>
@@ -266,31 +370,15 @@ MathJax.Hub.Config({
         <div class="catalogue-line"></div>
 
     <div style="float:none">
-        <div  class = "catalogue-time time-UTC">
-        <time datetime = "2020-05-19 13:00:00 -0400 -0400">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-19 17:00:00 &#43;0000 UTC">
         May 19, 2020  5:00pm UTC
         </time>
         </div>
-        <div  class = "catalogue-time time-CEST">
-        <time datetime = "2020-05-19 13:00:00 -0400 -0400">
-        May 19, 2020  7:00pm CEST (Barcelona,  Paris)
-        </time>
-        </div>
-        <div class = "catalogue-time time-EDT">
-        <time datetime = "2020-05-19 13:00:00 -0400 -0400" >
-        May 19, 2020  1:00pm EDT (New York, Boston)
-        </time>
-        </div>
-        <div class = "catalogue-time time-PDT">
-        <time datetime = "2020-05-19 13:00:00 -0400 -0400">
-        May 19, 2020  10:00am PDT (Los Angeles)
-        </time>
-        </div>
-
         <div class = "catalogue-time time-local">
             <time datetime="2020-05-19 13:00:00 -0400 -0400" >
                 May 19, 2020  1:00pm UTC -04
-            </time>(Local Time)
+            </time>(Host local time)
         </div>
     </div>
         </a>
@@ -335,7 +423,7 @@ MathJax.Hub.Config({
         </p>
         <p class = "catalogue-paragraph"> 
          
-                nan 
+                TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_alina_bucur._19052020/">(...) </a>
             
         </p>

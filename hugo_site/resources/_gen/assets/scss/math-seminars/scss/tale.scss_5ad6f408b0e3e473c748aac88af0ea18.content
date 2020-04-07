@@ -508,8 +508,6 @@ footer > span > p {
   margin-right: 10px;
   margin-bottom: 0px;
   float: left; }
-  .catalogue-time.time-UTC, .catalogue-time.time-EDT, .catalogue-time.time-PDT {
-    display: None; }
   .catalogue-time.time-local {
     width: 400px;
     color: #aaa;

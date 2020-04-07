@@ -8,5 +8,5 @@
   publishDate = "2000-01-01T00:00:00-00:00"
 +++
 <div style = "margin: 0 auto; width : 641px;">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScewDJIH1AXtd7aAUkAgiMfewtdz4owgBGljJwGbHIiuGQQ2g/viewform?embedded=true" width="640" height="1862" frameborder="0" marginheight="0" marginwidth="0">Cargando?</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScewDJIH1AXtd7aAUkAgiMfewtdz4owgBGljJwGbHIiuGQQ2g/viewform?embedded=true" width="640" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading?</iframe>
 </div>

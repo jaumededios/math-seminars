@@ -18,7 +18,7 @@
       <pubDate>Tue, 19 May 2020 13:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/vantage_alina_bucur._19052020/</guid>
-      <description>nan</description>
+      <description>TBA</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 05 May 2020 13:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/vantage_david_zywina_05052020/</guid>
-      <description>nan</description>
+      <description>TBA</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Tue, 21 Apr 2020 13:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/</guid>
-      <description>nan</description>
+      <description>TBA</description>
     </item>
     
     <item>
@@ -46,6 +46,15 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/ohio-state-university_merlin_incerti-medici_16042020/</guid>
       <description>Given a CAT(-1) space, we can associate to it a boundary at infinity and a cross ratio on said boundary. There is a series of results that tell us that, for sufficiently nice CAT(-1) spaces, the boundary together with the cross ratio uniquely determines the interior space.</description>
+    </item>
+    
+    <item>
+      <title>Attacking Classical Problems in Dynamical Systems with Descriptive Set Theory</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</link>
+      <pubDate>Fri, 10 Apr 2020 16:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</guid>
+      <description>In his classical 1932 paper, von Neumann asked 3 questions: Can you classify the statistical behavior of differentiable systems? Are there systems where time-forward is not isomorphic to time-backward? Is every abstract statistical system isomorphic to a differentiable system? These questions can be addressed with some surprising consequences by embedding them in Polish Spaces.</description>
     </item>
     
     <item>
@@ -94,6 +103,15 @@
     </item>
     
     <item>
+      <title>Almost all Collatz orbits attain almost bounded values</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/caltech_terence_tao_7042020/</link>
+      <pubDate>Tue, 07 Apr 2020 17:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/caltech_terence_tao_7042020/</guid>
+      <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
+    </item>
+    
+    <item>
       <title>TBA</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/caltech_mohammad_ghomi_07042020/</link>
       <pubDate>Tue, 07 Apr 2020 16:00:00 -0700</pubDate>
@@ -117,16 +135,7 @@
       <pubDate>Tue, 07 Apr 2020 13:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/vantage_francesc_fit%C3%A9_07042020/</guid>
-      <description>nan</description>
-    </item>
-    
-    <item>
-      <title>A p-adic monodromy theorem for de Rham local systems</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_koji_shimizu_06042020/</link>
-      <pubDate>Mon, 06 Apr 2020 16:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_koji_shimizu_06042020/</guid>
-      <description>Every smooth proper algebraic variety over a p-adic field is expected to have semistable model after passing to a finite extension. This conjecture is open in general, but its analogue for p-adic Galois representations, the p-adic monodromy theorem, is known. In this talk, we will explain a generalization of this theorem to etale local systems on a smooth rigid analytic variety.</description>
+      <description>TBA</description>
     </item>
     
     <item>
@@ -135,7 +144,7 @@
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/submit/</guid>
-      <description>Cargando?  </description>
+      <description>Loading?  </description>
     </item>
     
     <item>

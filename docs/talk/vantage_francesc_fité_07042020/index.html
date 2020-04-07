@@ -38,6 +38,70 @@ MathJax.Hub.Config({
 </script>
 
 
+<script type="text/javascript">
+
+
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var timezoneNames = {
+	'-07:00':' (Los Angeles, PDT)',
+	'-04:00':' (New York, EDT)',
+	'+02:00':' (Barcelona, Paris, CEST)'
+}
+
+
+function doublezero(i){
+	return (i<10)?'0'+parseInt(i):parseInt(i)
+}
+
+function offset(offset){
+	console.log(offset)
+	sgn = (offset>0)?'-':'+' 
+	offset = Math.abs(offset)
+	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
+	extra = timezoneNames[base]
+	extra = (extra == undefined)?'':extra
+	return 'UTC '+base+extra
+}
+
+function nicestring(d){
+	month = monthNames[d.getMonth()-1]
+	day = d.getDate()
+	year = d.getFullYear()
+	hour = d.getHours()
+	ampm = ['am','pm'][parseInt(hour/12)]
+	hour = hour%12
+	minute = d.getMinutes()
+	minute = (minute<10)?'0'+minute:minute;
+	offset_value = offset(d.getTimezoneOffset())
+	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+}
+
+var date;
+function start (){
+	var timedom, date
+	d = document.getElementsByClassName('time-USER')
+	for(var i = 0; i<d.length;i++){
+		
+			timedom = d[i].getElementsByTagName('time')[0]
+			date = parseISOString(timedom.dateTime.slice(0,-10))
+			timedom.innerHTML = nicestring(date)
+		try{}
+		catch(err){}
+	}
+	
+	console.log()
+}
+
+function parseISOString(s) {
+  var b = s.split(/\D+/).map(Number);
+  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
+}
+
+
+window.onload=start
+
+</script>
 		<nav class="nav">
 			<div class="nav-container">
 				<a href="/math-seminars/">
@@ -89,7 +153,7 @@ MathJax.Hub.Config({
 
 		
 
-		<p><b> Abstract: </b></p><p>nan</p>
+		<p><b> Abstract: </b></p><p>TBA</p>
 
 
 		This talk is hosted by VaNTAGe. <a href ="https://sites.google.com/view/vantageseminar">Link to the talk site.</a>
@@ -99,7 +163,7 @@ MathJax.Hub.Config({
 	</div>
 
 	<div class="pagination">
-		<a href="/math-seminars/talk/ucla_koji_shimizu_06042020/" class="left arrow">&#8592;</a>
+		<a href="/math-seminars/submit/" class="left arrow">&#8592;</a>
 		<a href="/math-seminars/talk/northeast-combinatorics-network_maria_chudnovsky_07042020/" class="right arrow">&#8594;</a>
 
 		<a href="#" class="top">Top</a>
