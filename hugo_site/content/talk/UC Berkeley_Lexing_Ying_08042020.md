@@ -6,7 +6,7 @@
   speaker = "Lexing Ying"
   speaker_institution = "Stanford University"
   talk_site = "https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=132641&date=2020-04-08&filter=Secondary%20Event%20Type&filtersel="
-  categories = [""]
+  categories = []
 
   publishDate = "2000-02-07T16:00:00-07:00"
 +++

@@ -1,5 +1,6 @@
 import pandas as pd
 import datetime as dt
+import numpy as np
 
 def stringtodate(date, time, timezone):
     string = date+' '+time+timezone[4:10].replace(':','')
@@ -35,12 +36,14 @@ parser = {
     'speaker' : lambda x: x['Speaker'],
     'speaker_inst': lambda x: x['Speaker_inst'],
     'talk_site': lambda x: x['Site'],
-    'categories': lambda x : '' if x['arXiv']=='' else '"'+'","'.join(x['arXiv'].upper().replace(' ','').replace('MATH.','').split(','))+'"',
+    'categories': lambda x : '' if (not isinstance(x['arXiv'],str) or str(x['arXiv']).lstrip().rstrip() =='') \
+                                else '"'+'","'.join(x['arXiv'].upper().replace(' ','').replace('MATH.','').split(','))+'"',
     'abstract': lambda x: x['Abstract'],
     'name': lambda x: 'talk/'+(x['Host']+'_'+x['Speaker'].replace(' ','_')+'_'+x['Date']).replace('/','')+'.md'
 }
 
 for row in data.iterrows():
     mydict = { prop:func(row[1]) for prop, func in parser.items()}
+
     with open(mydict['name'], 'w') as f:
         f.write(base_string.format(**mydict))
