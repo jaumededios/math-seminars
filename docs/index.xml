@@ -436,15 +436,6 @@
     </item>
     
     <item>
-      <title>Statistical and Computational aspects of Wasserstein Barycenters</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/mad&#43;_philippe_rigollet_8042020/</link>
-      <pubDate>Wed, 08 Apr 2020 10:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/mad&#43;_philippe_rigollet_8042020/</guid>
-      <description>The notion of average is central to most statistical methods. In this talk we study a generalization of this notion over the non-​Euclidean space of probability measures equipped with a certain Wasserstein distance. This generalization is often called Wasserstein Barycenters and empirical evidence suggests that these barycenters allow to capture interesting notions of averages in graphics, data assimilation and morphometrics.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://jaume.dedios.cat/math-seminars/submit/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
