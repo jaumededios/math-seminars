@@ -102,23 +102,5 @@
       <description>This talk is about some recent progress on solving inverse problems using deep learning. Compared to traditional machine learning problems, inverse problems are often limited by the size of the training data set. We show how to overcome this issue by incorporating mathematical analysis and physics into the design of neural network architectures.</description>
     </item>
     
-    <item>
-      <title>Almost all Collatz orbits attain almost bounded values</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/caltech_terence_tao_7042020/</link>
-      <pubDate>Tue, 07 Apr 2020 17:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/caltech_terence_tao_7042020/</guid>
-      <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
-    </item>
-    
-    <item>
-      <title>Total curvature and the isoperimetric inequality</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/caltech_mohammad_ghomi_7042020/</link>
-      <pubDate>Tue, 07 Apr 2020 16:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/caltech_mohammad_ghomi_7042020/</guid>
-      <description>The classical isoperimetric inequality states that in Euclidean space spheres provide enclosures of least perimeter for any given volume. According to the Cartan-Hadamard conjecture, this inequality may be generalized to spaces of nonpositive curvature. In this talk we discuss an approach to proving this conjecture via a comparison formula for the total curvature of level sets of functions on nonpositively curved manifolds.</description>
-    </item>
-    
   </channel>
 </rss>

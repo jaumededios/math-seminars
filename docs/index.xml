@@ -103,24 +103,6 @@
     </item>
     
     <item>
-      <title>Almost all Collatz orbits attain almost bounded values</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/caltech_terence_tao_7042020/</link>
-      <pubDate>Tue, 07 Apr 2020 17:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/caltech_terence_tao_7042020/</guid>
-      <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
-    </item>
-    
-    <item>
-      <title>Total curvature and the isoperimetric inequality</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/caltech_mohammad_ghomi_7042020/</link>
-      <pubDate>Tue, 07 Apr 2020 16:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/caltech_mohammad_ghomi_7042020/</guid>
-      <description>The classical isoperimetric inequality states that in Euclidean space spheres provide enclosures of least perimeter for any given volume. According to the Cartan-Hadamard conjecture, this inequality may be generalized to spaces of nonpositive curvature. In this talk we discuss an approach to proving this conjecture via a comparison formula for the total curvature of level sets of functions on nonpositively curved manifolds.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://jaume.dedios.cat/math-seminars/submit/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
@@ -137,6 +119,15 @@
       <guid>https://jaume.dedios.cat/math-seminars/about/</guid>
       <description>About this site When the Covid-19 epidemic started, a lot of universities started hosting their seminars online, which meant we could attend each others&amp;rsquo; seminars.
 This site attempts to gather as many online math seminars from around the world as possible that use zoom/similar and have a publicly available means to access the talk.</description>
+    </item>
+    
+    <item>
+      <title>Calendar View</title>
+      <link>https://jaume.dedios.cat/math-seminars/calendar/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/calendar/</guid>
+      <description></description>
     </item>
     
   </channel>
