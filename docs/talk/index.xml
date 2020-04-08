@@ -283,6 +283,15 @@
     </item>
     
     <item>
+      <title>Flows of vector fields: classical and modern</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/institute-for-advanced-study_camillo_de_lellis_13042020/</link>
+      <pubDate>Mon, 13 Apr 2020 11:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/institute-for-advanced-study_camillo_de_lellis_13042020/</guid>
+      <description>Consider a (possibly time-dependent) vector field $v$ on the Euclidean space. The classical Cauchy-Lipschitz (also named Picard-Lindel&amp;quot;of) Theorem states that, if the vector field $v$ is Lipschitz in space, for every initial datum $x$ there is a unique trajectory $\gamma$ starting at $x$ at time $0$ and solving the ODE $\dot{\gamma} (t) = v (t, \gamma (t))$.</description>
+    </item>
+    
+    <item>
       <title>Attacking Classical Problems in Dynamical Systems with Descriptive Set Theory</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</link>
       <pubDate>Fri, 10 Apr 2020 16:00:00 -0700</pubDate>
@@ -298,6 +307,15 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/columbia-university_harrison_bray_10042020/</guid>
       <description>I&amp;rsquo;ll discuss the following result, joint with Giulio Tiozzo: Letting $\Gamma$ be the representation of a punctured hyperbolic surface group in $PSL(3,R)$ acting discretely, properly discontinuously, and with finite co-volume on a properly convex set in the projective plane, we have that hitting measure for a random walk on any $\Gamma$-orbit with certain moment conditions is singular with respect to the classical Patterson-Sullivan measure.</description>
+    </item>
+    
+    <item>
+      <title>Coarse Universality</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_pavlos_motakis_10042020/</link>
+      <pubDate>Fri, 10 Apr 2020 09:00:00 -0500</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_pavlos_motakis_10042020/</guid>
+      <description>The Bourgain index is a tool that can be used to show that if a separable Banach space contains isomorphic copies of all members of a class C then it must contain isomorphic copies of all separable Banach spaces. This can be applied, e.g., to the class C of separable reflexive spaces.</description>
     </item>
     
     <item>
@@ -424,15 +442,6 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/princeton-university__guido_de_philippis_8042020/</guid>
       <description>I will illustrate a recent result obtained in collaboration with L. Spolaor and B. Velichkov concerning the regularity of the free boundaries in the two phase Bernoulli problems. The new main point is the analysis of the free boundary close to branch points, where we show that it is given by the union of two $C^$ graphs.</description>
-    </item>
-    
-    <item>
-      <title>A categorical view of conditional expectation</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/</link>
-      <pubDate>Wed, 08 Apr 2020 10:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/</guid>
-      <description>This talk is a fragment from a larger work on approximating Markov processes. I will focus on a functorial definition of conditional expectation without talking about how it was used. We define categories of cones&amp;mdash;which are abstract versions of the familiar cones in vector spaces&amp;mdash;of measures and related categories cones of Lₚ functions.</description>
     </item>
     
   </channel>

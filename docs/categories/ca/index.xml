@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CA on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/ca/</link>
+    <description>Recent content in CA on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Mon, 13 Apr 2020 11:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/ca/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flows of vector fields: classical and modern</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/institute-for-advanced-study_camillo_de_lellis_13042020/</link>
+      <pubDate>Mon, 13 Apr 2020 11:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/institute-for-advanced-study_camillo_de_lellis_13042020/</guid>
+      <description>Consider a (possibly time-dependent) vector field $v$ on the Euclidean space. The classical Cauchy-Lipschitz (also named Picard-Lindel&amp;quot;of) Theorem states that, if the vector field $v$ is Lipschitz in space, for every initial datum $x$ there is a unique trajectory $\gamma$ starting at $x$ at time $0$ and solving the ODE $\dot{\gamma} (t) = v (t, \gamma (t))$.</description>
+    </item>
+    
+  </channel>
+</rss>

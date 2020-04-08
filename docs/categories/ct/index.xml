@@ -30,14 +30,5 @@
       <description>&amp;ldquo;Structured cospans&amp;rdquo; are a general way to study networks with inputs and outputs. Here we illustrate this using a type of network popular in theoretical computer science: Petri nets. An &amp;ldquo;open&amp;rdquo; Petri net is one with certain places designated as inputs and outputs. We can compose open Petri nets by gluing the outputs of one to the inputs of another.</description>
     </item>
     
-    <item>
-      <title>A categorical view of conditional expectation</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/</link>
-      <pubDate>Wed, 08 Apr 2020 10:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/</guid>
-      <description>This talk is a fragment from a larger work on approximating Markov processes. I will focus on a functorial definition of conditional expectation without talking about how it was used. We define categories of cones&amp;mdash;which are abstract versions of the familiar cones in vector spaces&amp;mdash;of measures and related categories cones of Lₚ functions.</description>
-    </item>
-    
   </channel>
 </rss>
