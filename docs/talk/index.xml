@@ -102,5 +102,59 @@
       <description>This talk is about some recent progress on solving inverse problems using deep learning. Compared to traditional machine learning problems, inverse problems are often limited by the size of the training data set. We show how to overcome this issue by incorporating mathematical analysis and physics into the design of neural network architectures.</description>
     </item>
     
+    <item>
+      <title>Neural codes and the factor complex</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/universtity-of-washington_alexander_ruys_de_perez_8042020/</link>
+      <pubDate>Wed, 08 Apr 2020 15:30:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/universtity-of-washington_alexander_ruys_de_perez_8042020/</guid>
+      <description>A place cell is a neuron corresponding to a subset of Euclidean space known as a place field, that will fire if and only if the individual possessing the place cell is within that place field. The firing patterns of a collection of n place cells can be represented by a neural code C on n neurons, which is a subset of the power set of {1,2,&amp;hellip;,n}.</description>
+    </item>
+    
+    <item>
+      <title>EFFECTIVE DENSITY FOR VALUES OF GENERIC QUADRATIC FORM</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/harvard-university_dubi_kelmer_8042020/</link>
+      <pubDate>Wed, 08 Apr 2020 16:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/harvard-university_dubi_kelmer_8042020/</guid>
+      <description>The Oppenheim Conjecture, proved by Margulis, states that any irrational quadratic form, has values (at integer coordinates) that are dense on the real line. However, obtaining effective estimates for any given form is a very difficult problem. In this talk I will discuss recent results, where such effective estimates are obtained for generic forms using a combination of methods from dynamics and analytic number theory.</description>
+    </item>
+    
+    <item>
+      <title>BOUNDING TORSION IN CLASS GROUPS AND FAMILIES OF LOCAL SYSTEMS</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/harvard-university_jacob_tsimerman_8042020/</link>
+      <pubDate>Wed, 08 Apr 2020 15:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/harvard-university_jacob_tsimerman_8042020/</guid>
+      <description>(joint w/ Arul Shankar) We discuss a new method to bound 5-torsion in class groups of quadratic fields using the refined BSD conjecture for elliptic curves. The most natural “trivial” bound on the n-torsion is to bound it by the size of the entire class group, for which one has a global class number formula.</description>
+    </item>
+    
+    <item>
+      <title>Regularity of the free boundary for the two-phase Bernoulli problem</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/princeton-university__guido_de_philippis_8042020/</link>
+      <pubDate>Wed, 08 Apr 2020 15:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/princeton-university__guido_de_philippis_8042020/</guid>
+      <description>I will illustrate a recent result obtained in collaboration with L. Spolaor and B. Velichkov concerning the regularity of the free boundaries in the two phase Bernoulli problems. The new main point is the analysis of the free boundary close to branch points, where we show that it is given by the union of two $C^$ graphs.</description>
+    </item>
+    
+    <item>
+      <title>A categorical view of conditional expectation</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/</link>
+      <pubDate>Wed, 08 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/</guid>
+      <description>This talk is a fragment from a larger work on approximating Markov processes. I will focus on a functorial definition of conditional expectation without talking about how it was used. We define categories of cones&amp;mdash;which are abstract versions of the familiar cones in vector spaces&amp;mdash;of measures and related categories cones of Lₚ functions.</description>
+    </item>
+    
+    <item>
+      <title>Statistical and Computational aspects of Wasserstein Barycenters</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/mad&#43;_philippe_rigollet_8042020/</link>
+      <pubDate>Wed, 08 Apr 2020 10:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/mad&#43;_philippe_rigollet_8042020/</guid>
+      <description>The notion of average is central to most statistical methods. In this talk we study a generalization of this notion over the non-​Euclidean space of probability measures equipped with a certain Wasserstein distance. This generalization is often called Wasserstein Barycenters and empirical evidence suggests that these barycenters allow to capture interesting notions of averages in graphics, data assimilation and morphometrics.</description>
+    </item>
+    
   </channel>
 </rss>

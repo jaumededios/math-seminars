@@ -7,19 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Thu, 09 Apr 2020 16:30:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 15:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/ap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mathematics of Active Gels: Bifurcations &amp; Stability</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/princetonberyland/</link>
-      <pubDate>Thu, 09 Apr 2020 16:30:00 -0400</pubDate>
+      <title>Regularity of the free boundary for the two-phase Bernoulli problem</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/princeton-university__guido_de_philippis_8042020/</link>
+      <pubDate>Wed, 08 Apr 2020 15:00:00 -0400</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/talk/princetonberyland/</guid>
-      <description>In this talk we present analytical studies of active gels and cell motility. We start from a brief overview of out-of-equilibrium active matter systems (e.g., active gels, bacterial suspensions, etc.) and mathematical challenges in their modeling and analysis.
-Next we present three minimal models of active gels: a phase-field model and two free boundary models.</description>
+      <guid>https://jaume.dedios.cat/math-seminars/talk/princeton-university__guido_de_philippis_8042020/</guid>
+      <description>I will illustrate a recent result obtained in collaboration with L. Spolaor and B. Velichkov concerning the regularity of the free boundaries in the two phase Bernoulli problems. The new main point is the analysis of the free boundary close to branch points, where we show that it is given by the union of two $C^$ graphs.</description>
     </item>
     
   </channel>

@@ -30,5 +30,14 @@
       <description>I&amp;rsquo;ll discuss the following result, joint with Giulio Tiozzo: Letting $\Gamma$ be the representation of a punctured hyperbolic surface group in $PSL(3,R)$ acting discretely, properly discontinuously, and with finite co-volume on a properly convex set in the projective plane, we have that hitting measure for a random walk on any $\Gamma$-orbit with certain moment conditions is singular with respect to the classical Patterson-Sullivan measure.</description>
     </item>
     
+    <item>
+      <title>Regularity of the free boundary for the two-phase Bernoulli problem</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/princeton-university__guido_de_philippis_8042020/</link>
+      <pubDate>Wed, 08 Apr 2020 15:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/princeton-university__guido_de_philippis_8042020/</guid>
+      <description>I will illustrate a recent result obtained in collaboration with L. Spolaor and B. Velichkov concerning the regularity of the free boundaries in the two phase Bernoulli problems. The new main point is the analysis of the free boundary close to branch points, where we show that it is given by the union of two $C^$ graphs.</description>
+    </item>
+    
   </channel>
 </rss>

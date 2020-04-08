@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CT on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/ct/</link>
+    <description>Recent content in CT on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Wed, 08 Apr 2020 10:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/ct/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A categorical view of conditional expectation</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/</link>
+      <pubDate>Wed, 08 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/</guid>
+      <description>This talk is a fragment from a larger work on approximating Markov processes. I will focus on a functorial definition of conditional expectation without talking about how it was used. We define categories of cones&amp;mdash;which are abstract versions of the familiar cones in vector spaces&amp;mdash;of measures and related categories cones of Lₚ functions.</description>
+    </item>
+    
+  </channel>
+</rss>

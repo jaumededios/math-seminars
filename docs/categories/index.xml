@@ -84,5 +84,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>AP</title>
+      <link>https://jaume.dedios.cat/math-seminars/categories/ap/</link>
+      <pubDate>Wed, 08 Apr 2020 15:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/categories/ap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CT</title>
+      <link>https://jaume.dedios.cat/math-seminars/categories/ct/</link>
+      <pubDate>Wed, 08 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/categories/ct/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

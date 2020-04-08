@@ -23,17 +23,22 @@ theme = "tale-math-seminars"
     identifier = "categories"
     name = "Categories"
     url = "/categories/"
-    weight = 8
+    weight = 80
+  [[menu.main]]
+    identifier = "calendar"
+    name = "Calendar"
+    url = "/calendar/"
+    weight = 90
   [[menu.main]]
     identifier = "submit"
     name = "Submit a talk"
     url = "/submit/"
-    weight = 9
+    weight = 100
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
+    weight = 110
 
 [taxonomies]
 category = "categories"
