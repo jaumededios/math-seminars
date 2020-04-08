@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Wed, 08 Apr 2020 10:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 12:01:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/ct/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The incidence comodule bialgebra of the Baez--Dolan construction</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/mit_joachim_kock_16042020/</link>
+      <pubDate>Thu, 16 Apr 2020 12:01:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_joachim_kock_16042020/</guid>
+      <description>Starting from any operad P, one can consider on one hand the free operad on P, and on the other hand the Baez&amp;ndash;Dolan construction on P. These two new operads have the same space of operations, but with very different notions of arity and substitution. The main result is that the incidence bialgebras of the two-sided bar constructions of the two operads constitute together a comodule bialgebra.</description>
+    </item>
+    
+    <item>
+      <title>Structured cospans</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/mit__john_baez_9042020/</link>
+      <pubDate>Thu, 09 Apr 2020 12:01:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/mit__john_baez_9042020/</guid>
+      <description>&amp;ldquo;Structured cospans&amp;rdquo; are a general way to study networks with inputs and outputs. Here we illustrate this using a type of network popular in theoretical computer science: Petri nets. An &amp;ldquo;open&amp;rdquo; Petri net is one with certain places designated as inputs and outputs. We can compose open Petri nets by gluing the outputs of one to the inputs of another.</description>
+    </item>
     
     <item>
       <title>A categorical view of conditional expectation</title>

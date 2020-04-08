@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Random walks, spectral gaps, and Khinchine&#39;s theorem on fractals &middot; Mathematics Seminars List</title>
+
+		
+  		<link rel="stylesheet" href="/math-seminars/css/style.css">
+		<link rel="stylesheet" href="/math-seminars/css/fonts.css">
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/math-seminars/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/math-seminars/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/math-seminars/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Mathematics Seminars List" />
+	</head>
+
+    <body>
+        <script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+
+<script type="text/javascript">
+
+
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+var timezoneNames = {
+	'-07:00':' (Los Angeles, PDT)',
+	'-04:00':' (New York, EDT)',
+	'+02:00':' (Barcelona, Paris, CEST)'
+}
+
+
+function doublezero(i){
+	return (i<10)?'0'+parseInt(i):parseInt(i)
+}
+
+function offset(offset){
+	console.log(offset)
+	sgn = (offset>0)?'-':'+' 
+	offset = Math.abs(offset)
+	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
+	extra = timezoneNames[base]
+	extra = (extra == undefined)?'':extra
+	return 'UTC '+base+extra
+}
+
+function nicestring(d){
+	month = monthNames[d.getMonth()-1]
+	day = d.getDate()
+	year = d.getFullYear()
+	hour = d.getHours()
+	ampm = ['am','pm'][parseInt((hour+1)/12)]
+	hour = (hour-1)%12+1
+	minute = d.getMinutes()
+	minute = (minute<10)?'0'+minute:minute;
+	hourmin = hour+':'+minute+ampm
+	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
+	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
+	offset_value = offset(d.getTimezoneOffset())
+	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
+}
+
+var date;
+function start (){
+	var timedom, date
+	d = document.getElementsByClassName('time-USER')
+	for(var i = 0; i<d.length;i++){
+		
+			timedom = d[i].getElementsByTagName('time')[0]
+			date = parseISOString(timedom.dateTime.slice(0,-10))
+			timedom.innerHTML = nicestring(date)
+		try{}
+		catch(err){}
+	}
+	
+	console.log()
+}
+
+function parseISOString(s) {
+  var b = s.split(/\D+/).map(Number);
+  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
+}
+
+
+window.onload=start
+
+</script>
+		<nav class="nav">
+			<div class="nav-container">
+				<a href="/math-seminars/">
+					<h2 class="nav-title">Mathematics Seminars List</h2>
+				</a>
+				<ul>
+    
+    <div>
+    
+        <li>
+            <a href="/math-seminars/categories/">
+                
+                <span>Categories</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/math-seminars/calendar/">
+                
+                <span>Calendar</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/math-seminars/submit/">
+                
+                <span>Submit a talk</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/math-seminars/about/">
+                
+                <span>About</span>
+                
+            </a>
+        </li>
+    
+    </div>
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Talk by</span>
+        Osama Khalil (Utah)
+        <br>
+        <span>on&nbsp;</span><time datetime="2000-02-07 16:00:00 -0700 -0700">April 9, 2020  2:00pm UTC -04</time>
+</div>
+		<h1 class="post-title">Random walks, spectral gaps, and Khinchine&#39;s theorem on fractals</h1>
+<div class="post-line"></div>
+
+		
+
+		<p><b> Abstract: </b></p><p>In 1984, Mahler asked how well typical points on Cantor’s set can be approximated by
+rational numbers. His question fits within a program, set out by himself in the 1930s, attempting to
+determine conditions under which subsets of $\mathbb R^d$
+inherit the Diophantine properties of the ambient
+space. Since the approximability of typical points in Euclidean space by rational points is governed
+by Khinchine’s classical theorem, the ultimate form of Mahler’s question asks whether an analogous
+zero-one law holds for fractal measures. Significant progress has been achieved in recent years,
+albeit, almost all known results have been of “convergence type”.
+In this talk, we will discuss the first instances where a complete analogue of Khinchine’s theorem
+for fractal measures is obtained. Our results hold for fractals generated by rational similarities of $\mathbb R^d$</p>
+<p>and having sufficiently small Hausdorff co-dimension. The main new ingredient is an effective
+equidistribution theorem for certain fractal measures on the space of unimodular lattices. The latter
+is established via a new technique involving the construction of $S$-arithmetic Markov operators
+possessing a spectral gap and encoding the arithmetic structure of the maps generating the fractal.
+This is joint work in progress with Manuel Luethi.</p>
+
+
+		This talk is hosted by University of Maryland. <a href ="https://www-math.umd.edu/dynamics-conference.html">Link to the talk site.</a>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/math-seminars/talk/stanford-university_paul_seymour_09042020/" class="left arrow">&#8592;</a>
+		<a href="/math-seminars/talk/princetonias_chao_li_09042020/" class="right arrow">&#8594;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			<span>
+			<p>List compiled with ♥️
+			 by Jaume de Dios.</p> <p>Titles and abstracts owned by the respective Authors and/or Universities. </p><p> <a href = "mailto:jddp@math.ucla.edu">Contact me</a> or make a <a href = "https://github.com/jaumededios/math-seminars">pull request </a> if you want me to delete/modify an entry, or have any suggestions.</p> <p>Design based on the <a href="https://github.com/EmielH/tale-hugo/">Tale</a>  theme for <a href='https://gohugo.io'>Hugo</a>. </p>
+			</span>
+
+		</footer>
+
+    </body>
+</html>

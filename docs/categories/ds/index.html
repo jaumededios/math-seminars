@@ -69,12 +69,15 @@ function nicestring(d){
 	day = d.getDate()
 	year = d.getFullYear()
 	hour = d.getHours()
-	ampm = ['am','pm'][parseInt(hour/12)]
-	hour = hour%12
+	ampm = ['am','pm'][parseInt((hour+1)/12)]
+	hour = (hour-1)%12+1
 	minute = d.getMinutes()
 	minute = (minute<10)?'0'+minute:minute;
+	hourmin = hour+':'+minute+ampm
+	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
+	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
 	offset_value = offset(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
 var date;
@@ -109,6 +112,7 @@ window.onload=start
 				</a>
 				<ul>
     
+    <div>
     
         <li>
             <a href="/math-seminars/categories/">
@@ -142,6 +146,7 @@ window.onload=start
             </a>
         </li>
     
+    </div>
 </ul>
 			</div>
 		</nav>
@@ -151,6 +156,73 @@ window.onload=start
 <main>
     <h1>Math.DS: Dynamical Systems</h1>
 	<div class="catalogue">
+		
+			<div class="catalogue-div"> 
+    <a href="https://www-math.umd.edu/dynamics-conference.html" class="catalogue-item">
+        <h1 class="catalogue-title">Random walks, spectral gaps, and Khinchine&#39;s theorem on fractals</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-09 18:00:00 &#43;0000 UTC">
+        April 9, 2020  6:00pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-09 14:00:00 -0400 -0400" >
+                April 9, 2020  2:00pm UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Osama Khalil (Utah)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>University of Maryland
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ds">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=DS&color=%23e4e7dc" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://www-math.umd.edu/dynamics-conference.html" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                In 1984, Mahler asked how well typical points on Cantor’s set can be approximated by rational numbers. His question fits within a program, set out by himself in the 1930s, attempting to determine conditions under which subsets of $\mathbb R^d$ inherit the Diophantine properties of the ambient space. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_osama_khalil_09042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
 		
 			<div class="catalogue-div"> 
     <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=834026" class="catalogue-item">
@@ -213,6 +285,73 @@ window.onload=start
          
                 In his classical 1932 paper, von Neumann asked 3 questions: Can you classify the statistical behavior of differentiable systems? Are there systems where time-forward is not isomorphic to time-backward? Is every abstract statistical system isomorphic to a differentiable system? These questions can be addressed with some surprising consequences by embedding them in Polish Spaces. 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://www-math.umd.edu/dynamics-conference.html" class="catalogue-item">
+        <h1 class="catalogue-title">Stability and collapse of Oseledets spectrum for Perron-Frobenius cocycles</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-16 18:00:00 &#43;0000 UTC">
+        April 16, 2020  6:00pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-16 14:00:00 -0400 -0400" >
+                April 16, 2020  2:00pm UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Anthony Quas (Victoria)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>University of Maryland
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ds">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=DS&color=%23e4e7dc" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://www-math.umd.edu/dynamics-conference.html" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                It is known, by work of Bochi, Mañé, Viana and others that Lyapunov exponents are highly sensitive to perturbations of a dynamical system. On the other hand, work of Ledrappier, Young and my work with Froyland and Gonz´alez-Tokman has shown that in some situations, under “noise-like” perturbations, Lyapunov exponents vary continuously. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_anthony_quas_16042020/">(...) </a>
             
         </p>
         </a> 

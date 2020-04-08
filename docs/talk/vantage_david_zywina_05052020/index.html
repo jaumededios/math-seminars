@@ -69,12 +69,15 @@ function nicestring(d){
 	day = d.getDate()
 	year = d.getFullYear()
 	hour = d.getHours()
-	ampm = ['am','pm'][parseInt(hour/12)]
-	hour = hour%12
+	ampm = ['am','pm'][parseInt((hour+1)/12)]
+	hour = (hour-1)%12+1
 	minute = d.getMinutes()
 	minute = (minute<10)?'0'+minute:minute;
+	hourmin = hour+':'+minute+ampm
+	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
+	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
 	offset_value = offset(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
 var date;
@@ -109,6 +112,7 @@ window.onload=start
 				</a>
 				<ul>
     
+    <div>
     
         <li>
             <a href="/math-seminars/categories/">
@@ -142,6 +146,7 @@ window.onload=start
             </a>
         </li>
     
+    </div>
 </ul>
 			</div>
 		</nav>
@@ -171,8 +176,8 @@ window.onload=start
 	</div>
 
 	<div class="pagination">
-		<a href="/math-seminars/talk/ucla_joni_teravainen_28042020/" class="left arrow">&#8592;</a>
-		<a href="/math-seminars/talk/vantage_alina_bucur._19052020/" class="right arrow">&#8594;</a>
+		<a href="/math-seminars/talk/one-world-pde_matthew_gursky_05052020/" class="left arrow">&#8592;</a>
+		<a href="/math-seminars/talk/one-world-pde_giuseppe_mingione_12052020/" class="right arrow">&#8594;</a>
 
 		<a href="#" class="top">Top</a>
 	</div>

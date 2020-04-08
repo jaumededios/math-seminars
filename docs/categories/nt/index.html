@@ -69,12 +69,15 @@ function nicestring(d){
 	day = d.getDate()
 	year = d.getFullYear()
 	hour = d.getHours()
-	ampm = ['am','pm'][parseInt(hour/12)]
-	hour = hour%12
+	ampm = ['am','pm'][parseInt((hour+1)/12)]
+	hour = (hour-1)%12+1
 	minute = d.getMinutes()
 	minute = (minute<10)?'0'+minute:minute;
+	hourmin = hour+':'+minute+ampm
+	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
+	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
 	offset_value = offset(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
 var date;
@@ -109,6 +112,7 @@ window.onload=start
 				</a>
 				<ul>
     
+    <div>
     
         <li>
             <a href="/math-seminars/categories/">
@@ -142,6 +146,7 @@ window.onload=start
             </a>
         </li>
     
+    </div>
 </ul>
 			</div>
 		</nav>

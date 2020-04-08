@@ -69,12 +69,15 @@ function nicestring(d){
 	day = d.getDate()
 	year = d.getFullYear()
 	hour = d.getHours()
-	ampm = ['am','pm'][parseInt(hour/12)]
-	hour = hour%12
+	ampm = ['am','pm'][parseInt((hour+1)/12)]
+	hour = (hour-1)%12+1
 	minute = d.getMinutes()
 	minute = (minute<10)?'0'+minute:minute;
+	hourmin = hour+':'+minute+ampm
+	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
+	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
 	offset_value = offset(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
 var date;
@@ -109,6 +112,7 @@ window.onload=start
 				</a>
 				<ul>
     
+    <div>
     
         <li>
             <a href="/math-seminars/categories/">
@@ -142,6 +146,7 @@ window.onload=start
             </a>
         </li>
     
+    </div>
 </ul>
 			</div>
 		</nav>
@@ -224,10 +229,615 @@ window.onload=start
 
 
 		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">Mathematical Analysis of Atmospheric Models with Moisture</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-14 13:58:00 &#43;0000 UTC">
+        April 14, 2020  1:58pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-14 15:00:00 &#43;0102 &#43;0102" >
+                April 14, 2020  3:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Edriss S. Titi (University of Cambridge, Texas A&amp;M University, Weizmann Institute of Science)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                Mathematical Analysis of Atmospheric Models with Moisture 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_edriss_s._titi_14042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">Gross–Pitaeskii, Kadomtsev–Petviashvili, and Adler–Moser</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-14 14:57:00 &#43;0000 UTC">
+        April 14, 2020  2:57pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-14 16:00:00 &#43;0103 &#43;0103" >
+                April 14, 2020  4:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Juncheng Wei (University of British Columbia)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                Gross–Pitaeskii, Kadomtsev–Petviashvili, and Adler–Moser 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_juncheng_wei_14042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">TBA</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-21 13:56:00 &#43;0000 UTC">
+        April 21, 2020  1:56pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-21 15:00:00 &#43;0104 &#43;0104" >
+                April 21, 2020  3:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Pierre Germain (Courant Institute)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_pierre_germain_21042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">TBA</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-21 14:55:00 &#43;0000 UTC">
+        April 21, 2020  2:55pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-21 16:00:00 &#43;0105 &#43;0105" >
+                April 21, 2020  4:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Tarek Elgindi (UC San Diego)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_tarek_elgindi_21042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">Sharp Extinction Rates for Fast Diffusion Equations on Generic Bounded Domains</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-28 13:54:00 &#43;0000 UTC">
+        April 28, 2020  1:54pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-28 15:00:00 &#43;0106 &#43;0106" >
+                April 28, 2020  3:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Matteo Bonforte (Universidad Autónoma de Madrid and ICMAT – Instituto de Ciencias Matematicas)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                Sharp Extinction Rates for Fast Diffusion Equations on Generic Bounded Domains 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_matteo_bonforte_28042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">TBA</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-28 14:53:00 &#43;0000 UTC">
+        April 28, 2020  2:53pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-28 16:00:00 &#43;0107 &#43;0107" >
+                April 28, 2020  4:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Mónica Clapp (Universidad Nacional Autónoma de México)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_m%C3%B3nica_clapp_28042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">Spectral Stability, the Maslov Index, and Spatial Dynamics</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-05 13:52:00 &#43;0000 UTC">
+        May 5, 2020  1:52pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-05-05 15:00:00 &#43;0108 &#43;0108" >
+                May 5, 2020  3:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Margaret Beck (Boston University)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                Spectral Stability, the Maslov Index, and Spatial Dynamics 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_margaret_beck_05052020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">TBA</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-05 14:51:00 &#43;0000 UTC">
+        May 5, 2020  2:51pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-05-05 16:00:00 &#43;0109 &#43;0109" >
+                May 5, 2020  4:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Matthew Gursky (University of Notre Dame)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_matthew_gursky_05052020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">TBA</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-12 13:50:00 &#43;0000 UTC">
+        May 12, 2020  1:50pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-05-12 15:00:00 &#43;0110 &#43;0110" >
+                May 12, 2020  3:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Giuseppe Mingione (Università di Parma)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_giuseppe_mingione_12052020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
 	</div>
 	
 	<div class="pagination">
 		
+		
+			<a href="/math-seminars/categories/ap/page/2/" class="right arrow">&#8594;</a>
 		
 	
 		<span>1</span>

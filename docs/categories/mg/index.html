@@ -69,12 +69,15 @@ function nicestring(d){
 	day = d.getDate()
 	year = d.getFullYear()
 	hour = d.getHours()
-	ampm = ['am','pm'][parseInt(hour/12)]
-	hour = hour%12
+	ampm = ['am','pm'][parseInt((hour+1)/12)]
+	hour = (hour-1)%12+1
 	minute = d.getMinutes()
 	minute = (minute<10)?'0'+minute:minute;
+	hourmin = hour+':'+minute+ampm
+	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
+	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
 	offset_value = offset(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
 var date;
@@ -109,6 +112,7 @@ window.onload=start
 				</a>
 				<ul>
     
+    <div>
     
         <li>
             <a href="/math-seminars/categories/">
@@ -142,6 +146,7 @@ window.onload=start
             </a>
         </li>
     
+    </div>
 </ul>
 			</div>
 		</nav>
@@ -151,6 +156,78 @@ window.onload=start
 <main>
     <h1>Math.MG: Metric Geometry</h1>
 	<div class="catalogue">
+		
+			<div class="catalogue-div"> 
+    <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
+        <h1 class="catalogue-title">Graph rigidity and measurement varieties</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-09 15:40:00 &#43;0000 UTC">
+        April 9, 2020  3:40pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-09 17:40:00 &#43;0200 CEST" >
+                April 9, 2020  5:40pm UTC &#43;02
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Louis Theran (University of St. Andrews)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>NASO
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/mg">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=MG&color=%23398142" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        <a href = "categories/ag">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AG&color=%2379090d" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                Geometric rigidity theory is concerned with how much information about a configuration p of n points in a d-dimensional Euclidean space is determined by pairwise Euclidean distance measurements, indexed by the edges of a graph G with n vertices. One can turn this around, and, define, for a fixed graph G, a “measurement variety&rdquo; associated with all possible edge lengths measurements as the configuration varies. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/naso_louis_theran_9042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
 		
 			<div class="catalogue-div"> 
     <a href="https://sites.google.com/view/topoandggt" class="catalogue-item">

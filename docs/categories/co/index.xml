@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Thu, 09 Apr 2020 10:30:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 11:30:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/co/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A constructive model of directed univalence in bicubical sets</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/western-university-ontario_matthew_weaver_16042020/</link>
+      <pubDate>Thu, 16 Apr 2020 11:30:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/western-university-ontario_matthew_weaver_16042020/</guid>
+      <description>Directed type theory is an analogue of homotopy type theory where types represent ∞-categories, generalizing groupoids. A bisimplicial approach to directed type theory, developed by Riehl and Shulman, is based on equipping each type with both a notion of path and a separate notion of directed morphism.</description>
+    </item>
     
     <item>
       <title>Pure Pairs</title>
@@ -19,6 +28,15 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/stanford-university_paul_seymour_09042020/</guid>
       <description>A &amp;ldquo;pure pair&amp;rdquo; in a graph $G$ is a pair $(X,Y)$ of disjoint subsets of $V(G)$ such that either every vertex in $X$ is adjacent to every vertex in $Y$, or there are no edges from $X$ to $Y$. Let $f(G)$ be the biggest $k$ such that $G$ has a pure pair $(X,Y)$ with $|X|,|Y|$ at least $k$.</description>
+    </item>
+    
+    <item>
+      <title>	Identifiability in Phylogenetics using Algebraic Matroids</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/mit_-ben_hollering_9042020/</link>
+      <pubDate>Thu, 09 Apr 2020 10:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_-ben_hollering_9042020/</guid>
+      <description>Identifiability is a crucial property for a statistical model since it implies that distributions in the model uniquely determine the parameters that produce them. In phylogenetics, the identifiability of the tree parameter is of particular interest since it means that phylogenetic models can be used to infer evolutionary histories from data.</description>
     </item>
     
     <item>

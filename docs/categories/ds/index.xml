@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 16:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 14:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/ds/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stability and collapse of Oseledets spectrum for Perron-Frobenius cocycles</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_anthony_quas_16042020/</link>
+      <pubDate>Thu, 16 Apr 2020 14:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_anthony_quas_16042020/</guid>
+      <description>It is known, by work of Bochi, Mañé, Viana and others that Lyapunov exponents are highly sensitive to perturbations of a dynamical system. On the other hand, work of Ledrappier, Young and my work with Froyland and Gonz´alez-Tokman has shown that in some situations, under “noise-like” perturbations, Lyapunov exponents vary continuously.</description>
+    </item>
     
     <item>
       <title>Attacking Classical Problems in Dynamical Systems with Descriptive Set Theory</title>
@@ -19,6 +28,15 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</guid>
       <description>In his classical 1932 paper, von Neumann asked 3 questions: Can you classify the statistical behavior of differentiable systems? Are there systems where time-forward is not isomorphic to time-backward? Is every abstract statistical system isomorphic to a differentiable system? These questions can be addressed with some surprising consequences by embedding them in Polish Spaces.</description>
+    </item>
+    
+    <item>
+      <title>Random walks, spectral gaps, and Khinchine&#39;s theorem on fractals</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_osama_khalil_09042020/</link>
+      <pubDate>Thu, 09 Apr 2020 14:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_osama_khalil_09042020/</guid>
+      <description>In 1984, Mahler asked how well typical points on Cantor’s set can be approximated by rational numbers. His question fits within a program, set out by himself in the 1930s, attempting to determine conditions under which subsets of $\mathbb R^d$ inherit the Diophantine properties of the ambient space.</description>
     </item>
     
   </channel>

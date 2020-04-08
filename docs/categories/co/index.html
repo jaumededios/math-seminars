@@ -69,12 +69,15 @@ function nicestring(d){
 	day = d.getDate()
 	year = d.getFullYear()
 	hour = d.getHours()
-	ampm = ['am','pm'][parseInt(hour/12)]
-	hour = hour%12
+	ampm = ['am','pm'][parseInt((hour+1)/12)]
+	hour = (hour-1)%12+1
 	minute = d.getMinutes()
 	minute = (minute<10)?'0'+minute:minute;
+	hourmin = hour+':'+minute+ampm
+	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
+	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
 	offset_value = offset(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
 var date;
@@ -109,6 +112,7 @@ window.onload=start
 				</a>
 				<ul>
     
+    <div>
     
         <li>
             <a href="/math-seminars/categories/">
@@ -142,6 +146,7 @@ window.onload=start
             </a>
         </li>
     
+    </div>
 </ul>
 			</div>
 		</nav>
@@ -220,6 +225,73 @@ window.onload=start
 
 		
 			<div class="catalogue-div"> 
+    <a href="https://dibernstein.github.io/VirtualSeminar.html" class="catalogue-item">
+        <h1 class="catalogue-title">	Identifiability in Phylogenetics using Algebraic Matroids</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-09 14:00:00 &#43;0000 UTC">
+        April 9, 2020  2:00pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-09 10:00:00 -0400 -0400" >
+                April 9, 2020  10:00am UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                	Ben Hollering (North Carolina State University)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>MIT
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/co">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=CO&color=%2311aac4" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://dibernstein.github.io/VirtualSeminar.html" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                Identifiability is a crucial property for a statistical model since it implies that distributions in the model uniquely determine the parameters that produce them. In phylogenetics, the identifiability of the tree parameter is of particular interest since it means that phylogenetic models can be used to infer evolutionary histories from data. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/mit_-ben_hollering_9042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
     <a href="https://mathematics.stanford.edu/events/combinatorics/pure-pairs" class="catalogue-item">
         <h1 class="catalogue-title">Pure Pairs</h1>
         <div class="catalogue-line"></div>
@@ -275,6 +347,73 @@ window.onload=start
          
                 A &ldquo;pure pair&rdquo; in a graph $G$ is a pair $(X,Y)$ of disjoint subsets of $V(G)$ such that either every vertex in $X$ is adjacent to every vertex in $Y$, or there are no edges from $X$ to $Y$. Let $f(G)$ be the biggest $k$ such that $G$ has a pure pair $(X,Y)$ with $|X|,|Y|$ at least $k$. 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/stanford-university_paul_seymour_09042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html" class="catalogue-item">
+        <h1 class="catalogue-title">A constructive model of directed univalence in bicubical sets</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-16 15:30:00 &#43;0000 UTC">
+        April 16, 2020  3:30pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-16 11:30:00 -0400 -0400" >
+                April 16, 2020  11:30am UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Matthew Weaver (Princeton University)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>Western University, Ontario
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/co">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=CO&color=%2311aac4" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                Directed type theory is an analogue of homotopy type theory where types represent ∞-categories, generalizing groupoids. A bisimplicial approach to directed type theory, developed by Riehl and Shulman, is based on equipping each type with both a notion of path and a separate notion of directed morphism. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/western-university-ontario_matthew_weaver_16042020/">(...) </a>
             
         </p>
         </a> 

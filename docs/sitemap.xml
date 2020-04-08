@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jaume.dedios.cat/math-seminars/categories/ag/</loc>
-    <lastmod>2020-05-19T13:00:00-04:00</lastmod>
+    <loc>https://jaume.dedios.cat/math-seminars/categories/ap/</loc>
+    <lastmod>2020-05-26T16:00:00+01:15</lastmod>
   </url>
   
   <url>
     <loc>https://jaume.dedios.cat/math-seminars/categories/</loc>
+    <lastmod>2020-05-26T16:00:00+01:15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/</loc>
+    <lastmod>2020-05-26T16:00:00+01:15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_ovidiu_savin_26052020/</loc>
+    <lastmod>2020-05-26T16:00:00+01:15</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_frank_merle_26052020/</loc>
+    <lastmod>2020-05-26T15:00:00+01:14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/categories/ag/</loc>
     <lastmod>2020-05-19T13:00:00-04:00</lastmod>
   </url>
   
@@ -23,8 +43,23 @@
   </url>
   
   <url>
-    <loc>https://jaume.dedios.cat/math-seminars/talk/</loc>
-    <lastmod>2020-05-19T13:00:00-04:00</lastmod>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_francesco_maggi_19052020/</loc>
+    <lastmod>2020-05-19T16:00:00+01:13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_andrea_malchiodi_19052020/</loc>
+    <lastmod>2020-05-19T15:00:00+01:12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_toti_daskalopoulos_12052020/</loc>
+    <lastmod>2020-05-12T16:00:00+01:11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_giuseppe_mingione_12052020/</loc>
+    <lastmod>2020-05-12T15:00:00+01:10</lastmod>
   </url>
   
   <url>
@@ -33,13 +68,63 @@
   </url>
   
   <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_matthew_gursky_05052020/</loc>
+    <lastmod>2020-05-05T16:00:00+01:09</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_margaret_beck_05052020/</loc>
+    <lastmod>2020-05-05T15:00:00+01:08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_jeremy_quastel_30042020/</loc>
+    <lastmod>2020-04-30T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/categories/pr/</loc>
+    <lastmod>2020-04-30T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_hubert_lacoin_30042020/</loc>
+    <lastmod>2020-04-30T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jaume.dedios.cat/math-seminars/talk/ucla_joni_teravainen_28042020/</loc>
     <lastmod>2020-04-28T09:00:00-07:00</lastmod>
   </url>
   
   <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_m%C3%B3nica_clapp_28042020/</loc>
+    <lastmod>2020-04-28T16:00:00+01:07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_matteo_bonforte_28042020/</loc>
+    <lastmod>2020-04-28T15:00:00+01:06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_mathias_beiglb%C3%B6ck_23042020/</loc>
+    <lastmod>2020-04-23T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/</loc>
     <lastmod>2020-04-21T13:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_tarek_elgindi_21042020/</loc>
+    <lastmod>2020-04-21T16:00:00+01:05</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_pierre_germain_21042020/</loc>
+    <lastmod>2020-04-21T15:00:00+01:04</lastmod>
   </url>
   
   <url>
@@ -53,17 +138,77 @@
   </url>
   
   <url>
+    <loc>https://jaume.dedios.cat/math-seminars/categories/ds/</loc>
+    <lastmod>2020-04-16T14:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jaume.dedios.cat/math-seminars/categories/mg/</loc>
     <lastmod>2020-04-16T14:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</loc>
-    <lastmod>2020-04-10T16:00:00-07:00</lastmod>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_anthony_quas_16042020/</loc>
+    <lastmod>2020-04-16T14:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jaume.dedios.cat/math-seminars/categories/ds/</loc>
+    <loc>https://jaume.dedios.cat/math-seminars/categories/ct/</loc>
+    <lastmod>2020-04-16T12:01:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/mit_joachim_kock_16042020/</loc>
+    <lastmod>2020-04-16T12:01:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/western-university-ontario_matthew_weaver_16042020/</loc>
+    <lastmod>2020-04-16T11:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/categories/co/</loc>
+    <lastmod>2020-04-16T11:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_michela_ottobre_16042020/</loc>
+    <lastmod>2020-04-16T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_remco_van_der_hofstadt_16042020/</loc>
+    <lastmod>2020-04-16T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_amanda_turner_16042020/</loc>
+    <lastmod>2020-04-16T15:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/naso_balas_szendroi_14042020/</loc>
+    <lastmod>2020-04-14T18:20:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/naso_yulia_alexandr__14042020/</loc>
+    <lastmod>2020-04-14T17:40:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_juncheng_wei_14042020/</loc>
+    <lastmod>2020-04-14T16:00:00+01:03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_edriss_s._titi_14042020/</loc>
+    <lastmod>2020-04-14T15:00:00+01:02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</loc>
     <lastmod>2020-04-10T16:00:00-07:00</lastmod>
   </url>
   
@@ -88,13 +233,43 @@
   </url>
   
   <url>
-    <loc>https://jaume.dedios.cat/math-seminars/categories/co/</loc>
-    <lastmod>2020-04-09T10:30:00-07:00</lastmod>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_osama_khalil_09042020/</loc>
+    <lastmod>2020-04-09T14:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://jaume.dedios.cat/math-seminars/talk/stanford-university_paul_seymour_09042020/</loc>
     <lastmod>2020-04-09T10:30:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/naso_eugenie_hunsicker_9042020/</loc>
+    <lastmod>2020-04-09T18:20:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/mit__john_baez_9042020/</loc>
+    <lastmod>2020-04-09T12:01:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/naso_louis_theran_9042020/</loc>
+    <lastmod>2020-04-09T17:40:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/mit_-ben_hollering_9042020/</loc>
+    <lastmod>2020-04-09T10:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_jean-christophe_mourrat_09042020/</loc>
+    <lastmod>2020-04-09T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_nina_holden_09042020/</loc>
+    <lastmod>2020-04-09T15:00:00+02:00</lastmod>
   </url>
   
   <url>
@@ -113,11 +288,6 @@
   </url>
   
   <url>
-    <loc>https://jaume.dedios.cat/math-seminars/categories/ap/</loc>
-    <lastmod>2020-04-08T15:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jaume.dedios.cat/math-seminars/talk/harvard-university_jacob_tsimerman_8042020/</loc>
     <lastmod>2020-04-08T15:00:00-04:00</lastmod>
   </url>
@@ -129,11 +299,6 @@
   
   <url>
     <loc>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/</loc>
-    <lastmod>2020-04-08T10:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jaume.dedios.cat/math-seminars/categories/ct/</loc>
     <lastmod>2020-04-08T10:00:00-07:00</lastmod>
   </url>
   

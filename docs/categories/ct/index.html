@@ -69,12 +69,15 @@ function nicestring(d){
 	day = d.getDate()
 	year = d.getFullYear()
 	hour = d.getHours()
-	ampm = ['am','pm'][parseInt(hour/12)]
-	hour = hour%12
+	ampm = ['am','pm'][parseInt((hour+1)/12)]
+	hour = (hour-1)%12+1
 	minute = d.getMinutes()
 	minute = (minute<10)?'0'+minute:minute;
+	hourmin = hour+':'+minute+ampm
+	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
+	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
 	offset_value = offset(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hour+':'+minute+ampm+' '+offset_value
+	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
 var date;
@@ -109,6 +112,7 @@ window.onload=start
 				</a>
 				<ul>
     
+    <div>
     
         <li>
             <a href="/math-seminars/categories/">
@@ -142,6 +146,7 @@ window.onload=start
             </a>
         </li>
     
+    </div>
 </ul>
 			</div>
 		</nav>
@@ -208,6 +213,140 @@ window.onload=start
          
                 This talk is a fragment from a larger work on approximating Markov processes. I will focus on a functorial definition of conditional expectation without talking about how it was used. We define categories of cones&mdash;which are abstract versions of the familiar cones in vector spaces&mdash;of measures and related categories cones of Lₚ functions. 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/uc-riverside_prakash_panangaden__8042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="http://brendanfong.com/seminar.html" class="catalogue-item">
+        <h1 class="catalogue-title">Structured cospans</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-09 16:01:00 &#43;0000 UTC">
+        April 9, 2020  4:01pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-09 12:01:00 -0400 -0400" >
+                April 9, 2020  12:01pm UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                 John Baez (UC Riverside)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>MIT
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ct">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=CT&color=%2305059a" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="http://brendanfong.com/seminar.html" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                &ldquo;Structured cospans&rdquo; are a general way to study networks with inputs and outputs. Here we illustrate this using a type of network popular in theoretical computer science: Petri nets. An &ldquo;open&rdquo; Petri net is one with certain places designated as inputs and outputs. We can compose open Petri nets by gluing the outputs of one to the inputs of another. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/mit__john_baez_9042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="http://brendanfong.com/seminar.html" class="catalogue-item">
+        <h1 class="catalogue-title">The incidence comodule bialgebra of the Baez--Dolan construction</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-16 16:01:00 &#43;0000 UTC">
+        April 16, 2020  4:01pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-16 12:01:00 -0400 -0400" >
+                April 16, 2020  12:01pm UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Joachim Kock (Universitat Autonoma de Barcelona)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>MIT
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ct">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=CT&color=%2305059a" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="http://brendanfong.com/seminar.html" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                Starting from any operad P, one can consider on one hand the free operad on P, and on the other hand the Baez&ndash;Dolan construction on P. These two new operads have the same space of operations, but with very different notions of arity and substitution. The main result is that the incidence bialgebras of the two-sided bar constructions of the two operads constitute together a comodule bialgebra. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/mit_joachim_kock_16042020/">(...) </a>
             
         </p>
         </a> 
