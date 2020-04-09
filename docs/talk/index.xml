@@ -103,6 +103,15 @@
     </item>
     
     <item>
+      <title>Introduction to regularity structures 2</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_30042020/</link>
+      <pubDate>Thu, 30 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_30042020/</guid>
+      <description>In these two lectures, I will give an introduction to the main concepts behind the theory of regularity structures which allows to give meaning to many stochastic PDEs that were previously thought to be ill-posed. This combines some of the insights and tools from (perturbative) QFT with classical PDE theory.</description>
+    </item>
+    
+    <item>
       <title>Integrable fluctuations in 1&#43;1 dimensional random growth</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_jeremy_quastel_30042020/</link>
       <pubDate>Thu, 30 Apr 2020 16:00:00 +0200</pubDate>
@@ -118,6 +127,33 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_hubert_lacoin_30042020/</guid>
       <description>   </description>
+    </item>
+    
+    <item>
+      <title>A localic approach to the semantics of dependency, conflict, and concurrency</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_gershom_bazerman_29042020/</link>
+      <pubDate>Wed, 29 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_gershom_bazerman_29042020/</guid>
+      <description>Petri nets have been of interest to applied category theory for some time. Back in the 1980s, one approach to their semantics was given by algebraic gadgets called “event structures.” We use classical techniques from order theory to study event structures without conflict restrictions (which we term “dependency structures with choice”) by their associated “traces”, which let us establish a one-to-one correspondence between DSCs and a certain class of locales.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to regularity structures 1</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_29042020/</link>
+      <pubDate>Wed, 29 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_29042020/</guid>
+      <description>In these two lectures, I will give an introduction to the main concepts behind the theory of regularity structures which allows to give meaning to many stochastic PDEs that were previously thought to be ill-posed. This combines some of the insights and tools from (perturbative) QFT with classical PDE theory.</description>
+    </item>
+    
+    <item>
+      <title>Geometric stochastic PDEs</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_28042020/</link>
+      <pubDate>Tue, 28 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_28042020/</guid>
+      <description>We review Parisi and Wu&amp;rsquo;s stochastic quantisation procedure and apply it to the non-linear sigma model as well as the Yang-Mills model. We then review a number of recent results on the resulting equations. In particular, this sheds some new light on an old controversy regarding the interpretation of path integrals.</description>
     </item>
     
     <item>
@@ -172,6 +208,15 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_mathias_beiglb%C3%B6ck_23042020/</guid>
       <description>   </description>
+    </item>
+    
+    <item>
+      <title>Star-autonomous envelopes</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_michael_shulman_22042020/</link>
+      <pubDate>Wed, 22 Apr 2020 10:10:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_michael_shulman_22042020/</guid>
+      <description>Symmetric monoidal categories with duals, a.k.a. compact monoidal categories, have a pleasing string diagram calculus. In particular, any compact monoidal category is closed with [A,B] = (A* ⊗ B), and the transpose of A ⊗ B → C to A → [B,C] is represented by simply bending a string.</description>
     </item>
     
     <item>
@@ -273,6 +318,24 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_amanda_turner_16042020/</guid>
       <description>   </description>
+    </item>
+    
+    <item>
+      <title>Open games: the long road to practical applications</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_jules_hedges_15042020/</link>
+      <pubDate>Wed, 15 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_jules_hedges_15042020/</guid>
+      <description>I will talk about open games, and the closely related concepts of lenses/optics and open learners. My goal is to report on the successes and failures of an ongoing effort to try to realise the often-claimed benefits of categories and compositionality in actual practice. I will introduce what little theory is needed along the way.</description>
+    </item>
+    
+    <item>
+      <title>The Collatz Conjecture</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/matrix_terence_tao_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 15:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/matrix_terence_tao_14042020/</guid>
+      <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
     </item>
     
     <item>

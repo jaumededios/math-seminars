@@ -85,6 +85,33 @@
     </item>
     
     <item>
+      <title>Introduction to regularity structures 2</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_30042020/</link>
+      <pubDate>Thu, 30 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_30042020/</guid>
+      <description>In these two lectures, I will give an introduction to the main concepts behind the theory of regularity structures which allows to give meaning to many stochastic PDEs that were previously thought to be ill-posed. This combines some of the insights and tools from (perturbative) QFT with classical PDE theory.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to regularity structures 1</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_29042020/</link>
+      <pubDate>Wed, 29 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_29042020/</guid>
+      <description>In these two lectures, I will give an introduction to the main concepts behind the theory of regularity structures which allows to give meaning to many stochastic PDEs that were previously thought to be ill-posed. This combines some of the insights and tools from (perturbative) QFT with classical PDE theory.</description>
+    </item>
+    
+    <item>
+      <title>Geometric stochastic PDEs</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_28042020/</link>
+      <pubDate>Tue, 28 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_28042020/</guid>
+      <description>We review Parisi and Wu&amp;rsquo;s stochastic quantisation procedure and apply it to the non-linear sigma model as well as the Yang-Mills model. We then review a number of recent results on the resulting equations. In particular, this sheds some new light on an old controversy regarding the interpretation of path integrals.</description>
+    </item>
+    
+    <item>
       <title>TBA</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_m%C3%B3nica_clapp_28042020/</link>
       <pubDate>Tue, 28 Apr 2020 16:00:00 +0107</pubDate>
