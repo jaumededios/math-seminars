@@ -6,6 +6,7 @@
   speaker = "Prakash Panangaden "
   speaker_institution = "McGill"
   talk_site = "https://sites.google.com/ucr.edu/actucr/home?authuser=0&pli=1"
+  is_event = "true"
   categories = ["CT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

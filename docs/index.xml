@@ -375,51 +375,6 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
     </item>
     
     <item>
-      <title>On the Kudla-Rapoport conjecture</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/princetonias_chao_li_09042020/</link>
-      <pubDate>Thu, 09 Apr 2020 16:30:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/princetonias_chao_li_09042020/</guid>
-      <description>The Kudla-Rapoport conjecture predicts a precise identity between the arithmetic intersection number of special cycles on unitary Rapoport-Zink spaces and the derivative of local representation densities of hermitian forms. It is a key local ingredient to establish the arithmetic Siegel-Weil formula and the arithmetic Rallis inner product formula, relating the height of special cycles on Shimura varieties to the derivative of Siegel Eisenstein series and L-functions.</description>
-    </item>
-    
-    <item>
-      <title>Random walks, spectral gaps, and Khinchine&#39;s theorem on fractals</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_osama_khalil_09042020/</link>
-      <pubDate>Thu, 09 Apr 2020 14:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_osama_khalil_09042020/</guid>
-      <description>In 1984, Mahler asked how well typical points on Cantor’s set can be approximated by rational numbers. His question fits within a program, set out by himself in the 1930s, attempting to determine conditions under which subsets of $\mathbb R^d$ inherit the Diophantine properties of the ambient space.</description>
-    </item>
-    
-    <item>
-      <title>Pure Pairs</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/stanford-university_paul_seymour_09042020/</link>
-      <pubDate>Thu, 09 Apr 2020 10:30:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/stanford-university_paul_seymour_09042020/</guid>
-      <description>A &amp;ldquo;pure pair&amp;rdquo; in a graph $G$ is a pair $(X,Y)$ of disjoint subsets of $V(G)$ such that either every vertex in $X$ is adjacent to every vertex in $Y$, or there are no edges from $X$ to $Y$. Let $f(G)$ be the biggest $k$ such that $G$ has a pure pair $(X,Y)$ with $|X|,|Y|$ at least $k$.</description>
-    </item>
-    
-    <item>
-      <title>Architecture for the Working Mathematician</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/naso_eugenie_hunsicker_9042020/</link>
-      <pubDate>Thu, 09 Apr 2020 18:20:00 +0200</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/naso_eugenie_hunsicker_9042020/</guid>
-      <description>Del Pezzo surfaces are classified by their degree, an integer between 1 and 9. Famous examples are those of degree 3, which are cubic surfaces in $P ^ 3$. In this talk I will focus on del Pezzo surfaces of degree 1. After briefly describing their geometry, I will talk about the set of Q-valued (rational) points on such a surface.</description>
-    </item>
-    
-    <item>
-      <title>Structured cospans</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/mit__john_baez_9042020/</link>
-      <pubDate>Thu, 09 Apr 2020 12:01:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/mit__john_baez_9042020/</guid>
-      <description>&amp;ldquo;Structured cospans&amp;rdquo; are a general way to study networks with inputs and outputs. Here we illustrate this using a type of network popular in theoretical computer science: Petri nets. An &amp;ldquo;open&amp;rdquo; Petri net is one with certain places designated as inputs and outputs. We can compose open Petri nets by gluing the outputs of one to the inputs of another.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://jaume.dedios.cat/math-seminars/submit/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
@@ -445,6 +400,15 @@ This site attempts to gather as many online math seminars from around the world 
       
       <guid>https://jaume.dedios.cat/math-seminars/calendar/</guid>
       <description>var urlstr = &#39;&#39; offset = -(new Date()).getTimezoneOffset()/60 tzstr = { &#34;-7&#34; : &#34;America%2FLos_Angeles&#34;, &#34;-6&#34; : &#34;America%2FCosta_Rica&#34;, &#34;-5&#34; : &#34;America%2FChicago&#34;, &#34;-4&#34; : &#34;America%2FNew_York&#34;, &#34;1&#34; : &#34;Europe%2FLondon&#34;, &#34;2&#34; : &#34;Europe%2FMadrid&#34; } changer = function(){ str = tzstr[String(offset)] console.log(str) if (str !== undefined){ document.getElementById(&#39;CalHolder&#39;).innerHTML = urlstr.replace(&#39;{}&#39;, str) } } window.</description>
+    </item>
+    
+    <item>
+      <title>Weekly Seminars</title>
+      <link>https://jaume.dedios.cat/math-seminars/weekly/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/weekly/</guid>
+      <description>This is a list of seminars that happen weekly (or bi-weekly). If you are aware of a seminar that&amp;rsquo;s not on the list, let me know (email me at jdedios at math dot ucla dot edu ) and I will add it here.</description>
     </item>
     
   </channel>

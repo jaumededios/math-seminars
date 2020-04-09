@@ -23,6 +23,7 @@ base_string = \
   speaker = "{speaker}"
   speaker_institution = "{speaker_inst}"
   talk_site = "{talk_site}"
+  is_event = "true"
   categories = [{categories}]
 
   publishDate = "2000-02-07T16:00:00-07:00"

@@ -6,6 +6,7 @@
   speaker = "Louis Theran"
   speaker_institution = "University of St. Andrews"
   talk_site = "https://www.mis.mpg.de/nlalg/seminars/naso.html"
+  is_event = "true"
   categories = ["MG","AG"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

@@ -6,6 +6,7 @@
   speaker = "Matthew Foreman"
   speaker_institution = "UC Irvine"
   talk_site = "https://secure.math.ucla.edu/seminars/display.php?&id=834026"
+  is_event = "true"
   categories = ["LO","DS"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

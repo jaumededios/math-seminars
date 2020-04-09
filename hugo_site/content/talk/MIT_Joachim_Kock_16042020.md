@@ -6,6 +6,7 @@
   speaker = "Joachim Kock"
   speaker_institution = "Universitat Autonoma de Barcelona"
   talk_site = "http://brendanfong.com/seminar.html"
+  is_event = "true"
   categories = ["CT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

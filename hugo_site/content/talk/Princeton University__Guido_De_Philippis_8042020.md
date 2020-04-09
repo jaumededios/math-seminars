@@ -6,6 +6,7 @@
   speaker = " Guido De Philippis"
   speaker_institution = "Courant Institute"
   talk_site = "https://www.math.princeton.edu/events/regularity-free-boundary-two-phase-bernoulli-problem-2020-04-08t190000"
+  is_event = "true"
   categories = ["AP","DG"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

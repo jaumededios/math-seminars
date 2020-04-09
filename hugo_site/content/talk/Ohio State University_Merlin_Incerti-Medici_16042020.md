@@ -6,6 +6,7 @@
   speaker = "Merlin Incerti-Medici"
   speaker_institution = "University of Zurich"
   talk_site = "https://sites.google.com/view/topoandggt"
+  is_event = "true"
   categories = ["MG","DG"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

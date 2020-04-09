@@ -6,6 +6,7 @@
   speaker = "Khang Hunyh"
   speaker_institution = "UCLA"
   talk_site = "secure.math.ucla.edu/seminars/display.php?&id=834017"
+  is_event = "true"
   categories = ["AP"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

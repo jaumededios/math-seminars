@@ -6,6 +6,7 @@
   speaker = "Keegan Dasilva Barbosa"
   speaker_institution = "University of Toronto"
   talk_site = "http://www.fields.utoronto.ca/activities/19-20/set-theory-seminar"
+  is_event = "true"
   categories = ["LO"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

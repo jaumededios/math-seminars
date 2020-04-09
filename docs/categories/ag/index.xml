@@ -48,14 +48,5 @@
       <description>The n-th punctual Hilbert scheme $Hilb_0^n(A^d)$ of points of affine d-space parametrises ideals of finite co-length n of the ring of functions on d-dimensional affine space, whose radical is the maximal ideal at the origin (equivalently, subschemes of length n with support at the origin). A classical theorem of Briancon claims the irreducibility of this space for d=2 and arbitrary n.</description>
     </item>
     
-    <item>
-      <title>Architecture for the Working Mathematician</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/naso_eugenie_hunsicker_9042020/</link>
-      <pubDate>Thu, 09 Apr 2020 18:20:00 +0200</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/naso_eugenie_hunsicker_9042020/</guid>
-      <description>Del Pezzo surfaces are classified by their degree, an integer between 1 and 9. Famous examples are those of degree 3, which are cubic surfaces in $P ^ 3$. In this talk I will focus on del Pezzo surfaces of degree 1. After briefly describing their geometry, I will talk about the set of Q-valued (rational) points on such a surface.</description>
-    </item>
-    
   </channel>
 </rss>

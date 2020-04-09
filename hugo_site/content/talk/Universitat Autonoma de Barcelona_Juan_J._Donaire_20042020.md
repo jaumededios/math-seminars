@@ -6,6 +6,7 @@
   speaker = "Juan J. Donaire"
   speaker_institution = "Universitat Autonoma de Barcelona"
   talk_site = "http://mat.uab.cat/~Analisi/wordpress/?page_id=9"
+  is_event = "true"
   categories = ["CV"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

@@ -6,6 +6,7 @@
   speaker = "Eugenie Hunsicker"
   speaker_institution = "Loughborough University"
   talk_site = "https://www.mis.mpg.de/nlalg/seminars/naso.html"
+  is_event = "true"
   categories = ["AG"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

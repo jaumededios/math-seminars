@@ -6,6 +6,7 @@
   speaker = "Chao Li"
   speaker_institution = "Columbia University"
   talk_site = "https://www.math.princeton.edu/events/kudla-rapoport-conjecture-2020-04-09t203000"
+  is_event = "true"
   categories = ["NT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

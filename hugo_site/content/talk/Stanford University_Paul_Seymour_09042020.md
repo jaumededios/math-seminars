@@ -6,6 +6,7 @@
   speaker = "Paul Seymour"
   speaker_institution = "Princeton"
   talk_site = "https://mathematics.stanford.edu/events/combinatorics/pure-pairs"
+  is_event = "true"
   categories = ["CO"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

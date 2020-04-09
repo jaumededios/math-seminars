@@ -6,6 +6,7 @@
   speaker = "Andrew Sutherland"
   speaker_institution = "MIT"
   talk_site = "https://sites.google.com/view/vantageseminar"
+  is_event = "true"
   categories = ["NT","AG"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

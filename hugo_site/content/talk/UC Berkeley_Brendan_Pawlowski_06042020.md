@@ -6,6 +6,7 @@
   speaker = "Brendan Pawlowski"
   speaker_institution = "USC"
   talk_site = "https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=132639&date=2020-04-06&filter=Secondary%20Event%20Type&filtersel="
+  is_event = "true"
   categories = ["CO"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

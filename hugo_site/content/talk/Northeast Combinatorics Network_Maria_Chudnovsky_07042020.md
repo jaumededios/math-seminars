@@ -6,6 +6,7 @@
   speaker = "Maria Chudnovsky"
   speaker_institution = "Princeton University"
   talk_site = "https://sites.google.com/view/northeastcombinatoricsnetwork/home"
+  is_event = "true"
   categories = ["CO"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

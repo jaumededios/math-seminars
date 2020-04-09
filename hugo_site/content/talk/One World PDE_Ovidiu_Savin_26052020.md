@@ -6,6 +6,7 @@
   speaker = "Ovidiu Savin"
   speaker_institution = "Columbia University"
   talk_site = "https://people.bath.ac.uk/mw2319/owpde/"
+  is_event = "true"
   categories = ["AP"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

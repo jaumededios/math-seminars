@@ -25,6 +25,11 @@ theme = "tale-math-seminars"
     url = "/"
     weight = 60
   [[menu.lower]]
+    identifier = "weekly"
+    name = "Weekly Seminars"
+    url = "/weekly/"
+    weight = 70
+  [[menu.lower]]
     identifier = "categories"
     name = "Categories"
     url = "/categories/"

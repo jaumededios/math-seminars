@@ -6,6 +6,7 @@
   speaker = "Terence Tao"
   speaker_institution = "UCLA"
   talk_site = "https://secure.math.ucla.edu/seminars/display.php?&id=834022"
+  is_event = "true"
   categories = ["NT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

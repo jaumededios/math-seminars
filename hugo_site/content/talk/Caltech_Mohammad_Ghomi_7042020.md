@@ -6,6 +6,7 @@
   speaker = "Mohammad Ghomi"
   speaker_institution = "Georgia Tech"
   talk_site = "https://secure.math.ucla.edu/seminars/display.php?&id=834000"
+  is_event = "true"
   categories = ["DG"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

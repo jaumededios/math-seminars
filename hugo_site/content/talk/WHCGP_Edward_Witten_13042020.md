@@ -6,6 +6,7 @@
   speaker = "Edward Witten"
   speaker_institution = "IAS"
   talk_site = "http://web.math.ucsb.edu/~drm/WHCGP/"
+  is_event = "true"
   categories = ["PR","DG"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

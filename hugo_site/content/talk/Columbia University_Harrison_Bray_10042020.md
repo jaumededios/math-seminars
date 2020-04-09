@@ -6,6 +6,7 @@
   speaker = "Harrison Bray"
   speaker_institution = "University of Michigan"
   talk_site = "https://www.math.columbia.edu/~gtseminar/"
+  is_event = "true"
   categories = ["DG","GT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

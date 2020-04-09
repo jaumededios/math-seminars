@@ -6,6 +6,7 @@
   speaker = "Camillo De Lellis"
   speaker_institution = "Institute for Advanced Study"
   talk_site = "https://www.ias.edu/events/analysis-seminar-108"
+  is_event = "true"
   categories = ["CA","AP"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

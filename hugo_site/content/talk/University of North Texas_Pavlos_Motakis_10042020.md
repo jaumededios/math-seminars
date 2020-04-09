@@ -6,6 +6,7 @@
   speaker = "Pavlos Motakis"
   speaker_institution = "The University of Illinois at Urbana–Champaign"
   talk_site = "http://www.math.unt.edu/~bunyamin/banach"
+  is_event = "true"
   categories = ["FA"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

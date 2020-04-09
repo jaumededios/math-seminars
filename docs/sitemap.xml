@@ -298,31 +298,6 @@
   </url>
   
   <url>
-    <loc>https://jaume.dedios.cat/math-seminars/talk/princetonias_chao_li_09042020/</loc>
-    <lastmod>2020-04-09T16:30:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_osama_khalil_09042020/</loc>
-    <lastmod>2020-04-09T14:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jaume.dedios.cat/math-seminars/talk/stanford-university_paul_seymour_09042020/</loc>
-    <lastmod>2020-04-09T10:30:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jaume.dedios.cat/math-seminars/talk/naso_eugenie_hunsicker_9042020/</loc>
-    <lastmod>2020-04-09T18:20:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jaume.dedios.cat/math-seminars/talk/mit__john_baez_9042020/</loc>
-    <lastmod>2020-04-09T12:01:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jaume.dedios.cat/math-seminars/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -339,6 +314,11 @@
   
   <url>
     <loc>https://jaume.dedios.cat/math-seminars/calendar/</loc>
+    <lastmod>2000-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaume.dedios.cat/math-seminars/weekly/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
   </url>
   

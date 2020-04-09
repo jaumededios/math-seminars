@@ -6,6 +6,7 @@
   speaker = "Dubi Kelmer"
   speaker_institution = "Boston College"
   talk_site = "https://www.math.harvard.edu/event/effective-density-for-values-of-generic-quadratic-forms/"
+  is_event = "true"
   categories = ["NT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

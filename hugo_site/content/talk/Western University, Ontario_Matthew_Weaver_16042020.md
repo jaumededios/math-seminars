@@ -6,6 +6,7 @@
   speaker = "Matthew Weaver"
   speaker_institution = "Princeton University"
   talk_site = "https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html"
+  is_event = "true"
   categories = ["CO"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

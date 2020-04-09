@@ -6,6 +6,7 @@
   speaker = "Kevin Costello"
   speaker_institution = "Perimeter Institute"
   talk_site = "http://web.math.ucsb.edu/~drm/WHCGP/"
+  is_event = "true"
   categories = []
 
   publishDate = "2000-02-07T16:00:00-07:00"

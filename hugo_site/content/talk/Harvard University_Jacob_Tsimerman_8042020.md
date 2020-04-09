@@ -6,6 +6,7 @@
   speaker = "Jacob Tsimerman"
   speaker_institution = "University of Toronto"
   talk_site = "https://www.math.harvard.edu/event/bounding-torsion-in-class-groups-and-families-of-local-systems/"
+  is_event = "true"
   categories = ["NT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

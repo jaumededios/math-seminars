@@ -21,14 +21,5 @@
       <description>Directed type theory is an analogue of homotopy type theory where types represent ∞-categories, generalizing groupoids. A bisimplicial approach to directed type theory, developed by Riehl and Shulman, is based on equipping each type with both a notion of path and a separate notion of directed morphism.</description>
     </item>
     
-    <item>
-      <title>Pure Pairs</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/stanford-university_paul_seymour_09042020/</link>
-      <pubDate>Thu, 09 Apr 2020 10:30:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/stanford-university_paul_seymour_09042020/</guid>
-      <description>A &amp;ldquo;pure pair&amp;rdquo; in a graph $G$ is a pair $(X,Y)$ of disjoint subsets of $V(G)$ such that either every vertex in $X$ is adjacent to every vertex in $Y$, or there are no edges from $X$ to $Y$. Let $f(G)$ be the biggest $k$ such that $G$ has a pure pair $(X,Y)$ with $|X|,|Y|$ at least $k$.</description>
-    </item>
-    
   </channel>
 </rss>

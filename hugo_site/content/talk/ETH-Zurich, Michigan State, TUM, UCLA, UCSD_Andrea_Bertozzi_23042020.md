@@ -6,6 +6,7 @@
   speaker = "Andrea Bertozzi"
   speaker_institution = "UCLA"
   talk_site = "https://sites.google.com/view/minds-seminar/home"
+  is_event = "true"
   categories = ["CA","NA","IT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

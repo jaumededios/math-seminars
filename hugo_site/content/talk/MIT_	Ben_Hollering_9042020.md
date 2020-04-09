@@ -6,6 +6,7 @@
   speaker = "	Ben Hollering"
   speaker_institution = "North Carolina State University"
   talk_site = "https://dibernstein.github.io/VirtualSeminar.html"
+  is_event = "true"
   categories = ["CO"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

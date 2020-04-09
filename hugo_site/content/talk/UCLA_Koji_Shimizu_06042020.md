@@ -6,6 +6,7 @@
   speaker = "Koji Shimizu"
   speaker_institution = "IAS"
   talk_site = "https://secure.math.ucla.edu/seminars/display.php?&id=833983"
+  is_event = "true"
   categories = ["AG","NT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

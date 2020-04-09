@@ -6,6 +6,7 @@
   speaker = "Alexander Ruys de Perez"
   speaker_institution = "Texas A&M University"
   talk_site = "https://math.washington.edu/events/2020-04-08/neural-codes-and-factor-complex"
+  is_event = "true"
   categories = ["CO"]
 
   publishDate = "2000-02-07T16:00:00-07:00"

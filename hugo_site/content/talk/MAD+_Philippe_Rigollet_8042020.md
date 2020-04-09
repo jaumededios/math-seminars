@@ -6,6 +6,7 @@
   speaker = "Philippe Rigollet"
   speaker_institution = "MIT"
   talk_site = "http://mad.cds.nyu.edu/madplus/"
+  is_event = "true"
   categories = []
 
   publishDate = "2000-02-07T16:00:00-07:00"

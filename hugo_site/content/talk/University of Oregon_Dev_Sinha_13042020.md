@@ -6,6 +6,7 @@
   speaker = "Dev Sinha"
   speaker_institution = "University of Oregon and MIT"
   talk_site = "https://pages.uoregon.edu/dps/GeometricAlgebraicTopology/"
+  is_event = "true"
   categories = ["AT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"
