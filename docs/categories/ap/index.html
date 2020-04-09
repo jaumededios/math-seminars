@@ -49,13 +49,17 @@ var timezoneNames = {
 	'+02:00':' (Barcelona, Paris, CEST)'
 }
 
+function parseISOString(s) {
+  var b = s.split(/\D+/).map(Number);
+  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
+}
+
 
 function doublezero(i){
 	return (i<10)?'0'+parseInt(i):parseInt(i)
 }
 
-function offset(offset){
-	console.log(offset)
+function offset_string(offset){
 	sgn = (offset>0)?'-':'+' 
 	offset = Math.abs(offset)
 	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
@@ -76,7 +80,7 @@ function nicestring(d){
 	hourmin = hour+':'+minute+ampm
 	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
 	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset(d.getTimezoneOffset())
+	offset_value = offset_string(d.getTimezoneOffset())
 	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
@@ -95,12 +99,6 @@ function start (){
 	
 	console.log()
 }
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
 
 window.onload=start
 
@@ -174,78 +172,6 @@ fathom('trackPageview');
 <main>
     <h1>Math.AP: Analysis of PDEs</h1>
 	<div class="catalogue">
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.math.princeton.edu/events/regularity-free-boundary-two-phase-bernoulli-problem-2020-04-08t190000" class="catalogue-item">
-        <h1 class="catalogue-title">Regularity of the free boundary for the two-phase Bernoulli problem</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-08 19:00:00 &#43;0000 UTC">
-        April 8, 2020  7:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-08 15:00:00 -0400 -0400" >
-                April 8, 2020  3:00pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                 Guido De Philippis (Courant Institute)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>Princeton University
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ap">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/dg">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=DG&color=%23b70710" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.math.princeton.edu/events/regularity-free-boundary-two-phase-bernoulli-problem-2020-04-08t190000" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                I will illustrate a recent result obtained in collaboration with L. Spolaor and B. Velichkov concerning the regularity of the free boundaries in the two phase Bernoulli problems. The new main point is the analysis of the free boundary close to branch points, where we show that it is given by the union of two $C^$ graphs. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/princeton-university__guido_de_philippis_8042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
 		
 			<div class="catalogue-div"> 
     <a href="https://www.ias.edu/events/analysis-seminar-108" class="catalogue-item">
@@ -855,12 +781,412 @@ fathom('trackPageview');
 
 
 		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">TBA</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-12 13:50:00 &#43;0000 UTC">
+        May 12, 2020  1:50pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-05-12 15:00:00 &#43;0110 &#43;0110" >
+                May 12, 2020  3:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Giuseppe Mingione (Università di Parma)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_giuseppe_mingione_12052020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">TBA</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-12 14:49:00 &#43;0000 UTC">
+        May 12, 2020  2:49pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-05-12 16:00:00 &#43;0111 &#43;0111" >
+                May 12, 2020  4:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Toti Daskalopoulos (Columbia University)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_toti_daskalopoulos_12052020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">TBA</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-19 13:48:00 &#43;0000 UTC">
+        May 19, 2020  1:48pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-05-19 15:00:00 &#43;0112 &#43;0112" >
+                May 19, 2020  3:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Andrea Malchiodi (Scuola Normale Superiore)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_andrea_malchiodi_19052020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">A model for soap films based on capillarity theory</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-19 14:47:00 &#43;0000 UTC">
+        May 19, 2020  2:47pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-05-19 16:00:00 &#43;0113 &#43;0113" >
+                May 19, 2020  4:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Francesco Maggi (UT Austin)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                A model for soap films based on capillarity theory 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_francesco_maggi_19052020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">On the implosion of a three dimensional compressible fluid</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-26 13:46:00 &#43;0000 UTC">
+        May 26, 2020  1:46pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-05-26 15:00:00 &#43;0114 &#43;0114" >
+                May 26, 2020  3:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Frank Merle (Université de Cergy-Pontoise and IHES)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                On the implosion of a three dimensional compressible fluid 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_frank_merle_26052020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">TBA</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-05-26 14:45:00 &#43;0000 UTC">
+        May 26, 2020  2:45pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-05-26 16:00:00 &#43;0115 &#43;0115" >
+                May 26, 2020  4:00pm UTC &#43;01
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Ovidiu Savin (Columbia University)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>One World PDE
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ap">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        <b> Abstract: </b>
+        </p>
+        <p class = "catalogue-paragraph"> 
+         
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_ovidiu_savin_26052020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
 	</div>
 	
 	<div class="pagination">
 		
-		
-			<a href="/math-seminars/categories/ap/page/2/" class="right arrow">&#8594;</a>
 		
 	
 		<span>1</span>

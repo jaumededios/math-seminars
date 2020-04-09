@@ -39,14 +39,5 @@
       <description>Identifiability is a crucial property for a statistical model since it implies that distributions in the model uniquely determine the parameters that produce them. In phylogenetics, the identifiability of the tree parameter is of particular interest since it means that phylogenetic models can be used to infer evolutionary histories from data.</description>
     </item>
     
-    <item>
-      <title>Neural codes and the factor complex</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/universtity-of-washington_alexander_ruys_de_perez_8042020/</link>
-      <pubDate>Wed, 08 Apr 2020 15:30:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/universtity-of-washington_alexander_ruys_de_perez_8042020/</guid>
-      <description>A place cell is a neuron corresponding to a subset of Euclidean space known as a place field, that will fire if and only if the individual possessing the place cell is within that place field. The firing patterns of a collection of n place cells can be represented by a neural code C on n neurons, which is a subset of the power set of {1,2,&amp;hellip;,n}.</description>
-    </item>
-    
   </channel>
 </rss>

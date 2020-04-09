@@ -49,13 +49,17 @@ var timezoneNames = {
 	'+02:00':' (Barcelona, Paris, CEST)'
 }
 
+function parseISOString(s) {
+  var b = s.split(/\D+/).map(Number);
+  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
+}
+
 
 function doublezero(i){
 	return (i<10)?'0'+parseInt(i):parseInt(i)
 }
 
-function offset(offset){
-	console.log(offset)
+function offset_string(offset){
 	sgn = (offset>0)?'-':'+' 
 	offset = Math.abs(offset)
 	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
@@ -76,7 +80,7 @@ function nicestring(d){
 	hourmin = hour+':'+minute+ampm
 	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
 	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset(d.getTimezoneOffset())
+	offset_value = offset_string(d.getTimezoneOffset())
 	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
@@ -95,12 +99,6 @@ function start (){
 	
 	console.log()
 }
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
 
 window.onload=start
 
@@ -224,10 +222,25 @@ fathom('trackPageview');
             	Logic
  			<img src = "https://img.shields.io/static/v1?label=Math&message=LO&color=%23d020c5" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
  				
+            </a></li>
+            <li><a href="https://jaume.dedios.cat/math-seminars/categories/mg/">
+            	Metric Geometry
+ 			<img src = "https://img.shields.io/static/v1?label=Math&message=MG&color=%23398142" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
+ 				
+            </a></li>
+            <li><a href="https://jaume.dedios.cat/math-seminars/categories/nt/">
+            	Number Theory
+ 			<img src = "https://img.shields.io/static/v1?label=Math&message=NT&color=%235226d3" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
+ 				
+            </a></li>
+            <li><a href="https://jaume.dedios.cat/math-seminars/categories/pr/">
+            	Probability
+ 			<img src = "https://img.shields.io/static/v1?label=Math&message=PR&color=%2354c7dd" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
+ 				
             </a></li></ul>
 	</div>
 	
-	<div class="pagination"><a href="/math-seminars/categories/page/2/" class="right arrow">&#8594;</a><span>1</span>
+	<div class="pagination"><span>1</span>
 	</div>
 </main>
 

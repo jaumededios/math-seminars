@@ -49,13 +49,17 @@ var timezoneNames = {
 	'+02:00':' (Barcelona, Paris, CEST)'
 }
 
+function parseISOString(s) {
+  var b = s.split(/\D+/).map(Number);
+  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
+}
+
 
 function doublezero(i){
 	return (i<10)?'0'+parseInt(i):parseInt(i)
 }
 
-function offset(offset){
-	console.log(offset)
+function offset_string(offset){
 	sgn = (offset>0)?'-':'+' 
 	offset = Math.abs(offset)
 	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
@@ -76,7 +80,7 @@ function nicestring(d){
 	hourmin = hour+':'+minute+ampm
 	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
 	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset(d.getTimezoneOffset())
+	offset_value = offset_string(d.getTimezoneOffset())
 	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
@@ -95,12 +99,6 @@ function start (){
 	
 	console.log()
 }
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
 
 window.onload=start
 

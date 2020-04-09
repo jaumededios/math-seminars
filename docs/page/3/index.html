@@ -51,13 +51,17 @@ var timezoneNames = {
 	'+02:00':' (Barcelona, Paris, CEST)'
 }
 
+function parseISOString(s) {
+  var b = s.split(/\D+/).map(Number);
+  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
+}
+
 
 function doublezero(i){
 	return (i<10)?'0'+parseInt(i):parseInt(i)
 }
 
-function offset(offset){
-	console.log(offset)
+function offset_string(offset){
 	sgn = (offset>0)?'-':'+' 
 	offset = Math.abs(offset)
 	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
@@ -78,7 +82,7 @@ function nicestring(d){
 	hourmin = hour+':'+minute+ampm
 	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
 	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset(d.getTimezoneOffset())
+	offset_value = offset_string(d.getTimezoneOffset())
 	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
 }
 
@@ -97,12 +101,6 @@ function start (){
 	
 	console.log()
 }
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
 
 window.onload=start
 
@@ -180,19 +178,19 @@ fathom('trackPageview');
 	<div class="catalogue">
 		
 			<div class="catalogue-div"> 
-    <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
-        <h1 class="catalogue-title">Logarithmic Voronoi Cells</h1>
+    <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
+        <h1 class="catalogue-title">Effective Sato-Tate and applications</h1>
         <div class="catalogue-line"></div>
 
     <div style="float:none">
         <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-14 15:40:00 &#43;0000 UTC">
-        April 14, 2020  3:40pm UTC
+        <time datetime = "2020-05-19 17:00:00 &#43;0000 UTC">
+        May 19, 2020  5:00pm UTC
         </time>
         </div>
         <div class = "catalogue-time time-local">
-            <time datetime="2020-04-14 17:40:00 &#43;0200 CEST" >
-                April 14, 2020  5:40pm UTC &#43;02
+            <time datetime="2020-05-19 13:00:00 -0400 -0400" >
+                May 19, 2020  1:00pm UTC -04
             </time>(Host local time)
         </div>
     </div>
@@ -205,7 +203,7 @@ fathom('trackPageview');
                 Speaker: 
             </span>
             <span>
-                Yulia Alexandr  (University of California at Berkeley)
+                Alina Bucur. (UCSD)
             </span>
         </span>
 
@@ -214,72 +212,15 @@ fathom('trackPageview');
             <span>
                 Hosted by
             </span>
-            <span>NASO
+            <span>VaNTAGe
             </span>
         </span>
         <div style="float:right;">
         
-        </div>
-        
-        
-        <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                    
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/naso_yulia_alexandr__14042020/">(...) </a>
+        <a href = "categories/nt">
             
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
-        <h1 class="catalogue-title">The punctual Hilbert scheme of 4 points in affine 3-space via computer algebra and representation theory</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-14 16:20:00 &#43;0000 UTC">
-        April 14, 2020  4:20pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-14 18:20:00 &#43;0200 CEST" >
-                April 14, 2020  6:20pm UTC &#43;02
-            </time>(Host local time)
-        </div>
-    </div>
+            <img src = "https://img.shields.io/static/v1?label=Math&message=NT&color=%235226d3" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
         </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Balas Szendroi (University of Oxford)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>NASO
-            </span>
-        </span>
-        <div style="float:right;">
         
         <a href = "categories/ag">
             
@@ -289,14 +230,14 @@ fathom('trackPageview');
         </div>
         
         
-        <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
+        <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
         <b> Abstract: </b>
         </p>
         <p class = "catalogue-paragraph"> 
          
-                The n-th punctual Hilbert scheme $Hilb_0^n(A^d)$ of points of affine d-space parametrises ideals of finite co-length n of the ring of functions on d-dimensional affine space, whose radical is the maximal ideal at the origin (equivalently, subschemes of length n with support at the origin). A classical theorem of Briancon claims the irreducibility of this space for d=2 and arbitrary n. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/naso_balas_szendroi_14042020/">(...) </a>
+                TBA 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_alina_bucur._19052020/">(...) </a>
             
         </p>
         </a> 
@@ -309,19 +250,19 @@ fathom('trackPageview');
 
 		
 			<div class="catalogue-div"> 
-    <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <h1 class="catalogue-title">Scaling limits for planar aggregation with subcritical fluctuations</h1>
+    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
+        <h1 class="catalogue-title">On the implosion of a three dimensional compressible fluid</h1>
         <div class="catalogue-line"></div>
 
     <div style="float:none">
         <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-16 13:00:00 &#43;0000 UTC">
-        April 16, 2020  1:00pm UTC
+        <time datetime = "2020-05-26 13:46:00 &#43;0000 UTC">
+        May 26, 2020  1:46pm UTC
         </time>
         </div>
         <div class = "catalogue-time time-local">
-            <time datetime="2020-04-16 15:00:00 &#43;0200 CEST" >
-                April 16, 2020  3:00pm UTC &#43;02
+            <time datetime="2020-05-26 15:00:00 &#43;0114 &#43;0114" >
+                May 26, 2020  3:00pm UTC &#43;01
             </time>(Host local time)
         </div>
     </div>
@@ -334,7 +275,7 @@ fathom('trackPageview');
                 Speaker: 
             </span>
             <span>
-                Amanda Turner (Lancaster)
+                Frank Merle (Université de Cergy-Pontoise and IHES)
             </span>
         </span>
 
@@ -343,434 +284,27 @@ fathom('trackPageview');
             <span>
                 Hosted by
             </span>
-            <span>One World Probability
+            <span>One World PDE
             </span>
         </span>
         <div style="float:right;">
         
-        <a href = "categories/pr">
+        <a href = "categories/ap">
             
-            <img src = "https://img.shields.io/static/v1?label=Math&message=PR&color=%2354c7dd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
         </a>
         
         </div>
         
         
-        <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
+        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
         <b> Abstract: </b>
         </p>
         <p class = "catalogue-paragraph"> 
          
-                    
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-probability_amanda_turner_16042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <h1 class="catalogue-title">Information diffusion on random graphs</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-16 14:00:00 &#43;0000 UTC">
-        April 16, 2020  2:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-16 16:00:00 &#43;0200 CEST" >
-                April 16, 2020  4:00pm UTC &#43;02
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Remco van der Hofstadt (Eindhoven)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>One World Probability
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/pr">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=PR&color=%2354c7dd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                    
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-probability_remco_van_der_hofstadt_16042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <h1 class="catalogue-title">Fast non mean-field network: uniform in time averaging</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-16 14:00:00 &#43;0000 UTC">
-        April 16, 2020  2:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-16 16:00:00 &#43;0200 CEST" >
-                April 16, 2020  4:00pm UTC &#43;02
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Michela Ottobre (Edinburgh)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>One World Probability
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/pr">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=PR&color=%2354c7dd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                    
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-probability_michela_ottobre_16042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html" class="catalogue-item">
-        <h1 class="catalogue-title">A constructive model of directed univalence in bicubical sets</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-16 15:30:00 &#43;0000 UTC">
-        April 16, 2020  3:30pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-16 11:30:00 -0400 -0400" >
-                April 16, 2020  11:30am UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Matthew Weaver (Princeton University)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>Western University, Ontario
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/co">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=CO&color=%2311aac4" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Directed type theory is an analogue of homotopy type theory where types represent ∞-categories, generalizing groupoids. A bisimplicial approach to directed type theory, developed by Riehl and Shulman, is based on equipping each type with both a notion of path and a separate notion of directed morphism. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/western-university-ontario_matthew_weaver_16042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="http://brendanfong.com/seminar.html" class="catalogue-item">
-        <h1 class="catalogue-title">The incidence comodule bialgebra of the Baez--Dolan construction</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-16 16:01:00 &#43;0000 UTC">
-        April 16, 2020  4:01pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-16 12:01:00 -0400 -0400" >
-                April 16, 2020  12:01pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Joachim Kock (Universitat Autonoma de Barcelona)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>MIT
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ct">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=CT&color=%2305059a" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="http://brendanfong.com/seminar.html" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Starting from any operad P, one can consider on one hand the free operad on P, and on the other hand the Baez&ndash;Dolan construction on P. These two new operads have the same space of operations, but with very different notions of arity and substitution. The main result is that the incidence bialgebras of the two-sided bar constructions of the two operads constitute together a comodule bialgebra. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/mit_joachim_kock_16042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www-math.umd.edu/dynamics-conference.html" class="catalogue-item">
-        <h1 class="catalogue-title">Stability and collapse of Oseledets spectrum for Perron-Frobenius cocycles</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-16 18:00:00 &#43;0000 UTC">
-        April 16, 2020  6:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-16 14:00:00 -0400 -0400" >
-                April 16, 2020  2:00pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Anthony Quas (Victoria)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>University of Maryland
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ds">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=DS&color=%23e4e7dc" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www-math.umd.edu/dynamics-conference.html" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                It is known, by work of Bochi, Mañé, Viana and others that Lyapunov exponents are highly sensitive to perturbations of a dynamical system. On the other hand, work of Ledrappier, Young and my work with Froyland and Gonz´alez-Tokman has shown that in some situations, under “noise-like” perturbations, Lyapunov exponents vary continuously. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_anthony_quas_16042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://sites.google.com/view/topoandggt" class="catalogue-item">
-        <h1 class="catalogue-title">Circumcenter extension maps for Hadamard manifolds</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-16 18:00:00 &#43;0000 UTC">
-        April 16, 2020  6:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-16 14:00:00 -0400 -0400" >
-                April 16, 2020  2:00pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Merlin Incerti-Medici (University of Zurich)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>Ohio State University
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/mg">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=MG&color=%23398142" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/dg">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=DG&color=%23b70710" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://sites.google.com/view/topoandggt" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Given a CAT(-1) space, we can associate to it a boundary at infinity and a cross ratio on said boundary. There is a series of results that tell us that, for sufficiently nice CAT(-1) spaces, the boundary together with the cross ratio uniquely determines the interior space. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/ohio-state-university_merlin_incerti-medici_16042020/">(...) </a>
+                On the implosion of a three dimensional compressible fluid 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_frank_merle_26052020/">(...) </a>
             
         </p>
         </a> 
@@ -789,13 +323,13 @@ fathom('trackPageview');
 
     <div style="float:none">
         <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-21 13:56:00 &#43;0000 UTC">
-        April 21, 2020  1:56pm UTC
+        <time datetime = "2020-05-26 14:45:00 &#43;0000 UTC">
+        May 26, 2020  2:45pm UTC
         </time>
         </div>
         <div class = "catalogue-time time-local">
-            <time datetime="2020-04-21 15:00:00 &#43;0104 &#43;0104" >
-                April 21, 2020  3:00pm UTC &#43;01
+            <time datetime="2020-05-26 16:00:00 &#43;0115 &#43;0115" >
+                May 26, 2020  4:00pm UTC &#43;01
             </time>(Host local time)
         </div>
     </div>
@@ -808,7 +342,7 @@ fathom('trackPageview');
                 Speaker: 
             </span>
             <span>
-                Pierre Germain (Courant Institute)
+                Ovidiu Savin (Columbia University)
             </span>
         </span>
 
@@ -837,7 +371,7 @@ fathom('trackPageview');
         <p class = "catalogue-paragraph"> 
          
                 TBA 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_pierre_germain_21042020/">(...) </a>
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_ovidiu_savin_26052020/">(...) </a>
             
         </p>
         </a> 
@@ -856,8 +390,6 @@ fathom('trackPageview');
 		
 			<a href="/math-seminars/page/2/" class="left arrow">&#8592;</a>
 		
-		
-			<a href="/math-seminars/page/4/" class="right arrow">&#8594;</a>
 		
 
 		<span>3</span>
