@@ -16,10 +16,8 @@
 
 		
 		<link href="/math-seminars/categories/ag/index.xml" rel="alternate" type="application/rss+xml" title="Mathematics Seminars List" />
-	</head>
-
-    <body>
-        <script type="text/javascript"
+		<script type="text/javascript" src = "/math-seminars/js/head_script.js"></script>
+		<script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
@@ -38,113 +36,17 @@ MathJax.Hub.Config({
 </script>
 
 
-<script type="text/javascript">
+	</head>
 
-
-var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-var timezoneNames = {
-	'-07:00':' (Los Angeles, PDT)',
-	'-04:00':' (New York, EDT)',
-	'+02:00':' (Barcelona, Paris, CEST)'
-}
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
-
-function doublezero(i){
-	return (i<10)?'0'+parseInt(i):parseInt(i)
-}
-
-function offset_string(offset){
-	sgn = (offset>0)?'-':'+' 
-	offset = Math.abs(offset)
-	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
-	extra = timezoneNames[base]
-	extra = (extra == undefined)?'':extra
-	return 'UTC '+base+extra
-}
-
-function nicestring(d){
-	month = monthNames[d.getMonth()-1]
-	day = d.getDate()
-	year = d.getFullYear()
-	hour = d.getHours()
-	ampm = ['am','pm'][parseInt((hour+1)/12)]
-	hour = (hour-1)%12+1
-	minute = d.getMinutes()
-	minute = (minute<10)?'0'+minute:minute;
-	hourmin = hour+':'+minute+ampm
-	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
-	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset_string(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
-}
-
-var date;
-function start (){
-	var timedom, date
-	d = document.getElementsByClassName('time-USER')
-	for(var i = 0; i<d.length;i++){
-		
-			timedom = d[i].getElementsByTagName('time')[0]
-			date = parseISOString(timedom.dateTime.slice(0,-10))
-			timedom.innerHTML = nicestring(date)
-		try{}
-		catch(err){}
-	}
-	
-	console.log()
-}
-
-window.onload=start
-
-</script>
-
-
-<script>
-(function(f, a, t, h, o, m){
-a[h]=a[h]||function(){
-(a[h].q=a[h].q||[]).push(arguments)
-};
-o=f.createElement('script'),
-m=f.getElementsByTagName('script')[0];
-o.async=1; o.src=t; o.id='fathom-script';
-m.parentNode.insertBefore(o,m)
-})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
-fathom('set', 'siteId', 'PILBPKTH');
-fathom('trackPageview');
-</script>
-
-
-
+    <body>
+        
 		<nav class="nav">
-			<div class="nav-container">
+			<div class="nav-container nav-top">
 				<a href="/math-seminars/">
 					<h2 class="nav-title">Mathematics Seminars List</h2>
 				</a>
-				<ul>
+				<ul class="menu-main-list">
     
-    <div>
-    
-        <li>
-            <a href="/math-seminars/categories/">
-                
-                <span>Categories</span>
-                
-            </a>
-        </li>
-    
-        <li>
-            <a href="/math-seminars/calendar/">
-                
-                <span>Calendar</span>
-                
-            </a>
-        </li>
     
         <li>
             <a href="/math-seminars/submit/">
@@ -162,8 +64,36 @@ fathom('trackPageview');
             </a>
         </li>
     
-    </div>
 </ul>
+			</div>
+			<div class= "nav-container nav-bottom">
+			<ul>
+		    
+		        <li>
+		            <a href="/math-seminars/">
+		                
+		                <span>Upcoming Talks</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/categories/">
+		                
+		                <span>Categories</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/calendar/">
+		                
+		                <span>Calendar</span>
+		                
+		            </a>
+		        </li>
+		    
+   			</ul>
 			</div>
 		</nav>
 
@@ -172,78 +102,6 @@ fathom('trackPageview');
 <main>
     <h1>Math.AG: Algebraic Geometry</h1>
 	<div class="catalogue">
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
-        <h1 class="catalogue-title">Graph rigidity and measurement varieties</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-09 15:40:00 &#43;0000 UTC">
-        April 9, 2020  3:40pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-09 17:40:00 &#43;0200 CEST" >
-                April 9, 2020  5:40pm UTC &#43;02
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Louis Theran (University of St. Andrews)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>NASO
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/mg">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=MG&color=%23398142" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/ag">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AG&color=%2379090d" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Geometric rigidity theory is concerned with how much information about a configuration p of n points in a d-dimensional Euclidean space is determined by pairwise Euclidean distance measurements, indexed by the edges of a graph G with n vertices. One can turn this around, and, define, for a fixed graph G, a “measurement variety&rdquo; associated with all possible edge lengths measurements as the configuration varies. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/naso_louis_theran_9042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
 		
 			<div class="catalogue-div"> 
     <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
@@ -264,7 +122,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -295,10 +153,10 @@ fathom('trackPageview');
         
         <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 Del Pezzo surfaces are classified by their degree, an integer between 1 and 9. Famous examples are those of degree 3, which are cubic surfaces in $P ^ 3$. In this talk I will focus on del Pezzo surfaces of degree 1. After briefly describing their geometry, I will talk about the set of Q-valued (rational) points on such a surface. 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/naso_eugenie_hunsicker_9042020/">(...) </a>
             
@@ -331,7 +189,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -362,10 +220,10 @@ fathom('trackPageview');
         
         <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 The n-th punctual Hilbert scheme $Hilb_0^n(A^d)$ of points of affine d-space parametrises ideals of finite co-length n of the ring of functions on d-dimensional affine space, whose radical is the maximal ideal at the origin (equivalently, subschemes of length n with support at the origin). A classical theorem of Briancon claims the irreducibility of this space for d=2 and arbitrary n. 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/naso_balas_szendroi_14042020/">(...) </a>
             
@@ -398,7 +256,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -434,10 +292,10 @@ fathom('trackPageview');
         
         <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/">(...) </a>
             
@@ -470,7 +328,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -506,10 +364,10 @@ fathom('trackPageview');
         
         <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_david_zywina_05052020/">(...) </a>
             
@@ -542,7 +400,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -578,10 +436,10 @@ fathom('trackPageview');
         
         <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_alina_bucur._19052020/">(...) </a>
             

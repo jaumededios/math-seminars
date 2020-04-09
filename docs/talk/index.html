@@ -16,10 +16,8 @@
 
 		
 		<link href="/math-seminars/talk/index.xml" rel="alternate" type="application/rss+xml" title="Mathematics Seminars List" />
-	</head>
-
-    <body>
-        <script type="text/javascript"
+		<script type="text/javascript" src = "/math-seminars/js/head_script.js"></script>
+		<script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
@@ -38,113 +36,17 @@ MathJax.Hub.Config({
 </script>
 
 
-<script type="text/javascript">
+	</head>
 
-
-var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-var timezoneNames = {
-	'-07:00':' (Los Angeles, PDT)',
-	'-04:00':' (New York, EDT)',
-	'+02:00':' (Barcelona, Paris, CEST)'
-}
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
-
-function doublezero(i){
-	return (i<10)?'0'+parseInt(i):parseInt(i)
-}
-
-function offset_string(offset){
-	sgn = (offset>0)?'-':'+' 
-	offset = Math.abs(offset)
-	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
-	extra = timezoneNames[base]
-	extra = (extra == undefined)?'':extra
-	return 'UTC '+base+extra
-}
-
-function nicestring(d){
-	month = monthNames[d.getMonth()-1]
-	day = d.getDate()
-	year = d.getFullYear()
-	hour = d.getHours()
-	ampm = ['am','pm'][parseInt((hour+1)/12)]
-	hour = (hour-1)%12+1
-	minute = d.getMinutes()
-	minute = (minute<10)?'0'+minute:minute;
-	hourmin = hour+':'+minute+ampm
-	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
-	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset_string(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
-}
-
-var date;
-function start (){
-	var timedom, date
-	d = document.getElementsByClassName('time-USER')
-	for(var i = 0; i<d.length;i++){
-		
-			timedom = d[i].getElementsByTagName('time')[0]
-			date = parseISOString(timedom.dateTime.slice(0,-10))
-			timedom.innerHTML = nicestring(date)
-		try{}
-		catch(err){}
-	}
-	
-	console.log()
-}
-
-window.onload=start
-
-</script>
-
-
-<script>
-(function(f, a, t, h, o, m){
-a[h]=a[h]||function(){
-(a[h].q=a[h].q||[]).push(arguments)
-};
-o=f.createElement('script'),
-m=f.getElementsByTagName('script')[0];
-o.async=1; o.src=t; o.id='fathom-script';
-m.parentNode.insertBefore(o,m)
-})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
-fathom('set', 'siteId', 'PILBPKTH');
-fathom('trackPageview');
-</script>
-
-
-
+    <body>
+        
 		<nav class="nav">
-			<div class="nav-container">
+			<div class="nav-container nav-top">
 				<a href="/math-seminars/">
 					<h2 class="nav-title">Mathematics Seminars List</h2>
 				</a>
-				<ul>
+				<ul class="menu-main-list">
     
-    <div>
-    
-        <li>
-            <a href="/math-seminars/categories/">
-                
-                <span>Categories</span>
-                
-            </a>
-        </li>
-    
-        <li>
-            <a href="/math-seminars/calendar/">
-                
-                <span>Calendar</span>
-                
-            </a>
-        </li>
     
         <li>
             <a href="/math-seminars/submit/">
@@ -162,8 +64,36 @@ fathom('trackPageview');
             </a>
         </li>
     
-    </div>
 </ul>
+			</div>
+			<div class= "nav-container nav-bottom">
+			<ul>
+		    
+		        <li>
+		            <a href="/math-seminars/">
+		                
+		                <span>Upcoming Talks</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/categories/">
+		                
+		                <span>Categories</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/calendar/">
+		                
+		                <span>Calendar</span>
+		                
+		            </a>
+		        </li>
+		    
+   			</ul>
 			</div>
 		</nav>
 
@@ -191,7 +121,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -222,10 +152,10 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_ovidiu_savin_26052020/">(...) </a>
             
@@ -258,7 +188,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -289,10 +219,10 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 On the implosion of a three dimensional compressible fluid 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_frank_merle_26052020/">(...) </a>
             
@@ -325,7 +255,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -361,10 +291,10 @@ fathom('trackPageview');
         
         <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_alina_bucur._19052020/">(...) </a>
             
@@ -397,7 +327,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -428,10 +358,10 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 A model for soap films based on capillarity theory 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_francesco_maggi_19052020/">(...) </a>
             
@@ -464,7 +394,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -495,10 +425,10 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_andrea_malchiodi_19052020/">(...) </a>
             
@@ -531,7 +461,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -562,10 +492,10 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_toti_daskalopoulos_12052020/">(...) </a>
             
@@ -598,7 +528,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -629,10 +559,10 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_giuseppe_mingione_12052020/">(...) </a>
             
@@ -665,7 +595,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -701,10 +631,10 @@ fathom('trackPageview');
         
         <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_david_zywina_05052020/">(...) </a>
             
@@ -737,7 +667,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -768,10 +698,10 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_matthew_gursky_05052020/">(...) </a>
             
@@ -804,7 +734,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -835,10 +765,10 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 Spectral Stability, the Maslov Index, and Spatial Dynamics 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_margaret_beck_05052020/">(...) </a>
             
@@ -871,7 +801,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -902,10 +832,10 @@ fathom('trackPageview');
         
         <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                     
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-probability_jeremy_quastel_30042020/">(...) </a>
             
@@ -938,7 +868,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -969,10 +899,10 @@ fathom('trackPageview');
         
         <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                     
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-probability_hubert_lacoin_30042020/">(...) </a>
             
@@ -1005,7 +935,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -1036,10 +966,10 @@ fathom('trackPageview');
         
         <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=834004" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/ucla_joni_teravainen_28042020/">(...) </a>
             
@@ -1072,7 +1002,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -1103,10 +1033,10 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_m%C3%B3nica_clapp_28042020/">(...) </a>
             
@@ -1139,7 +1069,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -1170,12 +1100,151 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 Sharp Extinction Rates for Fast Diffusion Equations on Generic Bounded Domains 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_matteo_bonforte_28042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="http://web.math.ucsb.edu/~drm/WHCGP/" class="catalogue-item">
+        <h1 class="catalogue-title">Topological strings, twistors, and Skyrmions</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-27 19:00:00 &#43;0000 UTC">
+        April 27, 2020  7:00pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-27 15:00:00 -0400 -0400" >
+                April 27, 2020  3:00pm UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Kevin Costello (Perimeter Institute)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>WHCGP
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        </div>
+        
+        
+        <a href="http://web.math.ucsb.edu/~drm/WHCGP/" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        
+
+        <p class = "catalogue-paragraph"> 
+         <b> Abstract: </b> <br/> 
+                It has long been known that holomorphic field theories on twistor space lead to &ldquo;physical&rdquo; field theories on Minkowski space. In this talk I will discuss a type I (unoriented) version of the topological B model on twistor space. The corresponding theory on Minkowski space is a sigma-model with target the group SO(8). 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/whcgp_kevin_costello_27042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
+		
+			<div class="catalogue-div"> 
+    <a href="https://sites.google.com/view/minds-seminar/home" class="catalogue-item">
+        <h1 class="catalogue-title">Epidemic modeling – basics and challenges</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-23 18:30:00 &#43;0000 UTC">
+        April 23, 2020  6:30pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-23 14:30:00 -0400 -0400" >
+                April 23, 2020  2:30pm UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Andrea Bertozzi (UCLA)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>ETH-Zurich, Michigan State, TUM, UCLA, UCSD
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/ca">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=CA&color=%233f48cd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        <a href = "categories/na">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=NA&color=%232e3e60" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        <a href = "categories/it">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=IT&color=%2352f643" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="https://sites.google.com/view/minds-seminar/home" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        
+
+        <p class = "catalogue-paragraph"> 
+         <b> Abstract: </b> <br/> 
+                I will review basics of epidemic modeling including eponential growth, compartmental models and self-exciting point process models. I will illustrate how such models have been used in the past for previous pandemics and what the challenges are for forecasting the current COVID-19 pandemic. I will show some examples of fitting of data to US states and what one can do with those results. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/eth-zurich-michigan-state-tum-ucla-ucsd_andrea_bertozzi_23042020/">(...) </a>
             
         </p>
         </a> 
@@ -1206,7 +1275,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -1237,10 +1306,10 @@ fathom('trackPageview');
         
         <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                     
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-probability_mathias_beiglb%C3%B6ck_23042020/">(...) </a>
             
@@ -1273,7 +1342,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -1309,10 +1378,10 @@ fathom('trackPageview');
         
         <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/">(...) </a>
             
@@ -1345,7 +1414,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -1376,151 +1445,12 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_tarek_elgindi_21042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
-        <h1 class="catalogue-title">TBA</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-21 13:56:00 &#43;0000 UTC">
-        April 21, 2020  1:56pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-21 15:00:00 &#43;0104 &#43;0104" >
-                April 21, 2020  3:00pm UTC &#43;01
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Pierre Germain (Courant Institute)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>One World PDE
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ap">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                TBA 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_pierre_germain_21042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://sites.google.com/view/topoandggt" class="catalogue-item">
-        <h1 class="catalogue-title">Circumcenter extension maps for Hadamard manifolds</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-16 18:00:00 &#43;0000 UTC">
-        April 16, 2020  6:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-16 14:00:00 -0400 -0400" >
-                April 16, 2020  2:00pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Merlin Incerti-Medici (University of Zurich)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>Ohio State University
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/mg">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=MG&color=%23398142" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/dg">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=DG&color=%23b70710" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://sites.google.com/view/topoandggt" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Given a CAT(-1) space, we can associate to it a boundary at infinity and a cross ratio on said boundary. There is a series of results that tell us that, for sufficiently nice CAT(-1) spaces, the boundary together with the cross ratio uniquely determines the interior space. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/ohio-state-university_merlin_incerti-medici_16042020/">(...) </a>
             
         </p>
         </a> 

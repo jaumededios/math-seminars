@@ -16,10 +16,8 @@
 
 		
 		<link href="/math-seminars/categories/index.xml" rel="alternate" type="application/rss+xml" title="Mathematics Seminars List" />
-	</head>
-
-    <body>
-        <script type="text/javascript"
+		<script type="text/javascript" src = "/math-seminars/js/head_script.js"></script>
+		<script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
@@ -38,113 +36,17 @@ MathJax.Hub.Config({
 </script>
 
 
-<script type="text/javascript">
+	</head>
 
-
-var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-var timezoneNames = {
-	'-07:00':' (Los Angeles, PDT)',
-	'-04:00':' (New York, EDT)',
-	'+02:00':' (Barcelona, Paris, CEST)'
-}
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
-
-function doublezero(i){
-	return (i<10)?'0'+parseInt(i):parseInt(i)
-}
-
-function offset_string(offset){
-	sgn = (offset>0)?'-':'+' 
-	offset = Math.abs(offset)
-	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
-	extra = timezoneNames[base]
-	extra = (extra == undefined)?'':extra
-	return 'UTC '+base+extra
-}
-
-function nicestring(d){
-	month = monthNames[d.getMonth()-1]
-	day = d.getDate()
-	year = d.getFullYear()
-	hour = d.getHours()
-	ampm = ['am','pm'][parseInt((hour+1)/12)]
-	hour = (hour-1)%12+1
-	minute = d.getMinutes()
-	minute = (minute<10)?'0'+minute:minute;
-	hourmin = hour+':'+minute+ampm
-	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
-	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset_string(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
-}
-
-var date;
-function start (){
-	var timedom, date
-	d = document.getElementsByClassName('time-USER')
-	for(var i = 0; i<d.length;i++){
-		
-			timedom = d[i].getElementsByTagName('time')[0]
-			date = parseISOString(timedom.dateTime.slice(0,-10))
-			timedom.innerHTML = nicestring(date)
-		try{}
-		catch(err){}
-	}
-	
-	console.log()
-}
-
-window.onload=start
-
-</script>
-
-
-<script>
-(function(f, a, t, h, o, m){
-a[h]=a[h]||function(){
-(a[h].q=a[h].q||[]).push(arguments)
-};
-o=f.createElement('script'),
-m=f.getElementsByTagName('script')[0];
-o.async=1; o.src=t; o.id='fathom-script';
-m.parentNode.insertBefore(o,m)
-})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
-fathom('set', 'siteId', 'PILBPKTH');
-fathom('trackPageview');
-</script>
-
-
-
+    <body>
+        
 		<nav class="nav">
-			<div class="nav-container">
+			<div class="nav-container nav-top">
 				<a href="/math-seminars/">
 					<h2 class="nav-title">Mathematics Seminars List</h2>
 				</a>
-				<ul>
+				<ul class="menu-main-list">
     
-    <div>
-    
-        <li>
-            <a href="/math-seminars/categories/">
-                
-                <span>Categories</span>
-                
-            </a>
-        </li>
-    
-        <li>
-            <a href="/math-seminars/calendar/">
-                
-                <span>Calendar</span>
-                
-            </a>
-        </li>
     
         <li>
             <a href="/math-seminars/submit/">
@@ -162,8 +64,36 @@ fathom('trackPageview');
             </a>
         </li>
     
-    </div>
 </ul>
+			</div>
+			<div class= "nav-container nav-bottom">
+			<ul>
+		    
+		        <li>
+		            <a href="/math-seminars/">
+		                
+		                <span>Upcoming Talks</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/categories/">
+		                
+		                <span>Categories</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/calendar/">
+		                
+		                <span>Calendar</span>
+		                
+		            </a>
+		        </li>
+		    
+   			</ul>
 			</div>
 		</nav>
 
@@ -183,6 +113,11 @@ fathom('trackPageview');
  			<img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
  				
             </a></li>
+            <li><a href="https://jaume.dedios.cat/math-seminars/categories/at/">
+            	Algebraic Topology
+ 			<img src = "https://img.shields.io/static/v1?label=Math&message=AT&color=%2313184d" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
+ 				
+            </a></li>
             <li><a href="https://jaume.dedios.cat/math-seminars/categories/ca/">
             	Classical Analysis and ODEs
  			<img src = "https://img.shields.io/static/v1?label=Math&message=CA&color=%233f48cd" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
@@ -196,6 +131,11 @@ fathom('trackPageview');
             <li><a href="https://jaume.dedios.cat/math-seminars/categories/ct/">
             	Category Theory
  			<img src = "https://img.shields.io/static/v1?label=Math&message=CT&color=%2305059a" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
+ 				
+            </a></li>
+            <li><a href="https://jaume.dedios.cat/math-seminars/categories/cv/">
+            	Complex Variables
+ 			<img src = "https://img.shields.io/static/v1?label=Math&message=CV&color=%231b8fd8" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
  				
             </a></li>
             <li><a href="https://jaume.dedios.cat/math-seminars/categories/dg/">
@@ -218,6 +158,11 @@ fathom('trackPageview');
  			<img src = "https://img.shields.io/static/v1?label=Math&message=GT&color=%230bd289" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
  				
             </a></li>
+            <li><a href="https://jaume.dedios.cat/math-seminars/categories/it/">
+            	Information Theory
+ 			<img src = "https://img.shields.io/static/v1?label=Math&message=IT&color=%2352f643" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
+ 				
+            </a></li>
             <li><a href="https://jaume.dedios.cat/math-seminars/categories/lo/">
             	Logic
  			<img src = "https://img.shields.io/static/v1?label=Math&message=LO&color=%23d020c5" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
@@ -226,6 +171,11 @@ fathom('trackPageview');
             <li><a href="https://jaume.dedios.cat/math-seminars/categories/mg/">
             	Metric Geometry
  			<img src = "https://img.shields.io/static/v1?label=Math&message=MG&color=%23398142" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
+ 				
+            </a></li>
+            <li><a href="https://jaume.dedios.cat/math-seminars/categories/na/">
+            	Numerical Analysis
+ 			<img src = "https://img.shields.io/static/v1?label=Math&message=NA&color=%232e3e60" style="width: 60px; display: inline-block; padding-right: 10px; margin-bottom: 0px">
  				
             </a></li>
             <li><a href="https://jaume.dedios.cat/math-seminars/categories/nt/">

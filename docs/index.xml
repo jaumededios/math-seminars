@@ -148,6 +148,24 @@
     </item>
     
     <item>
+      <title>Topological strings, twistors, and Skyrmions</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/whcgp_kevin_costello_27042020/</link>
+      <pubDate>Mon, 27 Apr 2020 15:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/whcgp_kevin_costello_27042020/</guid>
+      <description>It has long been known that holomorphic field theories on twistor space lead to &amp;ldquo;physical&amp;rdquo; field theories on Minkowski space. In this talk I will discuss a type I (unoriented) version of the topological B model on twistor space. The corresponding theory on Minkowski space is a sigma-model with target the group SO(8).</description>
+    </item>
+    
+    <item>
+      <title>Epidemic modeling – basics and challenges</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/eth-zurich-michigan-state-tum-ucla-ucsd_andrea_bertozzi_23042020/</link>
+      <pubDate>Thu, 23 Apr 2020 14:30:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/eth-zurich-michigan-state-tum-ucla-ucsd_andrea_bertozzi_23042020/</guid>
+      <description>I will review basics of epidemic modeling including eponential growth, compartmental models and self-exciting point process models. I will illustrate how such models have been used in the past for previous pandemics and what the challenges are for forecasting the current COVID-19 pandemic. I will show some examples of fitting of data to US states and what one can do with those results.</description>
+    </item>
+    
+    <item>
       <title>All adapted topologies are equal</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_mathias_beiglb%C3%B6ck_23042020/</link>
       <pubDate>Thu, 23 Apr 2020 15:00:00 +0200</pubDate>
@@ -181,6 +199,17 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_pierre_germain_21042020/</guid>
       <description>TBA</description>
+    </item>
+    
+    <item>
+      <title>Higher order Schwarzian Derivatives as multipliers between Bergman spaces</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/universitat-autonoma-de-barcelona_juan_j._donaire_20042020/</link>
+      <pubDate>Mon, 20 Apr 2020 15:00:00 +0200</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/universitat-autonoma-de-barcelona_juan_j._donaire_20042020/</guid>
+      <description>If $f :\mathbb D \to C$ is locally univalent, the Schwarzian derivative is defined as
+$$ \mathcal S(f) = \left( \frac{f&amp;rsquo;&#39;}{f&amp;rsquo;} \right)&amp;rsquo; - \frac 1 2 \left( \frac{f&amp;rsquo;&#39;}{f&amp;rsquo;} \right)^2 $$
+If $f$ is univalent, this operator is conformally invariant and has a growth given by</description>
     </item>
     
     <item>
@@ -283,6 +312,24 @@
     </item>
     
     <item>
+      <title>Volumes and Random Matrices</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/whcgp_edward_witten_13042020/</link>
+      <pubDate>Mon, 13 Apr 2020 15:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/whcgp_edward_witten_13042020/</guid>
+      <description>I will describe recent results relating two-dimensional gravity and supergravity; volumes of moduli spaces of Riemann surfaces and super Riemann surfaces; and random matrix ensembles. See https://arxiv.org/abs/1903.11115 by Saad, Shenker, and Stanford; https://arxiv.org/abs/1907.03363 by Stanford and me.</description>
+    </item>
+    
+    <item>
+      <title>Algebraic topology from a geometric viewpoint</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-oregon_dev_sinha_13042020/</link>
+      <pubDate>Mon, 13 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-oregon_dev_sinha_13042020/</guid>
+      <description>We give a lecture series on &amp;ldquo;intermediate&amp;rdquo; topics in algebraic topology - loop spaces, configuration spaces, rational homotopy, Grassmannians, Eilenberg MacLane spaces - as well as some applications of similar methods to study embeddings.</description>
+    </item>
+    
+    <item>
       <title>Flows of vector fields: classical and modern</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/institute-for-advanced-study_camillo_de_lellis_13042020/</link>
       <pubDate>Mon, 13 Apr 2020 11:00:00 -0400</pubDate>
@@ -307,6 +354,15 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/columbia-university_harrison_bray_10042020/</guid>
       <description>I&amp;rsquo;ll discuss the following result, joint with Giulio Tiozzo: Letting $\Gamma$ be the representation of a punctured hyperbolic surface group in $PSL(3,R)$ acting discretely, properly discontinuously, and with finite co-volume on a properly convex set in the projective plane, we have that hitting measure for a random walk on any $\Gamma$-orbit with certain moment conditions is singular with respect to the classical Patterson-Sullivan measure.</description>
+    </item>
+    
+    <item>
+      <title> A Decomposition Theorem for Aronszajn Lines</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/fields-institute_keegan_dasilva_barbosa_10042020/</link>
+      <pubDate>Fri, 10 Apr 2020 13:30:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/fields-institute_keegan_dasilva_barbosa_10042020/</guid>
+      <description>We will prove that under the proper forcing axiom, the class of all Aronszajn lines behave like $\sigma$-scattered orders under the embeddability relation. In particular, we show that the class of better quasi order labeled fragmented Aronszajn lines is itself a better quasi order. Moreover, we show that every better quasi order labeled Aronszajn line can be expressed as a finite sum of labeled types which are algebraically indecomposable.</description>
     </item>
     
     <item>
@@ -361,42 +417,6 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/mit__john_baez_9042020/</guid>
       <description>&amp;ldquo;Structured cospans&amp;rdquo; are a general way to study networks with inputs and outputs. Here we illustrate this using a type of network popular in theoretical computer science: Petri nets. An &amp;ldquo;open&amp;rdquo; Petri net is one with certain places designated as inputs and outputs. We can compose open Petri nets by gluing the outputs of one to the inputs of another.</description>
-    </item>
-    
-    <item>
-      <title>Graph rigidity and measurement varieties</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/naso_louis_theran_9042020/</link>
-      <pubDate>Thu, 09 Apr 2020 17:40:00 +0200</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/naso_louis_theran_9042020/</guid>
-      <description>Geometric rigidity theory is concerned with how much information about a configuration p of n points in a d-dimensional Euclidean space is determined by pairwise Euclidean distance measurements, indexed by the edges of a graph G with n vertices. One can turn this around, and, define, for a fixed graph G, a “measurement variety&amp;rdquo; associated with all possible edge lengths measurements as the configuration varies.</description>
-    </item>
-    
-    <item>
-      <title>	Identifiability in Phylogenetics using Algebraic Matroids</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/mit_-ben_hollering_9042020/</link>
-      <pubDate>Thu, 09 Apr 2020 10:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_-ben_hollering_9042020/</guid>
-      <description>Identifiability is a crucial property for a statistical model since it implies that distributions in the model uniquely determine the parameters that produce them. In phylogenetics, the identifiability of the tree parameter is of particular interest since it means that phylogenetic models can be used to infer evolutionary histories from data.</description>
-    </item>
-    
-    <item>
-      <title>Mean-field disordered systems and Hamilton-Jacobi equations</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_jean-christophe_mourrat_09042020/</link>
-      <pubDate>Thu, 09 Apr 2020 16:00:00 +0200</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_jean-christophe_mourrat_09042020/</guid>
-      <description>   </description>
-    </item>
-    
-    <item>
-      <title>Cardy embedding of random planar maps</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_nina_holden_09042020/</link>
-      <pubDate>Thu, 09 Apr 2020 15:00:00 +0200</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_nina_holden_09042020/</guid>
-      <description>   </description>
     </item>
     
     <item>

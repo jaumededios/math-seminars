@@ -16,10 +16,8 @@
 
 		
 		<link href="/math-seminars/categories/lo/index.xml" rel="alternate" type="application/rss+xml" title="Mathematics Seminars List" />
-	</head>
-
-    <body>
-        <script type="text/javascript"
+		<script type="text/javascript" src = "/math-seminars/js/head_script.js"></script>
+		<script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
@@ -38,113 +36,17 @@ MathJax.Hub.Config({
 </script>
 
 
-<script type="text/javascript">
+	</head>
 
-
-var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-var timezoneNames = {
-	'-07:00':' (Los Angeles, PDT)',
-	'-04:00':' (New York, EDT)',
-	'+02:00':' (Barcelona, Paris, CEST)'
-}
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
-
-function doublezero(i){
-	return (i<10)?'0'+parseInt(i):parseInt(i)
-}
-
-function offset_string(offset){
-	sgn = (offset>0)?'-':'+' 
-	offset = Math.abs(offset)
-	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
-	extra = timezoneNames[base]
-	extra = (extra == undefined)?'':extra
-	return 'UTC '+base+extra
-}
-
-function nicestring(d){
-	month = monthNames[d.getMonth()-1]
-	day = d.getDate()
-	year = d.getFullYear()
-	hour = d.getHours()
-	ampm = ['am','pm'][parseInt((hour+1)/12)]
-	hour = (hour-1)%12+1
-	minute = d.getMinutes()
-	minute = (minute<10)?'0'+minute:minute;
-	hourmin = hour+':'+minute+ampm
-	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
-	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset_string(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
-}
-
-var date;
-function start (){
-	var timedom, date
-	d = document.getElementsByClassName('time-USER')
-	for(var i = 0; i<d.length;i++){
-		
-			timedom = d[i].getElementsByTagName('time')[0]
-			date = parseISOString(timedom.dateTime.slice(0,-10))
-			timedom.innerHTML = nicestring(date)
-		try{}
-		catch(err){}
-	}
-	
-	console.log()
-}
-
-window.onload=start
-
-</script>
-
-
-<script>
-(function(f, a, t, h, o, m){
-a[h]=a[h]||function(){
-(a[h].q=a[h].q||[]).push(arguments)
-};
-o=f.createElement('script'),
-m=f.getElementsByTagName('script')[0];
-o.async=1; o.src=t; o.id='fathom-script';
-m.parentNode.insertBefore(o,m)
-})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
-fathom('set', 'siteId', 'PILBPKTH');
-fathom('trackPageview');
-</script>
-
-
-
+    <body>
+        
 		<nav class="nav">
-			<div class="nav-container">
+			<div class="nav-container nav-top">
 				<a href="/math-seminars/">
 					<h2 class="nav-title">Mathematics Seminars List</h2>
 				</a>
-				<ul>
+				<ul class="menu-main-list">
     
-    <div>
-    
-        <li>
-            <a href="/math-seminars/categories/">
-                
-                <span>Categories</span>
-                
-            </a>
-        </li>
-    
-        <li>
-            <a href="/math-seminars/calendar/">
-                
-                <span>Calendar</span>
-                
-            </a>
-        </li>
     
         <li>
             <a href="/math-seminars/submit/">
@@ -162,8 +64,36 @@ fathom('trackPageview');
             </a>
         </li>
     
-    </div>
 </ul>
+			</div>
+			<div class= "nav-container nav-bottom">
+			<ul>
+		    
+		        <li>
+		            <a href="/math-seminars/">
+		                
+		                <span>Upcoming Talks</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/categories/">
+		                
+		                <span>Categories</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/calendar/">
+		                
+		                <span>Calendar</span>
+		                
+		            </a>
+		        </li>
+		    
+   			</ul>
 			</div>
 		</nav>
 
@@ -172,6 +102,73 @@ fathom('trackPageview');
 <main>
     <h1>Math.LO: Logic</h1>
 	<div class="catalogue">
+		
+			<div class="catalogue-div"> 
+    <a href="http://www.fields.utoronto.ca/activities/19-20/set-theory-seminar" class="catalogue-item">
+        <h1 class="catalogue-title"> A Decomposition Theorem for Aronszajn Lines</h1>
+        <div class="catalogue-line"></div>
+
+    <div style="float:none">
+        <div  class = "catalogue-time time-USER">
+        <time datetime = "2020-04-10 17:30:00 &#43;0000 UTC">
+        April 10, 2020  5:30pm UTC
+        </time>
+        </div>
+        <div class = "catalogue-time time-local">
+            <time datetime="2020-04-10 13:30:00 -0400 -0400" >
+                April 10, 2020  1:30pm UTC -04
+            </time>(Host local time)
+        </div>
+    </div>
+        </a>
+
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
+        </div>    
+        <span style="margin-right: 10px ">
+            <span>
+                Speaker: 
+            </span>
+            <span>
+                Keegan Dasilva Barbosa (University of Toronto)
+            </span>
+        </span>
+
+         - 
+        <span style="margin-left: 10px ">
+            <span>
+                Hosted by
+            </span>
+            <span>Fields Institute
+            </span>
+        </span>
+        <div style="float:right;">
+        
+        <a href = "categories/lo">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=LO&color=%23d020c5" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+        </div>
+        
+        
+        <a href="http://www.fields.utoronto.ca/activities/19-20/set-theory-seminar" class="catalogue-item">
+        <p class = "catalogue-paragraph"> 
+        
+
+        <p class = "catalogue-paragraph"> 
+         <b> Abstract: </b> <br/> 
+                We will prove that under the proper forcing axiom, the class of all Aronszajn lines behave like $\sigma$-scattered orders under the embeddability relation. In particular, we show that the class of better quasi order labeled fragmented Aronszajn lines is itself a better quasi order. Moreover, we show that every better quasi order labeled Aronszajn line can be expressed as a finite sum of labeled types which are algebraically indecomposable. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/fields-institute_keegan_dasilva_barbosa_10042020/">(...) </a>
+            
+        </p>
+        </a> 
+
+
+
+
+</div>
+
+
 		
 			<div class="catalogue-div"> 
     <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=834026" class="catalogue-item">
@@ -192,7 +189,7 @@ fathom('trackPageview');
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
@@ -228,10 +225,10 @@ fathom('trackPageview');
         
         <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=834026" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 In his classical 1932 paper, von Neumann asked 3 questions: Can you classify the statistical behavior of differentiable systems? Are there systems where time-forward is not isomorphic to time-backward? Is every abstract statistical system isomorphic to a differentiable system? These questions can be addressed with some surprising consequences by embedding them in Polish Spaces. 
                 <a href = "https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/">(...) </a>
             

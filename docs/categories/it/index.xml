@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/it/</link>
+    <description>Recent content in IT on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Thu, 23 Apr 2020 14:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Epidemic modeling – basics and challenges</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/eth-zurich-michigan-state-tum-ucla-ucsd_andrea_bertozzi_23042020/</link>
+      <pubDate>Thu, 23 Apr 2020 14:30:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/eth-zurich-michigan-state-tum-ucla-ucsd_andrea_bertozzi_23042020/</guid>
+      <description>I will review basics of epidemic modeling including eponential growth, compartmental models and self-exciting point process models. I will illustrate how such models have been used in the past for previous pandemics and what the challenges are for forecasting the current COVID-19 pandemic. I will show some examples of fitting of data to US states and what one can do with those results.</description>
+    </item>
+    
+  </channel>
+</rss>

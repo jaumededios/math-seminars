@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CV on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/cv/</link>
+    <description>Recent content in CV on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Mon, 20 Apr 2020 15:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/cv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Higher order Schwarzian Derivatives as multipliers between Bergman spaces</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/universitat-autonoma-de-barcelona_juan_j._donaire_20042020/</link>
+      <pubDate>Mon, 20 Apr 2020 15:00:00 +0200</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/universitat-autonoma-de-barcelona_juan_j._donaire_20042020/</guid>
+      <description>If $f :\mathbb D \to C$ is locally univalent, the Schwarzian derivative is defined as
+$$ \mathcal S(f) = \left( \frac{f&amp;rsquo;&#39;}{f&amp;rsquo;} \right)&amp;rsquo; - \frac 1 2 \left( \frac{f&amp;rsquo;&#39;}{f&amp;rsquo;} \right)^2 $$
+If $f$ is univalent, this operator is conformally invariant and has a growth given by</description>
+    </item>
+    
+  </channel>
+</rss>

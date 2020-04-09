@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AT on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/at/</link>
+    <description>Recent content in AT on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Mon, 13 Apr 2020 09:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/at/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Algebraic topology from a geometric viewpoint</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-oregon_dev_sinha_13042020/</link>
+      <pubDate>Mon, 13 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-oregon_dev_sinha_13042020/</guid>
+      <description>We give a lecture series on &amp;ldquo;intermediate&amp;rdquo; topics in algebraic topology - loop spaces, configuration spaces, rational homotopy, Grassmannians, Eilenberg MacLane spaces - as well as some applications of similar methods to study embeddings.</description>
+    </item>
+    
+  </channel>
+</rss>

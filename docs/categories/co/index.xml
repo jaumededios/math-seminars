@@ -30,14 +30,5 @@
       <description>A &amp;ldquo;pure pair&amp;rdquo; in a graph $G$ is a pair $(X,Y)$ of disjoint subsets of $V(G)$ such that either every vertex in $X$ is adjacent to every vertex in $Y$, or there are no edges from $X$ to $Y$. Let $f(G)$ be the biggest $k$ such that $G$ has a pure pair $(X,Y)$ with $|X|,|Y|$ at least $k$.</description>
     </item>
     
-    <item>
-      <title>	Identifiability in Phylogenetics using Algebraic Matroids</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/mit_-ben_hollering_9042020/</link>
-      <pubDate>Thu, 09 Apr 2020 10:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_-ben_hollering_9042020/</guid>
-      <description>Identifiability is a crucial property for a statistical model since it implies that distributions in the model uniquely determine the parameters that produce them. In phylogenetics, the identifiability of the tree parameter is of particular interest since it means that phylogenetic models can be used to infer evolutionary histories from data.</description>
-    </item>
-    
   </channel>
 </rss>

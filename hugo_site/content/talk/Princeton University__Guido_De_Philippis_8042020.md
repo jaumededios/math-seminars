@@ -11,4 +11,4 @@
   publishDate = "2000-02-07T16:00:00-07:00"
 +++
 
-I will illustrate  a recent result obtained in collaboration with  L. Spolaor and B. Velichkov  concerning the regularity of the free boundaries in the two phase Bernoulli problems. The new main point is the analysis of the free boundary close to branch points, where we show that it is given by the union of two $C^$ graphs. This complete the analysis started by Alt Caffarelli Friedman in the 80’s.
+I will illustrate  a recent result obtained in collaboration with  L. Spolaor and B. Velichkov  concerning the regularity of the free boundaries in the two phase Bernoulli problems. The new main point is the analysis of the free boundary close to branch points, where we show that it is given by the union of two $C ^ 1$ graphs. This complete the analysis started by Alt Caffarelli Friedman in the 80’s.
