@@ -21,14 +21,5 @@
       <description>In his classical 1932 paper, von Neumann asked 3 questions: Can you classify the statistical behavior of differentiable systems? Are there systems where time-forward is not isomorphic to time-backward? Is every abstract statistical system isomorphic to a differentiable system? These questions can be addressed with some surprising consequences by embedding them in Polish Spaces.</description>
     </item>
     
-    <item>
-      <title> A Decomposition Theorem for Aronszajn Lines</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/fields-institute_keegan_dasilva_barbosa_10042020/</link>
-      <pubDate>Fri, 10 Apr 2020 13:30:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/fields-institute_keegan_dasilva_barbosa_10042020/</guid>
-      <description>We will prove that under the proper forcing axiom, the class of all Aronszajn lines behave like $\sigma$-scattered orders under the embeddability relation. In particular, we show that the class of better quasi order labeled fragmented Aronszajn lines is itself a better quasi order. Moreover, we show that every better quasi order labeled Aronszajn line can be expressed as a finite sum of labeled types which are algebraically indecomposable.</description>
-    </item>
-    
   </channel>
 </rss>

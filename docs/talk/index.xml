@@ -410,32 +410,5 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
       <description>In his classical 1932 paper, von Neumann asked 3 questions: Can you classify the statistical behavior of differentiable systems? Are there systems where time-forward is not isomorphic to time-backward? Is every abstract statistical system isomorphic to a differentiable system? These questions can be addressed with some surprising consequences by embedding them in Polish Spaces.</description>
     </item>
     
-    <item>
-      <title>Random walks on punctured convex real projective surfaces</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/columbia-university_harrison_bray_10042020/</link>
-      <pubDate>Fri, 10 Apr 2020 14:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/columbia-university_harrison_bray_10042020/</guid>
-      <description>I&amp;rsquo;ll discuss the following result, joint with Giulio Tiozzo: Letting $\Gamma$ be the representation of a punctured hyperbolic surface group in $PSL(3,R)$ acting discretely, properly discontinuously, and with finite co-volume on a properly convex set in the projective plane, we have that hitting measure for a random walk on any $\Gamma$-orbit with certain moment conditions is singular with respect to the classical Patterson-Sullivan measure.</description>
-    </item>
-    
-    <item>
-      <title> A Decomposition Theorem for Aronszajn Lines</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/fields-institute_keegan_dasilva_barbosa_10042020/</link>
-      <pubDate>Fri, 10 Apr 2020 13:30:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/fields-institute_keegan_dasilva_barbosa_10042020/</guid>
-      <description>We will prove that under the proper forcing axiom, the class of all Aronszajn lines behave like $\sigma$-scattered orders under the embeddability relation. In particular, we show that the class of better quasi order labeled fragmented Aronszajn lines is itself a better quasi order. Moreover, we show that every better quasi order labeled Aronszajn line can be expressed as a finite sum of labeled types which are algebraically indecomposable.</description>
-    </item>
-    
-    <item>
-      <title>Coarse Universality</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_pavlos_motakis_10042020/</link>
-      <pubDate>Fri, 10 Apr 2020 09:00:00 -0500</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_pavlos_motakis_10042020/</guid>
-      <description>The Bourgain index is a tool that can be used to show that if a separable Banach space contains isomorphic copies of all members of a class C then it must contain isomorphic copies of all separable Banach spaces. This can be applied, e.g., to the class C of separable reflexive spaces.</description>
-    </item>
-    
   </channel>
 </rss>
