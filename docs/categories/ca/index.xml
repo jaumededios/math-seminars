@@ -21,5 +21,23 @@
       <description>I will review basics of epidemic modeling including eponential growth, compartmental models and self-exciting point process models. I will illustrate how such models have been used in the past for previous pandemics and what the challenges are for forecasting the current COVID-19 pandemic. I will show some examples of fitting of data to US states and what one can do with those results.</description>
     </item>
     
+    <item>
+      <title>Inviscid damping for a class of monotone shear flow</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/institute-of-mathematical-sciences-shanghaitech-university__weiren_zhao_16042020/</link>
+      <pubDate>Thu, 16 Apr 2020 21:15:00 +0800</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/institute-of-mathematical-sciences-shanghaitech-university__weiren_zhao_16042020/</guid>
+      <description>In this talk, I am going to talk about the nonlinear inviscid damping for a class of monotone shear flows in the finite channel for initial perturbation in Gevrey class with compact support. The main idea of the proof is to use the wave operator of a slightly modified Rayleigh operator in a well chosen coordinate system.</description>
+    </item>
+    
+    <item>
+      <title>Constrained convex bodies with maximal affine surface area</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/georgia-tech_elisabeth_werner_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 10:30:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/georgia-tech_elisabeth_werner_14042020/</guid>
+      <description>Given a convex body $K$ in $R^n$, we study the maximal affine surface area of $K$, i.e., the quantity $AS(K) = sup_{C} as(C)$ where $as(C)$ denotes the affine surface area of $C$, and the supremum is taken over all convex subsets of $K$. In particular, we give asymptotic estimates on the size of $AS(K)$.</description>
+    </item>
+    
   </channel>
 </rss>

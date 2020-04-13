@@ -94,6 +94,15 @@
     </item>
     
     <item>
+      <title>Derivation of the wave kinetic equation</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/pde-seminar-via-zoom_yu_deng_30042020/</link>
+      <pubDate>Thu, 30 Apr 2020 08:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/pde-seminar-via-zoom_yu_deng_30042020/</guid>
+      <description>The wave turbulence theory describes the nonequilibrium statistical mechanics for a large class of nonlinear dispersive systems. A major goal of this theory is to derive the wave kinetic equation, which predicts the behavior of macroscopic limits of ensemble averages for microscopic interacting systems. Usually this limit happens at a particular &amp;ldquo;kinetic time scale&amp;rdquo; in the &amp;ldquo;weak-nonlinearity&amp;rdquo; limit where the number of interacting modes goes to infinity while the nonlinearity strength goes to zero.</description>
+    </item>
+    
+    <item>
       <title>Introduction to regularity structures 1</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_29042020/</link>
       <pubDate>Wed, 29 Apr 2020 09:00:00 -0700</pubDate>
@@ -148,12 +157,30 @@
     </item>
     
     <item>
+      <title>Inviscid damping and enhanced dissipation in 2d fluids</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/mit_michele_coti_zelati_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 16:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_michele_coti_zelati_14042020/</guid>
+      <description>We review some recent results on the asymptotic stability of stationary solutions to the two-dimensional Euler and Navier-Stokes equations of incompressible flows. In many cases, sharp decay rates for the linearized problem imply some sort of nonlinear asymptotic stability, both in the Euler equations (through the so-called inviscid damping) and the Navier-Stokes equations (undergoing enhanced dissipation).</description>
+    </item>
+    
+    <item>
       <title>Gross–Pitaeskii, Kadomtsev–Petviashvili, and Adler–Moser</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_juncheng_wei_14042020/</link>
       <pubDate>Tue, 14 Apr 2020 16:00:00 +0103</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_juncheng_wei_14042020/</guid>
       <description>Gross–Pitaeskii, Kadomtsev–Petviashvili, and Adler–Moser</description>
+    </item>
+    
+    <item>
+      <title>Mathematical analysis of atmospheric models with moisture</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-bath_edriss_s._titi_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 07:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-bath_edriss_s._titi_14042020/</guid>
+      <description>In this talk I will present some recent results concerning the global regularity of the three-dimensional Primitive Equations of oceanic and atmospheric dynamics with various anisotropic viscosity and turbulence mixing diffusion. However, in the non-viscous (inviscid) case it can be shown that there is a one-parameter family of initial data for which the corresponding smooth solutions of the inviscid Primitive Equations develop finite-time singularities (blowup).</description>
     </item>
     
     <item>

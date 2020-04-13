@@ -76,6 +76,24 @@
     </item>
     
     <item>
+      <title>Lipschitz Free Spaces over Locally Compact Metric Spaces</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_chris_gartland_8052020/</link>
+      <pubDate>Fri, 08 May 2020 07:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_chris_gartland_8052020/</guid>
+      <description>Lipschitz Free Spaces over Locally Compact Metric Spaces</description>
+    </item>
+    
+    <item>
+      <title>Separation logic through a new lens</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_sarah_rovner-frydman_6052020/</link>
+      <pubDate>Wed, 06 May 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_sarah_rovner-frydman_6052020/</guid>
+      <description>Separation logic through a new lens</description>
+    </item>
+    
+    <item>
       <title>Computing Sato-Tate and monodromy groups</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/vantage_david_zywina_05052020/</link>
       <pubDate>Tue, 05 May 2020 13:00:00 -0400</pubDate>
@@ -103,12 +121,30 @@
     </item>
     
     <item>
+      <title>The Hilbert scheme of infinite affine space</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/stanford-university_burt_totaro_1052020/</link>
+      <pubDate>Fri, 01 May 2020 12:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/stanford-university_burt_totaro_1052020/</guid>
+      <description>I will discuss the Hilbert scheme of $d$ points in affine $n$-space, with some examples. This space has many irreducible components for $n$ at least 3 and is poorly understood. Nonetheless, in the limit where $n$ goes to infinity, we show that the Hilbert scheme of $d$ points in infinite affine space has a very simple homotopy type.</description>
+    </item>
+    
+    <item>
       <title>Introduction to regularity structures 2</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_30042020/</link>
       <pubDate>Thu, 30 Apr 2020 09:00:00 -0700</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_martin_hairer_30042020/</guid>
       <description>In these two lectures, I will give an introduction to the main concepts behind the theory of regularity structures which allows to give meaning to many stochastic PDEs that were previously thought to be ill-posed. This combines some of the insights and tools from (perturbative) QFT with classical PDE theory.</description>
+    </item>
+    
+    <item>
+      <title>Derivation of the wave kinetic equation</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/pde-seminar-via-zoom_yu_deng_30042020/</link>
+      <pubDate>Thu, 30 Apr 2020 08:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/pde-seminar-via-zoom_yu_deng_30042020/</guid>
+      <description>The wave turbulence theory describes the nonequilibrium statistical mechanics for a large class of nonlinear dispersive systems. A major goal of this theory is to derive the wave kinetic equation, which predicts the behavior of macroscopic limits of ensemble averages for microscopic interacting systems. Usually this limit happens at a particular &amp;ldquo;kinetic time scale&amp;rdquo; in the &amp;ldquo;weak-nonlinearity&amp;rdquo; limit where the number of interacting modes goes to infinity while the nonlinearity strength goes to zero.</description>
     </item>
     
     <item>
@@ -127,6 +163,15 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_hubert_lacoin_30042020/</guid>
       <description>   </description>
+    </item>
+    
+    <item>
+      <title>A localic approach to the semantics of dependency, conflict, and concurrency</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_gershom_bazerman_29042020/</link>
+      <pubDate>Wed, 29 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_gershom_bazerman_29042020/</guid>
+      <description>Petri nets have been of interest to applied category theory for some time. Back in the 1980s, one approach to their semantics was given by algebraic gadgets called “event structures.” We use classical techniques from order theory to study event structures without conflict restrictions (which we term “dependency structures with choice”) by their associated “traces”, which let us establish a one-to-one correspondence between DSCs and a certain class of locales.</description>
     </item>
     
     <item>
@@ -202,12 +247,39 @@
     </item>
     
     <item>
+      <title>Star-autonomous envelopes</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_michael_shulman_22042020/</link>
+      <pubDate>Wed, 22 Apr 2020 10:10:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_michael_shulman_22042020/</guid>
+      <description>Symmetric monoidal categories with duals, a.k.a. compact monoidal categories, have a pleasing string diagram calculus. In particular, any compact monoidal category is closed with [A,B] = (A* ⊗ B), and the transpose of A ⊗ B → C to A → [B,C] is represented by simply bending a string.</description>
+    </item>
+    
+    <item>
+      <title>Discretizations of the total variation for singular functions</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/one-world-seminar-series_antonin_chambolle_22042020/</link>
+      <pubDate>Wed, 22 Apr 2020 16:00:00 +0200</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-seminar-series_antonin_chambolle_22042020/</guid>
+      <description>In this talk, based on joint work with Corentin Caillaud and Thomas Pock, I will discuss the merits of some finite differences or finite elements discretizations of the total variation functional. I will mention error bounds for the recovery of sharp discontinuities, inpainting straight lines in 2D, and trying to improve on some recent approaches proposed in the literature.</description>
+    </item>
+    
+    <item>
       <title>Arithmetic L-functions and their Sato-Tate distributions</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/</link>
       <pubDate>Tue, 21 Apr 2020 13:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/</guid>
       <description>TBA</description>
+    </item>
+    
+    <item>
+      <title>Invariant theory and matrix normal models</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_philipp_reichenbach_21042020/</link>
+      <pubDate>Tue, 21 Apr 2020 08:40:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_philipp_reichenbach_21042020/</guid>
+      <description>We describe connections between invariant theory and maximum likelihood estimation (ML estimation), in the context of matrix normal models. Namely, we link ML estimation in that case to the left right action of SLxSL on tuples of matrices. This enables us to characterize ML estimation by stability under that group action.</description>
     </item>
     
     <item>
@@ -254,7 +326,7 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
       <pubDate>Thu, 16 Apr 2020 14:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_anthony_quas_16042020/</guid>
-      <description>It is known, by work of Bochi, Mañé, Viana and others that Lyapunov exponents are highly sensitive to perturbations of a dynamical system. On the other hand, work of Ledrappier, Young and my work with Froyland and Gonz´alez-Tokman has shown that in some situations, under “noise-like” perturbations, Lyapunov exponents vary continuously.</description>
+      <description>It is known, by work of Bochi, Ma~n&#39;e, Viana and others that Lyapunov exponents are highly sensitive to perturbations of a dynamical system. On the other hand, work of Ledrappier, Young and my work with Froyland and Gonz&#39;alez-Tokman has shown that in some situations, under “noise-like” perturbations, Lyapunov exponents vary continuously.</description>
     </item>
     
     <item>
@@ -264,6 +336,15 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/mit_joachim_kock_16042020/</guid>
       <description>Starting from any operad P, one can consider on one hand the free operad on P, and on the other hand the Baez&amp;ndash;Dolan construction on P. These two new operads have the same space of operations, but with very different notions of arity and substitution. The main result is that the incidence bialgebras of the two-sided bar constructions of the two operads constitute together a comodule bialgebra.</description>
+    </item>
+    
+    <item>
+      <title>A friendly Introduction to matroids</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_tara_fife_16042020/</link>
+      <pubDate>Thu, 16 Apr 2020 08:40:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_tara_fife_16042020/</guid>
+      <description>Matroids were introduced by Whitney in 1935 to provide an abstract generalization of the notion of linear independence. Whitney noted that matroids arise naturally from graphs and from matrices. More recently, people have discovered ties to matroid theory and algebraic geometry. In this talk, I will first introduce matroid theory, along with some key examples, and central questions.</description>
     </item>
     
     <item>
@@ -285,12 +366,93 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
     </item>
     
     <item>
+      <title>Information diffusion on random graphs</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/mannheim_remco_van_der_hofstadt_16042020/</link>
+      <pubDate>Thu, 16 Apr 2020 07:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/mannheim_remco_van_der_hofstadt_16042020/</guid>
+      <description>Since the outbreak of the coronavirus pandemic, the entire world has been forced to slow down. The scientific community has been no exception with cancellations of conferences, seminars and research visits. We are all forced to build up new communication channels, the One World Probability Seminar is an attempt to keep our community together.</description>
+    </item>
+    
+    <item>
+      <title>Inviscid damping for a class of monotone shear flow</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/institute-of-mathematical-sciences-shanghaitech-university__weiren_zhao_16042020/</link>
+      <pubDate>Thu, 16 Apr 2020 21:15:00 +0800</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/institute-of-mathematical-sciences-shanghaitech-university__weiren_zhao_16042020/</guid>
+      <description>In this talk, I am going to talk about the nonlinear inviscid damping for a class of monotone shear flows in the finite channel for initial perturbation in Gevrey class with compact support. The main idea of the proof is to use the wave operator of a slightly modified Rayleigh operator in a well chosen coordinate system.</description>
+    </item>
+    
+    <item>
       <title>Scaling limits for planar aggregation with subcritical fluctuations</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_amanda_turner_16042020/</link>
       <pubDate>Thu, 16 Apr 2020 15:00:00 +0200</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_amanda_turner_16042020/</guid>
       <description>   </description>
+    </item>
+    
+    <item>
+      <title>Open games: the long road to practical applications</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</link>
+      <pubDate>Wed, 15 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</guid>
+      <description>I will talk about open games, and the closely related concepts of lenses/optics and open learners. My goal is to report on the successes and failures of an ongoing effort to try to realise the often-claimed benefits of categories and compositionality in actual practice. I will introduce what little theory is needed along the way.</description>
+    </item>
+    
+    <item>
+      <title>Termination of probabilistic programs</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-birmingham_joost-pieter_katoen_15042020/</link>
+      <pubDate>Wed, 15 Apr 2020 06:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-birmingham_joost-pieter_katoen_15042020/</guid>
+      <description>Program termination is a key question in program verification. This talk considers the termination of probabilistic programs, programs that can describe randomised algorithms and more recently received attention in machine learning. Probabilistic termination has several nuances and has some unexpected effects. Programs may diverge with zero probability; they almost-surely terminate (AST).</description>
+    </item>
+    
+    <item>
+      <title>The Collatz Conjecture</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/matrix_terence_tao_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 15:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/matrix_terence_tao_14042020/</guid>
+      <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
+    </item>
+    
+    <item>
+      <title>Boshernitzan&#39;s criterion for unique ergodicity</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-utah__jon_chaika_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 14:00:00 -0600</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-utah__jon_chaika_14042020/</guid>
+      <description>There will be a pre-talk from 1:20-1:50 Mountain time to introduce symbolic dynamics and linear block growth.</description>
+    </item>
+    
+    <item>
+      <title>Inviscid damping and enhanced dissipation in 2d fluids</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/mit_michele_coti_zelati_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 16:00:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_michele_coti_zelati_14042020/</guid>
+      <description>We review some recent results on the asymptotic stability of stationary solutions to the two-dimensional Euler and Navier-Stokes equations of incompressible flows. In many cases, sharp decay rates for the linearized problem imply some sort of nonlinear asymptotic stability, both in the Euler equations (through the so-called inviscid damping) and the Navier-Stokes equations (undergoing enhanced dissipation).</description>
+    </item>
+    
+    <item>
+      <title>Modeling for a globally connected world: What models are good for and how they work</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/nimbios__louis_gross_university_of_tennessee_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 15:30:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/nimbios__louis_gross_university_of_tennessee_14042020/</guid>
+      <description>Policies for the COVID-19 pandemic response have relied upon models of various types to project future trends and assess the potential impacts of alternative amelioration strategies. I invite you to join us for basic overviews of the process of modeling, the “art” of model construction, and the array of different kinds of approaches (mathematical, computational, and graphical) that are applied in the life sciences.</description>
+    </item>
+    
+    <item>
+      <title> Framed mapping class groups, or the topology of families of flat surfaces</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/virtual-trends-in-ldt_nick_salter_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 12:31:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/virtual-trends-in-ldt_nick_salter_14042020/</guid>
+      <description>Families of surfaces are everywhere in mathematics, not just in topology, but in algebraic geometry, complex analysis, dynamics, and even number theory. The topology of a family of surfaces is governed by a “monodromy representation” that is valued in the mapping class group. I’m interested in (a) developing tools within the mapping class group to better understand monodromy and (b) applying these tools to problems involving families of surfaces, inside and out of topology proper.</description>
     </item>
     
     <item>
@@ -303,12 +465,39 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
     </item>
     
     <item>
+      <title>Augmentations and exact Lagrangian surfaces.</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/vitual-ldt-seminar_yu_pan_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 12:01:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/vitual-ldt-seminar_yu_pan_14042020/</guid>
+      <description>Augmentations are some algebraic invariants of Legendrian that are tightly related to both embedded and immersed exact Lagrangian fillings. We will talk about various relations between embedded and immersed exact Lagrangian surfaces using tools related to augmentations.</description>
+    </item>
+    
+    <item>
+      <title>Calculus in Context: Introducing Calculus Ideas through Epidemiology Models</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/mit_eric_stade_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_eric_stade_14042020/</guid>
+      <description>Now is probably as good a time as any, unfortunately, to argue for a first-semester Calculus course that begins with the S-I-R, or Susceptible-Infected-Recovered, dynamical system from epidemiology. I’ll describe how I use S-I-R to kick-start a course, that, eventually, gets to all of the usual Calc I stuff, and is richly satisfying to math geeks (like me) while still appealing to students who are perhaps less geeky, or geeky in different directions.</description>
+    </item>
+    
+    <item>
       <title>Logarithmic Voronoi Cells</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/naso_yulia_alexandr__14042020/</link>
       <pubDate>Tue, 14 Apr 2020 17:40:00 +0200</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/naso_yulia_alexandr__14042020/</guid>
       <description>   </description>
+    </item>
+    
+    <item>
+      <title>K-moduli of Fano varieties</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/edge-edingburgh-geometry_chenyang_xu_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 16:00:00 +0100</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/edge-edingburgh-geometry_chenyang_xu_14042020/</guid>
+      <description>One main theme of the algebraic K-stability theory of Fano varieties is to use it to construct moduli spaces of K-(semi,polystable) Fano varieties. Several main ingredients have been established, based on the recent development of our understanding of K-stability theory and other inputs. In this talk, we will discuss the current status of the construction.</description>
     </item>
     
     <item>
@@ -321,12 +510,39 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
     </item>
     
     <item>
+      <title>Constrained convex bodies with maximal affine surface area</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/georgia-tech_elisabeth_werner_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 10:30:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/georgia-tech_elisabeth_werner_14042020/</guid>
+      <description>Given a convex body $K$ in $R^n$, we study the maximal affine surface area of $K$, i.e., the quantity $AS(K) = sup_{C} as(C)$ where $as(C)$ denotes the affine surface area of $C$, and the supremum is taken over all convex subsets of $K$. In particular, we give asymptotic estimates on the size of $AS(K)$.</description>
+    </item>
+    
+    <item>
+      <title>Mathematical analysis of atmospheric models with moisture</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-bath_edriss_s._titi_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 07:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-bath_edriss_s._titi_14042020/</guid>
+      <description>In this talk I will present some recent results concerning the global regularity of the three-dimensional Primitive Equations of oceanic and atmospheric dynamics with various anisotropic viscosity and turbulence mixing diffusion. However, in the non-viscous (inviscid) case it can be shown that there is a one-parameter family of initial data for which the corresponding smooth solutions of the inviscid Primitive Equations develop finite-time singularities (blowup).</description>
+    </item>
+    
+    <item>
       <title>Mathematical Analysis of Atmospheric Models with Moisture</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_edriss_s._titi_14042020/</link>
       <pubDate>Tue, 14 Apr 2020 15:00:00 +0102</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/one-world-pde_edriss_s._titi_14042020/</guid>
       <description>Mathematical Analysis of Atmospheric Models with Moisture</description>
+    </item>
+    
+    <item>
+      <title>Thresholds</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/oxford_bhargav_narayanan__14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 14:00:00 +0100</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/oxford_bhargav_narayanan__14042020/</guid>
+      <description>Abstract: I&amp;rsquo;ll discuss our recent proof of a conjecture of Talagrand, a fractional version of the &amp;ldquo;expectation-threshold&amp;rdquo; conjecture of Kahn and Kalai. As a consequence of this result, we resolve various (heretofore) difficult problems in probabilistic combinatorics and statistical physics.</description>
     </item>
     
     <item>

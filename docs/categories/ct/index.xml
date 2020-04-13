@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Thu, 16 Apr 2020 12:01:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 10:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/ct/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A localic approach to the semantics of dependency, conflict, and concurrency</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_gershom_bazerman_29042020/</link>
+      <pubDate>Wed, 29 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_gershom_bazerman_29042020/</guid>
+      <description>Petri nets have been of interest to applied category theory for some time. Back in the 1980s, one approach to their semantics was given by algebraic gadgets called “event structures.” We use classical techniques from order theory to study event structures without conflict restrictions (which we term “dependency structures with choice”) by their associated “traces”, which let us establish a one-to-one correspondence between DSCs and a certain class of locales.</description>
+    </item>
+    
+    <item>
+      <title>Star-autonomous envelopes</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_michael_shulman_22042020/</link>
+      <pubDate>Wed, 22 Apr 2020 10:10:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_michael_shulman_22042020/</guid>
+      <description>Symmetric monoidal categories with duals, a.k.a. compact monoidal categories, have a pleasing string diagram calculus. In particular, any compact monoidal category is closed with [A,B] = (A* ⊗ B), and the transpose of A ⊗ B → C to A → [B,C] is represented by simply bending a string.</description>
+    </item>
     
     <item>
       <title>The incidence comodule bialgebra of the Baez--Dolan construction</title>
@@ -19,6 +37,15 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/mit_joachim_kock_16042020/</guid>
       <description>Starting from any operad P, one can consider on one hand the free operad on P, and on the other hand the Baez&amp;ndash;Dolan construction on P. These two new operads have the same space of operations, but with very different notions of arity and substitution. The main result is that the incidence bialgebras of the two-sided bar constructions of the two operads constitute together a comodule bialgebra.</description>
+    </item>
+    
+    <item>
+      <title>Open games: the long road to practical applications</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</link>
+      <pubDate>Wed, 15 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</guid>
+      <description>I will talk about open games, and the closely related concepts of lenses/optics and open learners. My goal is to report on the successes and failures of an ongoing effort to try to realise the often-claimed benefits of categories and compositionality in actual practice. I will introduce what little theory is needed along the way.</description>
     </item>
     
   </channel>
