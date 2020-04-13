@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 16:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 10:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/lo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Attacking Classical Problems in Dynamical Systems with Descriptive Set Theory</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</link>
-      <pubDate>Fri, 10 Apr 2020 16:00:00 -0700</pubDate>
+      <title>Separation logic through a new lens</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_sarah_rovner-frydman_6052020/</link>
+      <pubDate>Wed, 06 May 2020 10:00:00 -0700</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</guid>
-      <description>In his classical 1932 paper, von Neumann asked 3 questions: Can you classify the statistical behavior of differentiable systems? Are there systems where time-forward is not isomorphic to time-backward? Is every abstract statistical system isomorphic to a differentiable system? These questions can be addressed with some surprising consequences by embedding them in Polish Spaces.</description>
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_sarah_rovner-frydman_6052020/</guid>
+      <description>Separation logic through a new lens</description>
     </item>
     
   </channel>

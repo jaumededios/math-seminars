@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RT on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/rt/</link>
+    <description>Recent content in RT on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Tue, 21 Apr 2020 08:40:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/rt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Invariant theory and matrix normal models</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_philipp_reichenbach_21042020/</link>
+      <pubDate>Tue, 21 Apr 2020 08:40:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_philipp_reichenbach_21042020/</guid>
+      <description>We describe connections between invariant theory and maximum likelihood estimation (ML estimation), in the context of matrix normal models. Namely, we link ML estimation in that case to the left right action of SLxSL on tuples of matrices. This enables us to characterize ML estimation by stability under that group action.</description>
+    </item>
+    
+    <item>
+      <title>A friendly Introduction to matroids</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_tara_fife_16042020/</link>
+      <pubDate>Thu, 16 Apr 2020 08:40:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_tara_fife_16042020/</guid>
+      <description>Matroids were introduced by Whitney in 1935 to provide an abstract generalization of the notion of linear independence. Whitney noted that matroids arise naturally from graphs and from matrices. More recently, people have discovered ties to matroid theory and algebraic geometry. In this talk, I will first introduce matroid theory, along with some key examples, and central questions.</description>
+    </item>
+    
+  </channel>
+</rss>

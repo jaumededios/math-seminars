@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 09:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2020 07:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/fa/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Coarse Universality</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_pavlos_motakis_10042020/</link>
-      <pubDate>Fri, 10 Apr 2020 09:00:00 -0500</pubDate>
+      <title>Lipschitz Free Spaces over Locally Compact Metric Spaces</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_chris_gartland_8052020/</link>
+      <pubDate>Fri, 08 May 2020 07:00:00 -0700</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_pavlos_motakis_10042020/</guid>
-      <description>The Bourgain index is a tool that can be used to show that if a separable Banach space contains isomorphic copies of all members of a class C then it must contain isomorphic copies of all separable Banach spaces. This can be applied, e.g., to the class C of separable reflexive spaces.</description>
+      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_chris_gartland_8052020/</guid>
+      <description>Lipschitz Free Spaces over Locally Compact Metric Spaces</description>
     </item>
     
   </channel>

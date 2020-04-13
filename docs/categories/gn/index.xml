@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GN on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/gn/</link>
+    <description>Recent content in GN on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Tue, 14 Apr 2020 12:31:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/gn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> Framed mapping class groups, or the topology of families of flat surfaces</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/virtual-trends-in-ldt_nick_salter_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 12:31:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/virtual-trends-in-ldt_nick_salter_14042020/</guid>
+      <description>Families of surfaces are everywhere in mathematics, not just in topology, but in algebraic geometry, complex analysis, dynamics, and even number theory. The topology of a family of surfaces is governed by a “monodromy representation” that is valued in the mapping class group. I’m interested in (a) developing tools within the mapping class group to better understand monodromy and (b) applying these tools to problems involving families of surfaces, inside and out of topology proper.</description>
+    </item>
+    
+  </channel>
+</rss>

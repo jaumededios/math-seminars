@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Mon, 13 Apr 2020 09:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 12:01:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/at/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Algebraic topology from a geometric viewpoint</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-oregon_dev_sinha_13042020/</link>
-      <pubDate>Mon, 13 Apr 2020 09:00:00 -0700</pubDate>
+      <title>Augmentations and exact Lagrangian surfaces.</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/vitual-ldt-seminar_yu_pan_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 12:01:00 -0400</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-oregon_dev_sinha_13042020/</guid>
-      <description>We give a lecture series on &amp;ldquo;intermediate&amp;rdquo; topics in algebraic topology - loop spaces, configuration spaces, rational homotopy, Grassmannians, Eilenberg MacLane spaces - as well as some applications of similar methods to study embeddings.</description>
+      <guid>https://jaume.dedios.cat/math-seminars/talk/vitual-ldt-seminar_yu_pan_14042020/</guid>
+      <description>Augmentations are some algebraic invariants of Legendrian that are tightly related to both embedded and immersed exact Lagrangian fillings. We will talk about various relations between embedded and immersed exact Lagrangian surfaces using tools related to augmentations.</description>
     </item>
     
   </channel>

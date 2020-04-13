@@ -7,18 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Fri, 10 Apr 2020 14:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 12:31:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/gt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Random walks on punctured convex real projective surfaces</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/columbia-university_harrison_bray_10042020/</link>
-      <pubDate>Fri, 10 Apr 2020 14:00:00 -0400</pubDate>
+      <title> Framed mapping class groups, or the topology of families of flat surfaces</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/virtual-trends-in-ldt_nick_salter_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 12:31:00 -0400</pubDate>
       
-      <guid>https://jaume.dedios.cat/math-seminars/talk/columbia-university_harrison_bray_10042020/</guid>
-      <description>I&amp;rsquo;ll discuss the following result, joint with Giulio Tiozzo: Letting $\Gamma$ be the representation of a punctured hyperbolic surface group in $PSL(3,R)$ acting discretely, properly discontinuously, and with finite co-volume on a properly convex set in the projective plane, we have that hitting measure for a random walk on any $\Gamma$-orbit with certain moment conditions is singular with respect to the classical Patterson-Sullivan measure.</description>
+      <guid>https://jaume.dedios.cat/math-seminars/talk/virtual-trends-in-ldt_nick_salter_14042020/</guid>
+      <description>Families of surfaces are everywhere in mathematics, not just in topology, but in algebraic geometry, complex analysis, dynamics, and even number theory. The topology of a family of surfaces is governed by a “monodromy representation” that is valued in the mapping class group. I’m interested in (a) developing tools within the mapping class group to better understand monodromy and (b) applying these tools to problems involving families of surfaces, inside and out of topology proper.</description>
+    </item>
+    
+    <item>
+      <title>Augmentations and exact Lagrangian surfaces.</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/vitual-ldt-seminar_yu_pan_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 12:01:00 -0400</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/vitual-ldt-seminar_yu_pan_14042020/</guid>
+      <description>Augmentations are some algebraic invariants of Legendrian that are tightly related to both embedded and immersed exact Lagrangian fillings. We will talk about various relations between embedded and immersed exact Lagrangian surfaces using tools related to augmentations.</description>
     </item>
     
   </channel>

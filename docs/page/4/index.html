@@ -18,10 +18,8 @@
 
 		
 		<link href="/math-seminars/index.xml" rel="alternate" type="application/rss+xml" title="Mathematics Seminars List" />
-	</head>
-
-    <body>
-        <script type="text/javascript"
+		<script type="text/javascript" src = "/math-seminars/js/head_script.js"></script>
+		<script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
@@ -29,7 +27,7 @@
 MathJax.Hub.Config({
   tex2jax: {
     inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
+    displayMath: [['$$','$$']],
     processEscapes: true,
     processEnvironments: true,
     skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
@@ -40,115 +38,17 @@ MathJax.Hub.Config({
 </script>
 
 
-<script type="text/javascript">
+	</head>
 
-
-var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-var timezoneNames = {
-	'-07:00':' (Los Angeles, PDT)',
-	'-04:00':' (New York, EDT)',
-	'+02:00':' (Barcelona, Paris, CEST)'
-}
-
-
-function doublezero(i){
-	return (i<10)?'0'+parseInt(i):parseInt(i)
-}
-
-function offset(offset){
-	console.log(offset)
-	sgn = (offset>0)?'-':'+' 
-	offset = Math.abs(offset)
-	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
-	extra = timezoneNames[base]
-	extra = (extra == undefined)?'':extra
-	return 'UTC '+base+extra
-}
-
-function nicestring(d){
-	month = monthNames[d.getMonth()-1]
-	day = d.getDate()
-	year = d.getFullYear()
-	hour = d.getHours()
-	ampm = ['am','pm'][parseInt((hour+1)/12)]
-	hour = (hour-1)%12+1
-	minute = d.getMinutes()
-	minute = (minute<10)?'0'+minute:minute;
-	hourmin = hour+':'+minute+ampm
-	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
-	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
-}
-
-var date;
-function start (){
-	var timedom, date
-	d = document.getElementsByClassName('time-USER')
-	for(var i = 0; i<d.length;i++){
-		
-			timedom = d[i].getElementsByTagName('time')[0]
-			date = parseISOString(timedom.dateTime.slice(0,-10))
-			timedom.innerHTML = nicestring(date)
-		try{}
-		catch(err){}
-	}
-	
-	console.log()
-}
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
-
-window.onload=start
-
-</script>
-
-
-<script>
-(function(f, a, t, h, o, m){
-a[h]=a[h]||function(){
-(a[h].q=a[h].q||[]).push(arguments)
-};
-o=f.createElement('script'),
-m=f.getElementsByTagName('script')[0];
-o.async=1; o.src=t; o.id='fathom-script';
-m.parentNode.insertBefore(o,m)
-})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
-fathom('set', 'siteId', 'PILBPKTH');
-fathom('trackPageview');
-</script>
-
-
-
+    <body>
+        
 		<nav class="nav">
-			<div class="nav-container">
+			<div class="nav-container nav-top">
 				<a href="/math-seminars/">
 					<h2 class="nav-title">Mathematics Seminars List</h2>
 				</a>
-				<ul>
+				<ul class="menu-main-list">
     
-    <div>
-    
-        <li>
-            <a href="/math-seminars/categories/">
-                
-                <span>Categories</span>
-                
-            </a>
-        </li>
-    
-        <li>
-            <a href="/math-seminars/calendar/">
-                
-                <span>Calendar</span>
-                
-            </a>
-        </li>
     
         <li>
             <a href="/math-seminars/submit/">
@@ -166,8 +66,44 @@ fathom('trackPageview');
             </a>
         </li>
     
-    </div>
 </ul>
+			</div>
+			<div class= "nav-container nav-bottom">
+			<ul>
+		    
+		        <li>
+		            <a href="/math-seminars/">
+		                
+		                <span>Upcoming Talks</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/weekly/">
+		                
+		                <span>Weekly Seminars</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/categories/">
+		                
+		                <span>Categories</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/calendar/">
+		                
+		                <span>Calendar</span>
+		                
+		            </a>
+		        </li>
+		    
+   			</ul>
 			</div>
 		</nav>
 
@@ -176,36 +112,39 @@ fathom('trackPageview');
 <main>
 	
 
+	<div style="margin-top: 20px">
+	The tab <i> weekly seminars </i> above has a long list of seminars that happen weekly. I will (slowly) import the talks on those seminars as events on this list. If you find this page useful, you can help by adding some of those events into this list using the <i>Submit a talk button.</i> Thank you!
 
+	</div>
 	<div class="catalogue">
 		
 			<div class="catalogue-div"> 
     <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
-        <h1 class="catalogue-title">TBA</h1>
+        <h1 class="catalogue-title">On the implosion of a three dimensional compressible fluid</h1>
         <div class="catalogue-line"></div>
 
     <div style="float:none">
         <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-21 14:55:00 &#43;0000 UTC">
-        April 21, 2020  2:55pm UTC
+        <time datetime = "2020-05-26 13:46:00 &#43;0000 UTC">
+        May 26, 2020  1:46pm UTC
         </time>
         </div>
         <div class = "catalogue-time time-local">
-            <time datetime="2020-04-21 16:00:00 &#43;0105 &#43;0105" >
-                April 21, 2020  4:00pm UTC &#43;01
+            <time datetime="2020-05-26 15:00:00 &#43;0114 &#43;0114" >
+                May 26, 2020  3:00pm UTC &#43;01
             </time>(Host local time)
         </div>
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
                 Speaker: 
             </span>
             <span>
-                Tarek Elgindi (UC San Diego)
+                Frank Merle (Université de Cergy-Pontoise and IHES)
             </span>
         </span>
 
@@ -219,7 +158,8 @@ fathom('trackPageview');
         </span>
         <div style="float:right;">
         
-        <a href = "categories/ap">
+
+        <a href = "https://jaume.dedios.cat/math-seminars/categories/ap">
             
             <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
         </a>
@@ -229,218 +169,12 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
-                TBA 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_tarek_elgindi_21042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
-        <h1 class="catalogue-title">Arithmetic L-functions and their Sato-Tate distributions</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-21 17:00:00 &#43;0000 UTC">
-        April 21, 2020  5:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-21 13:00:00 -0400 -0400" >
-                April 21, 2020  1:00pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Andrew Sutherland (MIT)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>VaNTAGe
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/nt">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=NT&color=%235226d3" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/ag">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AG&color=%2379090d" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://sites.google.com/view/vantageseminar" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                TBA 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <h1 class="catalogue-title">All adapted topologies are equal</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-23 13:00:00 &#43;0000 UTC">
-        April 23, 2020  1:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-23 15:00:00 &#43;0200 CEST" >
-                April 23, 2020  3:00pm UTC &#43;02
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Mathias Beiglböck (Vienna)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>One World Probability
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/pr">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=PR&color=%2354c7dd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                    
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-probability_mathias_beiglb%C3%B6ck_23042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
-        <h1 class="catalogue-title">Sharp Extinction Rates for Fast Diffusion Equations on Generic Bounded Domains</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-28 13:54:00 &#43;0000 UTC">
-        April 28, 2020  1:54pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-28 15:00:00 &#43;0106 &#43;0106" >
-                April 28, 2020  3:00pm UTC &#43;01
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Matteo Bonforte (Universidad Autónoma de Madrid and ICMAT – Instituto de Ciencias Matematicas)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>One World PDE
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ap">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Sharp Extinction Rates for Fast Diffusion Equations on Generic Bounded Domains 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_matteo_bonforte_28042020/">(...) </a>
+         <b> Abstract: </b> <br/> 
+                On the implosion of a three dimensional compressible fluid 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_frank_merle_26052020/">(...) </a>
             
         </p>
         </a> 
@@ -459,26 +193,26 @@ fathom('trackPageview');
 
     <div style="float:none">
         <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-28 14:53:00 &#43;0000 UTC">
-        April 28, 2020  2:53pm UTC
+        <time datetime = "2020-05-26 14:45:00 &#43;0000 UTC">
+        May 26, 2020  2:45pm UTC
         </time>
         </div>
         <div class = "catalogue-time time-local">
-            <time datetime="2020-04-28 16:00:00 &#43;0107 &#43;0107" >
-                April 28, 2020  4:00pm UTC &#43;01
+            <time datetime="2020-05-26 16:00:00 &#43;0115 &#43;0115" >
+                May 26, 2020  4:00pm UTC &#43;01
             </time>(Host local time)
         </div>
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
                 Speaker: 
             </span>
             <span>
-                Mónica Clapp (Universidad Nacional Autónoma de México)
+                Ovidiu Savin (Columbia University)
             </span>
         </span>
 
@@ -492,7 +226,8 @@ fathom('trackPageview');
         </span>
         <div style="float:right;">
         
-        <a href = "categories/ap">
+
+        <a href = "https://jaume.dedios.cat/math-seminars/categories/ap">
             
             <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
         </a>
@@ -502,347 +237,12 @@ fathom('trackPageview');
         
         <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
+         <b> Abstract: </b> <br/> 
                 TBA 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_m%C3%B3nica_clapp_28042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=834004" class="catalogue-item">
-        <h1 class="catalogue-title">TBA</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-28 16:00:00 &#43;0000 UTC">
-        April 28, 2020  4:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-28 09:00:00 -0700 -0700" >
-                April 28, 2020  9:00am UTC -07
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Joni Teravainen (U. Oxford)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>UCLA
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/nt">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=NT&color=%235226d3" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=834004" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                TBA 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/ucla_joni_teravainen_28042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <h1 class="catalogue-title">The scaling limit for directed polymers in an alpha-stable environment</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-30 13:00:00 &#43;0000 UTC">
-        April 30, 2020  1:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-30 15:00:00 &#43;0200 CEST" >
-                April 30, 2020  3:00pm UTC &#43;02
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Hubert Lacoin (Rio de Janairo and Marseille)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>One World Probability
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/pr">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=PR&color=%2354c7dd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                    
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-probability_hubert_lacoin_30042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <h1 class="catalogue-title">Integrable fluctuations in 1&#43;1 dimensional random growth</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-30 14:00:00 &#43;0000 UTC">
-        April 30, 2020  2:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-30 16:00:00 &#43;0200 CEST" >
-                April 30, 2020  4:00pm UTC &#43;02
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Jeremy Quastel (Toronto)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>One World Probability
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/pr">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=PR&color=%2354c7dd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.wim.uni-mannheim.de/doering/one-world/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                    
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-probability_jeremy_quastel_30042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
-        <h1 class="catalogue-title">Spectral Stability, the Maslov Index, and Spatial Dynamics</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-05-05 13:52:00 &#43;0000 UTC">
-        May 5, 2020  1:52pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-05-05 15:00:00 &#43;0108 &#43;0108" >
-                May 5, 2020  3:00pm UTC &#43;01
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Margaret Beck (Boston University)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>One World PDE
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ap">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Spectral Stability, the Maslov Index, and Spatial Dynamics 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_margaret_beck_05052020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
-        <h1 class="catalogue-title">TBA</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-05-05 14:51:00 &#43;0000 UTC">
-        May 5, 2020  2:51pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-05-05 16:00:00 &#43;0109 &#43;0109" >
-                May 5, 2020  4:00pm UTC &#43;01
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Matthew Gursky (University of Notre Dame)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>One World PDE
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ap">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://people.bath.ac.uk/mw2319/owpde/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                TBA 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_matthew_gursky_05052020/">(...) </a>
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/one-world-pde_ovidiu_savin_26052020/">(...) </a>
             
         </p>
         </a> 
@@ -862,8 +262,6 @@ fathom('trackPageview');
 			<a href="/math-seminars/page/3/" class="left arrow">&#8592;</a>
 		
 		
-			<a href="/math-seminars/page/5/" class="right arrow">&#8594;</a>
-		
 
 		<span>4</span>
 	</div>
@@ -872,8 +270,8 @@ fathom('trackPageview');
 
         		<footer>
 			<span>
-			<p>List compiled with ♥️
-			 by Jaume de Dios.</p> <p>Titles and abstracts owned by the respective Authors and/or Universities. </p><p> <a href = "mailto:jddp@math.ucla.edu">Contact me</a> or make a <a href = "https://github.com/jaumededios/math-seminars">pull request </a> if you want me to delete/modify an entry, or have any suggestions.</p> <p>Design based on the <a href="https://github.com/EmielH/tale-hugo/">Tale</a>  theme for <a href='https://gohugo.io'>Hugo</a>. </p>
+			<p>Site made with ♥️
+			 by Jaume de Dios. Talks compiled with the help of a lot of people.</p> <p>Titles and abstracts owned by the respective Authors and/or Universities. </p><p> <a href = "mailto:jddp@math.ucla.edu">Contact me</a> or make a <a href = "https://github.com/jaumededios/math-seminars">pull request </a> if you want me to delete/modify an entry, or have any suggestions.</p> <p>Design based on the <a href="https://github.com/EmielH/tale-hugo/">Tale</a>  theme for <a href='https://gohugo.io'>Hugo</a>. </p>
 			</span>
 
 		</footer>

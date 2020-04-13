@@ -16,10 +16,8 @@
 
 		
 		<link href="/math-seminars/talk/index.xml" rel="alternate" type="application/rss+xml" title="Mathematics Seminars List" />
-	</head>
-
-    <body>
-        <script type="text/javascript"
+		<script type="text/javascript" src = "/math-seminars/js/head_script.js"></script>
+		<script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
@@ -27,7 +25,7 @@
 MathJax.Hub.Config({
   tex2jax: {
     inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
+    displayMath: [['$$','$$']],
     processEscapes: true,
     processEnvironments: true,
     skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
@@ -38,115 +36,17 @@ MathJax.Hub.Config({
 </script>
 
 
-<script type="text/javascript">
+	</head>
 
-
-var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-var timezoneNames = {
-	'-07:00':' (Los Angeles, PDT)',
-	'-04:00':' (New York, EDT)',
-	'+02:00':' (Barcelona, Paris, CEST)'
-}
-
-
-function doublezero(i){
-	return (i<10)?'0'+parseInt(i):parseInt(i)
-}
-
-function offset(offset){
-	console.log(offset)
-	sgn = (offset>0)?'-':'+' 
-	offset = Math.abs(offset)
-	base = sgn+doublezero(offset/60)+":"+doublezero(offset%60)
-	extra = timezoneNames[base]
-	extra = (extra == undefined)?'':extra
-	return 'UTC '+base+extra
-}
-
-function nicestring(d){
-	month = monthNames[d.getMonth()-1]
-	day = d.getDate()
-	year = d.getFullYear()
-	hour = d.getHours()
-	ampm = ['am','pm'][parseInt((hour+1)/12)]
-	hour = (hour-1)%12+1
-	minute = d.getMinutes()
-	minute = (minute<10)?'0'+minute:minute;
-	hourmin = hour+':'+minute+ampm
-	if(hourmin=='12:00pm') hourmin='12:00 (noon)'
-	if(hourmin=='12:00am') hourmin='12:00 (midnight)'
-	offset_value = offset(d.getTimezoneOffset())
-	return month+' '+day+', '+year+' '+hourmin+' '+offset_value
-}
-
-var date;
-function start (){
-	var timedom, date
-	d = document.getElementsByClassName('time-USER')
-	for(var i = 0; i<d.length;i++){
-		
-			timedom = d[i].getElementsByTagName('time')[0]
-			date = parseISOString(timedom.dateTime.slice(0,-10))
-			timedom.innerHTML = nicestring(date)
-		try{}
-		catch(err){}
-	}
-	
-	console.log()
-}
-
-function parseISOString(s) {
-  var b = s.split(/\D+/).map(Number);
-  return new Date(Date.UTC(b[0], b[1], b[2], b[3], b[4]));
-}
-
-
-window.onload=start
-
-</script>
-
-
-<script>
-(function(f, a, t, h, o, m){
-a[h]=a[h]||function(){
-(a[h].q=a[h].q||[]).push(arguments)
-};
-o=f.createElement('script'),
-m=f.getElementsByTagName('script')[0];
-o.async=1; o.src=t; o.id='fathom-script';
-m.parentNode.insertBefore(o,m)
-})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
-fathom('set', 'siteId', 'PILBPKTH');
-fathom('trackPageview');
-</script>
-
-
-
+    <body>
+        
 		<nav class="nav">
-			<div class="nav-container">
+			<div class="nav-container nav-top">
 				<a href="/math-seminars/">
 					<h2 class="nav-title">Mathematics Seminars List</h2>
 				</a>
-				<ul>
+				<ul class="menu-main-list">
     
-    <div>
-    
-        <li>
-            <a href="/math-seminars/categories/">
-                
-                <span>Categories</span>
-                
-            </a>
-        </li>
-    
-        <li>
-            <a href="/math-seminars/calendar/">
-                
-                <span>Calendar</span>
-                
-            </a>
-        </li>
     
         <li>
             <a href="/math-seminars/submit/">
@@ -164,8 +64,44 @@ fathom('trackPageview');
             </a>
         </li>
     
-    </div>
 </ul>
+			</div>
+			<div class= "nav-container nav-bottom">
+			<ul>
+		    
+		        <li>
+		            <a href="/math-seminars/">
+		                
+		                <span>Upcoming Talks</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/weekly/">
+		                
+		                <span>Weekly Seminars</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/categories/">
+		                
+		                <span>Categories</span>
+		                
+		            </a>
+		        </li>
+		    
+		        <li>
+		            <a href="/math-seminars/calendar/">
+		                
+		                <span>Calendar</span>
+		                
+		            </a>
+		        </li>
+		    
+   			</ul>
 			</div>
 		</nav>
 
@@ -175,32 +111,32 @@ fathom('trackPageview');
 	<div class="catalogue"> 
 		
 			<div class="catalogue-div"> 
-    <a href="https://www.ias.edu/events/analysis-seminar-108" class="catalogue-item">
-        <h1 class="catalogue-title">Flows of vector fields: classical and modern</h1>
+    <a href="http://people.maths.ox.ac.uk/scott/dmp.htm" class="catalogue-item">
+        <h1 class="catalogue-title">Thresholds</h1>
         <div class="catalogue-line"></div>
 
     <div style="float:none">
         <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-13 15:00:00 &#43;0000 UTC">
-        April 13, 2020  3:00pm UTC
+        <time datetime = "2020-04-14 13:00:00 &#43;0000 UTC">
+        April 14, 2020  1:00pm UTC
         </time>
         </div>
         <div class = "catalogue-time time-local">
-            <time datetime="2020-04-13 11:00:00 -0400 -0400" >
-                April 13, 2020  11:00am UTC -04
+            <time datetime="2020-04-14 14:00:00 &#43;0100 &#43;0100" >
+                April 14, 2020  2:00pm UTC &#43;01
             </time>(Host local time)
         </div>
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
                 Speaker: 
             </span>
             <span>
-                Camillo De Lellis (Institute for Advanced Study)
+                Bhargav Narayanan  (Rutgers)
             </span>
         </span>
 
@@ -209,444 +145,34 @@ fathom('trackPageview');
             <span>
                 Hosted by
             </span>
-            <span>Institute for Advanced Study
+            <span>Oxford
             </span>
         </span>
         <div style="float:right;">
         
-        <a href = "categories/ca">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=CA&color=%233f48cd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/ap">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AP&color=%2314a103" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.ias.edu/events/analysis-seminar-108" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Consider a (possibly time-dependent) vector field $v$ on the Euclidean space. The classical Cauchy-Lipschitz (also named Picard-Lindel&quot;of) Theorem states that, if the vector field $v$ is Lipschitz in space, for every initial datum $x$ there is a unique trajectory $\gamma$ starting at $x$ at time $0$ and solving the ODE $\dot{\gamma} (t) = v (t, \gamma (t))$. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/institute-for-advanced-study_camillo_de_lellis_13042020/">(...) </a>
-            
-        </p>
-        </a> 
 
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=834026" class="catalogue-item">
-        <h1 class="catalogue-title">Attacking Classical Problems in Dynamical Systems with Descriptive Set Theory</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-10 23:00:00 &#43;0000 UTC">
-        April 10, 2020  11:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-10 16:00:00 -0700 -0700" >
-                April 10, 2020  4:00pm UTC -07
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Matthew Foreman (UC Irvine)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>UCLA
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/lo">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=LO&color=%23d020c5" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/ds">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=DS&color=%23e4e7dc" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://secure.math.ucla.edu/seminars/display.php?&amp;id=834026" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                In his classical 1932 paper, von Neumann asked 3 questions: Can you classify the statistical behavior of differentiable systems? Are there systems where time-forward is not isomorphic to time-backward? Is every abstract statistical system isomorphic to a differentiable system? These questions can be addressed with some surprising consequences by embedding them in Polish Spaces. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.math.columbia.edu/~gtseminar/" class="catalogue-item">
-        <h1 class="catalogue-title">Random walks on punctured convex real projective surfaces</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-10 18:00:00 &#43;0000 UTC">
-        April 10, 2020  6:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-10 14:00:00 -0400 -0400" >
-                April 10, 2020  2:00pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Harrison Bray (University of Michigan)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>Columbia University
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/dg">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=DG&color=%23b70710" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/gt">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=GT&color=%230bd289" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.math.columbia.edu/~gtseminar/" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                I&rsquo;ll discuss the following result, joint with Giulio Tiozzo: Letting $\Gamma$ be the representation of a punctured hyperbolic surface group in $PSL(3,R)$ acting discretely, properly discontinuously, and with finite co-volume on a properly convex set in the projective plane, we have that hitting measure for a random walk on any $\Gamma$-orbit with certain moment conditions is singular with respect to the classical Patterson-Sullivan measure. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/columbia-university_harrison_bray_10042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="http://www.math.unt.edu/~bunyamin/banach" class="catalogue-item">
-        <h1 class="catalogue-title">Coarse Universality</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-10 14:00:00 &#43;0000 UTC">
-        April 10, 2020  2:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-10 09:00:00 -0500 -0500" >
-                April 10, 2020  9:00am UTC -05
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Pavlos Motakis (The University of Illinois at Urbana–Champaign)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>University of North Texas
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/fa">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=FA&color=%2396ceac" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="http://www.math.unt.edu/~bunyamin/banach" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                The Bourgain index is a tool that can be used to show that if a separable Banach space contains isomorphic copies of all members of a class C then it must contain isomorphic copies of all separable Banach spaces. This can be applied, e.g., to the class C of separable reflexive spaces. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/university-of-north-texas_pavlos_motakis_10042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.math.princeton.edu/events/kudla-rapoport-conjecture-2020-04-09t203000" class="catalogue-item">
-        <h1 class="catalogue-title">On the Kudla-Rapoport conjecture</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-09 20:30:00 &#43;0000 UTC">
-        April 9, 2020  8:30pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-09 16:30:00 -0400 -0400" >
-                April 9, 2020  4:30pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Chao Li (Columbia University)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>Princeton/IAS
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/nt">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=NT&color=%235226d3" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.math.princeton.edu/events/kudla-rapoport-conjecture-2020-04-09t203000" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                The Kudla-Rapoport conjecture predicts a precise identity between the arithmetic intersection number of special cycles on unitary Rapoport-Zink spaces and the derivative of local representation densities of hermitian forms. It is a key local ingredient to establish the arithmetic Siegel-Weil formula and the arithmetic Rallis inner product formula, relating the height of special cycles on Shimura varieties to the derivative of Siegel Eisenstein series and L-functions. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/princetonias_chao_li_09042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www-math.umd.edu/dynamics-conference.html" class="catalogue-item">
-        <h1 class="catalogue-title">Random walks, spectral gaps, and Khinchine&#39;s theorem on fractals</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-09 18:00:00 &#43;0000 UTC">
-        April 9, 2020  6:00pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-09 14:00:00 -0400 -0400" >
-                April 9, 2020  2:00pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Osama Khalil (Utah)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>University of Maryland
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ds">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=DS&color=%23e4e7dc" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www-math.umd.edu/dynamics-conference.html" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                In 1984, Mahler asked how well typical points on Cantor’s set can be approximated by rational numbers. His question fits within a program, set out by himself in the 1930s, attempting to determine conditions under which subsets of $\mathbb R^d$ inherit the Diophantine properties of the ambient space. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_osama_khalil_09042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://mathematics.stanford.edu/events/combinatorics/pure-pairs" class="catalogue-item">
-        <h1 class="catalogue-title">Pure Pairs</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-09 17:30:00 &#43;0000 UTC">
-        April 9, 2020  5:30pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-09 10:30:00 -0700 -0700" >
-                April 9, 2020  10:30am UTC -07
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Paul Seymour (Princeton)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>Stanford University
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/co">
+        <a href = "https://jaume.dedios.cat/math-seminars/categories/co">
             
             <img src = "https://img.shields.io/static/v1?label=Math&message=CO&color=%2311aac4" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
         </a>
         
+
+        <a href = "https://jaume.dedios.cat/math-seminars/categories/pr">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=PR&color=%2354c7dd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
         </div>
         
         
-        <a href="https://mathematics.stanford.edu/events/combinatorics/pure-pairs" class="catalogue-item">
+        <a href="http://people.maths.ox.ac.uk/scott/dmp.htm" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
-                A &ldquo;pure pair&rdquo; in a graph $G$ is a pair $(X,Y)$ of disjoint subsets of $V(G)$ such that either every vertex in $X$ is adjacent to every vertex in $Y$, or there are no edges from $X$ to $Y$. Let $f(G)$ be the biggest $k$ such that $G$ has a pure pair $(X,Y)$ with $|X|,|Y|$ at least $k$. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/stanford-university_paul_seymour_09042020/">(...) </a>
+         <b> Abstract: </b> <br/> 
+                Abstract: I&rsquo;ll discuss our recent proof of a conjecture of Talagrand, a fractional version of the &ldquo;expectation-threshold&rdquo; conjecture of Kahn and Kalai. As a consequence of this result, we resolve various (heretofore) difficult problems in probabilistic combinatorics and statistical physics. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/oxford_bhargav_narayanan__14042020/">(...) </a>
             
         </p>
         </a> 
@@ -659,32 +185,32 @@ fathom('trackPageview');
 
 		
 			<div class="catalogue-div"> 
-    <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
-        <h1 class="catalogue-title">Architecture for the Working Mathematician</h1>
+    <a href="http://web.math.ucsb.edu/~drm/WHCGP/" class="catalogue-item">
+        <h1 class="catalogue-title">Volumes and Random Matrices</h1>
         <div class="catalogue-line"></div>
 
     <div style="float:none">
         <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-09 16:20:00 &#43;0000 UTC">
-        April 9, 2020  4:20pm UTC
+        <time datetime = "2020-04-13 19:00:00 &#43;0000 UTC">
+        April 13, 2020  7:00pm UTC
         </time>
         </div>
         <div class = "catalogue-time time-local">
-            <time datetime="2020-04-09 18:20:00 &#43;0200 CEST" >
-                April 9, 2020  6:20pm UTC &#43;02
+            <time datetime="2020-04-13 15:00:00 -0400 -0400" >
+                April 13, 2020  3:00pm UTC -04
             </time>(Host local time)
         </div>
     </div>
         </a>
 
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
+    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 10px;">
         </div>    
         <span style="margin-right: 10px ">
             <span>
                 Speaker: 
             </span>
             <span>
-                Eugenie Hunsicker (Loughborough University)
+                Edward Witten (IAS)
             </span>
         </span>
 
@@ -693,166 +219,34 @@ fathom('trackPageview');
             <span>
                 Hosted by
             </span>
-            <span>NASO
+            <span>WHCGP
             </span>
         </span>
         <div style="float:right;">
         
-        <a href = "categories/ag">
+
+        <a href = "https://jaume.dedios.cat/math-seminars/categories/pr">
             
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AG&color=%2379090d" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+            <img src = "https://img.shields.io/static/v1?label=Math&message=PR&color=%2354c7dd" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
+        </a>
+        
+
+        <a href = "https://jaume.dedios.cat/math-seminars/categories/dg">
+            
+            <img src = "https://img.shields.io/static/v1?label=Math&message=DG&color=%23b70710" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
         </a>
         
         </div>
         
         
-        <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
+        <a href="http://web.math.ucsb.edu/~drm/WHCGP/" class="catalogue-item">
         <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
+        
+
         <p class = "catalogue-paragraph"> 
-         
-                Del Pezzo surfaces are classified by their degree, an integer between 1 and 9. Famous examples are those of degree 3, which are cubic surfaces in $P ^ 3$. In this talk I will focus on del Pezzo surfaces of degree 1. After briefly describing their geometry, I will talk about the set of Q-valued (rational) points on such a surface. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/naso_eugenie_hunsicker_9042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="http://brendanfong.com/seminar.html" class="catalogue-item">
-        <h1 class="catalogue-title">Structured cospans</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-09 16:01:00 &#43;0000 UTC">
-        April 9, 2020  4:01pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-09 12:01:00 -0400 -0400" >
-                April 9, 2020  12:01pm UTC -04
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                 John Baez (UC Riverside)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>MIT
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/ct">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=CT&color=%2305059a" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="http://brendanfong.com/seminar.html" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                &ldquo;Structured cospans&rdquo; are a general way to study networks with inputs and outputs. Here we illustrate this using a type of network popular in theoretical computer science: Petri nets. An &ldquo;open&rdquo; Petri net is one with certain places designated as inputs and outputs. We can compose open Petri nets by gluing the outputs of one to the inputs of another. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/mit__john_baez_9042020/">(...) </a>
-            
-        </p>
-        </a> 
-
-
-
-
-</div>
-
-
-		
-			<div class="catalogue-div"> 
-    <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
-        <h1 class="catalogue-title">Graph rigidity and measurement varieties</h1>
-        <div class="catalogue-line"></div>
-
-    <div style="float:none">
-        <div  class = "catalogue-time time-USER">
-        <time datetime = "2020-04-09 15:40:00 &#43;0000 UTC">
-        April 9, 2020  3:40pm UTC
-        </time>
-        </div>
-        <div class = "catalogue-time time-local">
-            <time datetime="2020-04-09 17:40:00 &#43;0200 CEST" >
-                April 9, 2020  5:40pm UTC &#43;02
-            </time>(Host local time)
-        </div>
-    </div>
-        </a>
-
-    <div style = "clear: both;  border-top: 1px solid black; padding-bottom: 5px;">
-        </div>    
-        <span style="margin-right: 10px ">
-            <span>
-                Speaker: 
-            </span>
-            <span>
-                Louis Theran (University of St. Andrews)
-            </span>
-        </span>
-
-         - 
-        <span style="margin-left: 10px ">
-            <span>
-                Hosted by
-            </span>
-            <span>NASO
-            </span>
-        </span>
-        <div style="float:right;">
-        
-        <a href = "categories/mg">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=MG&color=%23398142" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        <a href = "categories/ag">
-            
-            <img src = "https://img.shields.io/static/v1?label=Math&message=AG&color=%2379090d" style="width: 70px; padding-right: 15px; padding-top: 3px;margin-bottom: 0px">
-        </a>
-        
-        </div>
-        
-        
-        <a href="https://www.mis.mpg.de/nlalg/seminars/naso.html" class="catalogue-item">
-        <p class = "catalogue-paragraph"> 
-        <b> Abstract: </b>
-        </p>
-        <p class = "catalogue-paragraph"> 
-         
-                Geometric rigidity theory is concerned with how much information about a configuration p of n points in a d-dimensional Euclidean space is determined by pairwise Euclidean distance measurements, indexed by the edges of a graph G with n vertices. One can turn this around, and, define, for a fixed graph G, a “measurement variety&rdquo; associated with all possible edge lengths measurements as the configuration varies. 
-                <a href = "https://jaume.dedios.cat/math-seminars/talk/naso_louis_theran_9042020/">(...) </a>
+         <b> Abstract: </b> <br/> 
+                I will describe recent results relating two-dimensional gravity and supergravity; volumes of moduli spaces of Riemann surfaces and super Riemann surfaces; and random matrix ensembles. See https://arxiv.org/abs/1903.11115 by Saad, Shenker, and Stanford; https://arxiv.org/abs/1907.03363 by Stanford and me. 
+                <a href = "https://jaume.dedios.cat/math-seminars/talk/whcgp_edward_witten_13042020/">(...) </a>
             
         </p>
         </a> 
@@ -871,8 +265,6 @@ fathom('trackPageview');
 			<a href="/math-seminars/talk/page/3/" class="left arrow">&#8592;</a>
 		
 		
-			<a href="/math-seminars/talk/page/5/" class="right arrow">&#8594;</a>
-		
 	
 		<span>4</span>
 	</div>
@@ -881,8 +273,8 @@ fathom('trackPageview');
 
         		<footer>
 			<span>
-			<p>List compiled with ♥️
-			 by Jaume de Dios.</p> <p>Titles and abstracts owned by the respective Authors and/or Universities. </p><p> <a href = "mailto:jddp@math.ucla.edu">Contact me</a> or make a <a href = "https://github.com/jaumededios/math-seminars">pull request </a> if you want me to delete/modify an entry, or have any suggestions.</p> <p>Design based on the <a href="https://github.com/EmielH/tale-hugo/">Tale</a>  theme for <a href='https://gohugo.io'>Hugo</a>. </p>
+			<p>Site made with ♥️
+			 by Jaume de Dios. Talks compiled with the help of a lot of people.</p> <p>Titles and abstracts owned by the respective Authors and/or Universities. </p><p> <a href = "mailto:jddp@math.ucla.edu">Contact me</a> or make a <a href = "https://github.com/jaumededios/math-seminars">pull request </a> if you want me to delete/modify an entry, or have any suggestions.</p> <p>Design based on the <a href="https://github.com/EmielH/tale-hugo/">Tale</a>  theme for <a href='https://gohugo.io'>Hugo</a>. </p>
 			</span>
 
 		</footer>
