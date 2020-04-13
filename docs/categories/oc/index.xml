@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OC on Mathematics Seminars List</title>
+    <link>https://jaume.dedios.cat/math-seminars/categories/oc/</link>
+    <description>Recent content in OC on Mathematics Seminars List</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
+    <lastBuildDate>Wed, 15 Apr 2020 10:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/oc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open games: the long road to practical applications</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</link>
+      <pubDate>Wed, 15 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</guid>
+      <description>I will talk about open games, and the closely related concepts of lenses/optics and open learners. My goal is to report on the successes and failures of an ongoing effort to try to realise the often-claimed benefits of categories and compositionality in actual practice. I will introduce what little theory is needed along the way.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -272,7 +272,7 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
       <pubDate>Thu, 16 Apr 2020 14:00:00 -0400</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-maryland_anthony_quas_16042020/</guid>
-      <description>It is known, by work of Bochi, Mañé, Viana and others that Lyapunov exponents are highly sensitive to perturbations of a dynamical system. On the other hand, work of Ledrappier, Young and my work with Froyland and Gonz´alez-Tokman has shown that in some situations, under “noise-like” perturbations, Lyapunov exponents vary continuously.</description>
+      <description>It is known, by work of Bochi, Ma~n&#39;e, Viana and others that Lyapunov exponents are highly sensitive to perturbations of a dynamical system. On the other hand, work of Ledrappier, Young and my work with Froyland and Gonz&#39;alez-Tokman has shown that in some situations, under “noise-like” perturbations, Lyapunov exponents vary continuously.</description>
     </item>
     
     <item>
@@ -312,6 +312,15 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
     </item>
     
     <item>
+      <title>Inviscid damping for a class of monotone shear flow</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/institute-of-mathematical-sciences-shanghaitech-university__weiren_zhao_16042020/</link>
+      <pubDate>Thu, 16 Apr 2020 21:15:00 +0800</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/institute-of-mathematical-sciences-shanghaitech-university__weiren_zhao_16042020/</guid>
+      <description>In this talk, I am going to talk about the nonlinear inviscid damping for a class of monotone shear flows in the finite channel for initial perturbation in Gevrey class with compact support. The main idea of the proof is to use the wave operator of a slightly modified Rayleigh operator in a well chosen coordinate system.</description>
+    </item>
+    
+    <item>
       <title>Scaling limits for planar aggregation with subcritical fluctuations</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/one-world-probability_amanda_turner_16042020/</link>
       <pubDate>Thu, 16 Apr 2020 15:00:00 +0200</pubDate>
@@ -326,6 +335,15 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
       <pubDate>Wed, 15 Apr 2020 10:00:00 -0700</pubDate>
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/u.-c.-riverside_jules_hedges_15042020/</guid>
+      <description>I will talk about open games, and the closely related concepts of lenses/optics and open learners. My goal is to report on the successes and failures of an ongoing effort to try to realise the often-claimed benefits of categories and compositionality in actual practice. I will introduce what little theory is needed along the way.</description>
+    </item>
+    
+    <item>
+      <title>Open games: the long road to practical applications</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</link>
+      <pubDate>Wed, 15 Apr 2020 10:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</guid>
       <description>I will talk about open games, and the closely related concepts of lenses/optics and open learners. My goal is to report on the successes and failures of an ongoing effort to try to realise the often-claimed benefits of categories and compositionality in actual practice. I will introduce what little theory is needed along the way.</description>
     </item>
     
@@ -345,6 +363,15 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/naso_balas_szendroi_14042020/</guid>
       <description>The n-th punctual Hilbert scheme $Hilb_0^n(A^d)$ of points of affine d-space parametrises ideals of finite co-length n of the ring of functions on d-dimensional affine space, whose radical is the maximal ideal at the origin (equivalently, subschemes of length n with support at the origin). A classical theorem of Briancon claims the irreducibility of this space for d=2 and arbitrary n.</description>
+    </item>
+    
+    <item>
+      <title>Calculus in Context: Introducing Calculus Ideas through Epidemiology Models</title>
+      <link>https://jaume.dedios.cat/math-seminars/talk/mit_eric_stade_14042020/</link>
+      <pubDate>Tue, 14 Apr 2020 09:00:00 -0700</pubDate>
+      
+      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_eric_stade_14042020/</guid>
+      <description>Now is probably as good a time as any, unfortunately, to argue for a first-semester Calculus course that begins with the S-I-R, or Susceptible-Infected-Recovered, dynamical system from epidemiology. I’ll describe how I use S-I-R to kick-start a course, that, eventually, gets to all of the usual Calc I stuff, and is richly satisfying to math geeks (like me) while still appealing to students who are perhaps less geeky, or geeky in different directions.</description>
     </item>
     
     <item>
@@ -381,33 +408,6 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/whcgp_edward_witten_13042020/</guid>
       <description>I will describe recent results relating two-dimensional gravity and supergravity; volumes of moduli spaces of Riemann surfaces and super Riemann surfaces; and random matrix ensembles. See https://arxiv.org/abs/1903.11115 by Saad, Shenker, and Stanford; https://arxiv.org/abs/1907.03363 by Stanford and me.</description>
-    </item>
-    
-    <item>
-      <title>Algebraic topology from a geometric viewpoint</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-oregon_dev_sinha_13042020/</link>
-      <pubDate>Mon, 13 Apr 2020 09:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-oregon_dev_sinha_13042020/</guid>
-      <description>We give a lecture series on &amp;ldquo;intermediate&amp;rdquo; topics in algebraic topology - loop spaces, configuration spaces, rational homotopy, Grassmannians, Eilenberg MacLane spaces - as well as some applications of similar methods to study embeddings.</description>
-    </item>
-    
-    <item>
-      <title>Flows of vector fields: classical and modern</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/institute-for-advanced-study_camillo_de_lellis_13042020/</link>
-      <pubDate>Mon, 13 Apr 2020 11:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/institute-for-advanced-study_camillo_de_lellis_13042020/</guid>
-      <description>Consider a (possibly time-dependent) vector field $v$ on the Euclidean space. The classical Cauchy-Lipschitz (also named Picard-Lindel&amp;quot;of) Theorem states that, if the vector field $v$ is Lipschitz in space, for every initial datum $x$ there is a unique trajectory $\gamma$ starting at $x$ at time $0$ and solving the ODE $\dot{\gamma} (t) = v (t, \gamma (t))$.</description>
-    </item>
-    
-    <item>
-      <title>Attacking Classical Problems in Dynamical Systems with Descriptive Set Theory</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</link>
-      <pubDate>Fri, 10 Apr 2020 16:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/ucla_matthew_foreman_10042020/</guid>
-      <description>In his classical 1932 paper, von Neumann asked 3 questions: Can you classify the statistical behavior of differentiable systems? Are there systems where time-forward is not isomorphic to time-backward? Is every abstract statistical system isomorphic to a differentiable system? These questions can be addressed with some surprising consequences by embedding them in Polish Spaces.</description>
     </item>
     
     <item>
