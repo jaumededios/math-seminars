@@ -48,14 +48,5 @@
       <description>TBA</description>
     </item>
     
-    <item>
-      <title>The Collatz Conjecture</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/matrix_terence_tao_14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 15:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/matrix_terence_tao_14042020/</guid>
-      <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
-    </item>
-    
   </channel>
 </rss>

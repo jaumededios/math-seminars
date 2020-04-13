@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2020–2030, Jaume de Dios</copyright>
-    <lastBuildDate>Thu, 16 Apr 2020 08:40:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 11:30:00 -0400</lastBuildDate>
     
 	<atom:link href="https://jaume.dedios.cat/math-seminars/categories/co/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>A friendly Introduction to matroids</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_tara_fife_16042020/</link>
-      <pubDate>Thu, 16 Apr 2020 08:40:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/max-planck-institute_tara_fife_16042020/</guid>
-      <description>Matroids were introduced by Whitney in 1935 to provide an abstract generalization of the notion of linear independence. Whitney noted that matroids arise naturally from graphs and from matrices. More recently, people have discovered ties to matroid theory and algebraic geometry. In this talk, I will first introduce matroid theory, along with some key examples, and central questions.</description>
-    </item>
     
     <item>
       <title>A constructive model of directed univalence in bicubical sets</title>
@@ -28,24 +19,6 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/western-university-ontario_matthew_weaver_16042020/</guid>
       <description>Directed type theory is an analogue of homotopy type theory where types represent ∞-categories, generalizing groupoids. A bisimplicial approach to directed type theory, developed by Riehl and Shulman, is based on equipping each type with both a notion of path and a separate notion of directed morphism.</description>
-    </item>
-    
-    <item>
-      <title>Information diffusion on random graphs</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/mannheim_remco_van_der_hofstadt_16042020/</link>
-      <pubDate>Thu, 16 Apr 2020 07:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/mannheim_remco_van_der_hofstadt_16042020/</guid>
-      <description>Since the outbreak of the coronavirus pandemic, the entire world has been forced to slow down. The scientific community has been no exception with cancellations of conferences, seminars and research visits. We are all forced to build up new communication channels, the One World Probability Seminar is an attempt to keep our community together.</description>
-    </item>
-    
-    <item>
-      <title>Thresholds</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/oxford_bhargav_narayanan__14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 14:00:00 +0100</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/oxford_bhargav_narayanan__14042020/</guid>
-      <description>Abstract: I&amp;rsquo;ll discuss our recent proof of a conjecture of Talagrand, a fractional version of the &amp;ldquo;expectation-threshold&amp;rdquo; conjecture of Kahn and Kalai. As a consequence of this result, we resolve various (heretofore) difficult problems in probabilistic combinatorics and statistical physics.</description>
     </item>
     
   </channel>

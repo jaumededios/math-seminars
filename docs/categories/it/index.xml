@@ -21,14 +21,5 @@
       <description>I will review basics of epidemic modeling including eponential growth, compartmental models and self-exciting point process models. I will illustrate how such models have been used in the past for previous pandemics and what the challenges are for forecasting the current COVID-19 pandemic. I will show some examples of fitting of data to US states and what one can do with those results.</description>
     </item>
     
-    <item>
-      <title>Information diffusion on random graphs</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/mannheim_remco_van_der_hofstadt_16042020/</link>
-      <pubDate>Thu, 16 Apr 2020 07:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/mannheim_remco_van_der_hofstadt_16042020/</guid>
-      <description>Since the outbreak of the coronavirus pandemic, the entire world has been forced to slow down. The scientific community has been no exception with cancellations of conferences, seminars and research visits. We are all forced to build up new communication channels, the One World Probability Seminar is an attempt to keep our community together.</description>
-    </item>
-    
   </channel>
 </rss>

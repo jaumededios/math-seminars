@@ -31,15 +31,6 @@
     </item>
     
     <item>
-      <title>The Hilbert scheme of infinite affine space</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/stanford-university_burt_totaro_1052020/</link>
-      <pubDate>Fri, 01 May 2020 12:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/stanford-university_burt_totaro_1052020/</guid>
-      <description>I will discuss the Hilbert scheme of $d$ points in affine $n$-space, with some examples. This space has many irreducible components for $n$ at least 3 and is poorly understood. Nonetheless, in the limit where $n$ goes to infinity, we show that the Hilbert scheme of $d$ points in infinite affine space has a very simple homotopy type.</description>
-    </item>
-    
-    <item>
       <title>Arithmetic L-functions and their Sato-Tate distributions</title>
       <link>https://jaume.dedios.cat/math-seminars/talk/vantage_andrew_sutherland_21042020/</link>
       <pubDate>Tue, 21 Apr 2020 13:00:00 -0400</pubDate>
@@ -55,15 +46,6 @@
       
       <guid>https://jaume.dedios.cat/math-seminars/talk/naso_balas_szendroi_14042020/</guid>
       <description>The n-th punctual Hilbert scheme $Hilb_0^n(A^d)$ of points of affine d-space parametrises ideals of finite co-length n of the ring of functions on d-dimensional affine space, whose radical is the maximal ideal at the origin (equivalently, subschemes of length n with support at the origin). A classical theorem of Briancon claims the irreducibility of this space for d=2 and arbitrary n.</description>
-    </item>
-    
-    <item>
-      <title>K-moduli of Fano varieties</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/edge-edingburgh-geometry_chenyang_xu_14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 16:00:00 +0100</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/edge-edingburgh-geometry_chenyang_xu_14042020/</guid>
-      <description>One main theme of the algebraic K-stability theory of Fano varieties is to use it to construct moduli spaces of K-(semi,polystable) Fano varieties. Several main ingredients have been established, based on the recent development of our understanding of K-stability theory and other inputs. In this talk, we will discuss the current status of the construction.</description>
     </item>
     
   </channel>
