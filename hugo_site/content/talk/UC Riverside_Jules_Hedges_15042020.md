@@ -7,7 +7,7 @@
   speaker_institution = "Max Planck Institute"
   talk_site = "https://sites.google.com/ucr.edu/actucr/#h.xgpl8y9i1a6q"
   is_event = "true"
-  categories = ["PR","OC"]
+  categories = ["PR","OC","CT"]
 
   publishDate = "2000-02-07T16:00:00-07:00"
 +++
