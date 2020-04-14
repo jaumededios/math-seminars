@@ -48,23 +48,5 @@
       <description>TBA</description>
     </item>
     
-    <item>
-      <title>The punctual Hilbert scheme of 4 points in affine 3-space via computer algebra and representation theory</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/naso_balas_szendroi_14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 18:20:00 +0200</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/naso_balas_szendroi_14042020/</guid>
-      <description>The n-th punctual Hilbert scheme $Hilb_0^n(A^d)$ of points of affine d-space parametrises ideals of finite co-length n of the ring of functions on d-dimensional affine space, whose radical is the maximal ideal at the origin (equivalently, subschemes of length n with support at the origin). A classical theorem of Briancon claims the irreducibility of this space for d=2 and arbitrary n.</description>
-    </item>
-    
-    <item>
-      <title>K-moduli of Fano varieties</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/edge-edingburgh-geometry_chenyang_xu_14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 16:00:00 +0100</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/edge-edingburgh-geometry_chenyang_xu_14042020/</guid>
-      <description>One main theme of the algebraic K-stability theory of Fano varieties is to use it to construct moduli spaces of K-(semi,polystable) Fano varieties. Several main ingredients have been established, based on the recent development of our understanding of K-stability theory and other inputs. In this talk, we will discuss the current status of the construction.</description>
-    </item>
-    
   </channel>
 </rss>
