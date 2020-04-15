@@ -21,23 +21,5 @@
       <description>In this talk, based on joint work with Corentin Caillaud and Thomas Pock, I will discuss the merits of some finite differences or finite elements discretizations of the total variation functional. I will mention error bounds for the recovery of sharp discontinuities, inpainting straight lines in 2D, and trying to improve on some recent approaches proposed in the literature.</description>
     </item>
     
-    <item>
-      <title>Open games: the long road to practical applications</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</link>
-      <pubDate>Wed, 15 Apr 2020 10:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</guid>
-      <description>I will talk about open games, and the closely related concepts of lenses/optics and open learners. My goal is to report on the successes and failures of an ongoing effort to try to realise the often-claimed benefits of categories and compositionality in actual practice. I will introduce what little theory is needed along the way.</description>
-    </item>
-    
-    <item>
-      <title>Termination of probabilistic programs</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-birmingham_joost-pieter_katoen_15042020/</link>
-      <pubDate>Wed, 15 Apr 2020 06:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-birmingham_joost-pieter_katoen_15042020/</guid>
-      <description>Program termination is a key question in program verification. This talk considers the termination of probabilistic programs, programs that can describe randomised algorithms and more recently received attention in machine learning. Probabilistic termination has several nuances and has some unexpected effects. Programs may diverge with zero probability; they almost-surely terminate (AST).</description>
-    </item>
-    
   </channel>
 </rss>

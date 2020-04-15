@@ -156,14 +156,5 @@
       <description>TBA</description>
     </item>
     
-    <item>
-      <title>Inviscid damping and enhanced dissipation in 2d fluids</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/mit_michele_coti_zelati_14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 16:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_michele_coti_zelati_14042020/</guid>
-      <description>We review some recent results on the asymptotic stability of stationary solutions to the two-dimensional Euler and Navier-Stokes equations of incompressible flows. In many cases, sharp decay rates for the linearized problem imply some sort of nonlinear asymptotic stability, both in the Euler equations (through the so-called inviscid damping) and the Navier-Stokes equations (undergoing enhanced dissipation).</description>
-    </item>
-    
   </channel>
 </rss>

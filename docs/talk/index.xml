@@ -392,59 +392,5 @@ If $f$ is univalent, this operator is conformally invariant and has a growth giv
       <description>   </description>
     </item>
     
-    <item>
-      <title>Open games: the long road to practical applications</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</link>
-      <pubDate>Wed, 15 Apr 2020 10:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/uc-riverside_jules_hedges_15042020/</guid>
-      <description>I will talk about open games, and the closely related concepts of lenses/optics and open learners. My goal is to report on the successes and failures of an ongoing effort to try to realise the often-claimed benefits of categories and compositionality in actual practice. I will introduce what little theory is needed along the way.</description>
-    </item>
-    
-    <item>
-      <title>Termination of probabilistic programs</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-birmingham_joost-pieter_katoen_15042020/</link>
-      <pubDate>Wed, 15 Apr 2020 06:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-birmingham_joost-pieter_katoen_15042020/</guid>
-      <description>Program termination is a key question in program verification. This talk considers the termination of probabilistic programs, programs that can describe randomised algorithms and more recently received attention in machine learning. Probabilistic termination has several nuances and has some unexpected effects. Programs may diverge with zero probability; they almost-surely terminate (AST).</description>
-    </item>
-    
-    <item>
-      <title>The Collatz Conjecture</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/matrix_terence_tao_14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 15:00:00 -0700</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/matrix_terence_tao_14042020/</guid>
-      <description>Define the Collatz map Col on the natural numbers by setting Col(n) to equal 3n+1 when n is odd and n/2 when n is even. The notorious Collatz conjecture asserts that all orbits of this map eventually attain the value 1. This remains open, even if one is willing to work with almost all orbits rather than all orbits.</description>
-    </item>
-    
-    <item>
-      <title>Boshernitzan&#39;s criterion for unique ergodicity</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/university-of-utah__jon_chaika_14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 14:00:00 -0600</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/university-of-utah__jon_chaika_14042020/</guid>
-      <description>There will be a pre-talk from 1:20-1:50 Mountain time to introduce symbolic dynamics and linear block growth.</description>
-    </item>
-    
-    <item>
-      <title>Inviscid damping and enhanced dissipation in 2d fluids</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/mit_michele_coti_zelati_14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 16:00:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/mit_michele_coti_zelati_14042020/</guid>
-      <description>We review some recent results on the asymptotic stability of stationary solutions to the two-dimensional Euler and Navier-Stokes equations of incompressible flows. In many cases, sharp decay rates for the linearized problem imply some sort of nonlinear asymptotic stability, both in the Euler equations (through the so-called inviscid damping) and the Navier-Stokes equations (undergoing enhanced dissipation).</description>
-    </item>
-    
-    <item>
-      <title>Modeling for a globally connected world: What models are good for and how they work</title>
-      <link>https://jaume.dedios.cat/math-seminars/talk/nimbios__louis_gross_university_of_tennessee_14042020/</link>
-      <pubDate>Tue, 14 Apr 2020 15:30:00 -0400</pubDate>
-      
-      <guid>https://jaume.dedios.cat/math-seminars/talk/nimbios__louis_gross_university_of_tennessee_14042020/</guid>
-      <description>Policies for the COVID-19 pandemic response have relied upon models of various types to project future trends and assess the potential impacts of alternative amelioration strategies. I invite you to join us for basic overviews of the process of modeling, the “art” of model construction, and the array of different kinds of approaches (mathematical, computational, and graphical) that are applied in the life sciences.</description>
-    </item>
-    
   </channel>
 </rss>
